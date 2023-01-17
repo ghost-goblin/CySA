@@ -1,1 +1,2 @@
-# Cybersecurity-Analyst
+# Intelligence sources
+- Open-source intelligence
