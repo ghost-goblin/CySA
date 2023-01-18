@@ -20,7 +20,7 @@
 + The process of investigating, collecting, analysing, and diseminating threat sources to provide data about the external threat landscape
   - Narrative report
   - Data Feeds
-#### CISP | ISAC (Information Sharing & Analysis Center)
+#### CISP (Cyber Security Information Sharing Partnership) | ISAC (Information Sharing & Analysis Center)
 + A not-for-profit group set  up to share sector specific threat intelligence and security best practices amongst its members
 
 ## Proprietary-source intelligence
@@ -28,7 +28,7 @@
 
 
 ## Closed-source intelligence
-
++ Honeynet data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
 
 ## Timeliness
 
