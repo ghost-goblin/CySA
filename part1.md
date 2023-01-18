@@ -55,12 +55,15 @@
 - Advanced persistent threat
 
 ## Threat actors
-- Nation-state
-- Hacktivist
-- Organized crime
-- Insider threat
- - Intentional
- - Unintentional
++ Nation-state
++ Hacktivist
++ Organized crime
++ Insider threat
+   - Intentional
+       - Sabotage
+       - Financial Gain
+       - Business Advantage
+   - Unintentional
  
 ## Intelligence Cycle
 + `Requirements` (Direction & Planning) > `Collection & Processing` > `Analysis` > `Dissemination` > `Feedback` >
