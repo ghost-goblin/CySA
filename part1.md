@@ -64,6 +64,8 @@
        - Financial Gain
        - Business Advantage
    - Unintentional
+       - Phishing Attack
+       - **Shadow IT**
  
 ## Intelligence Cycle
 + `Requirements` (Direction & Planning) > `Collection & Processing` > `Analysis` > `Dissemination` > `Feedback` >
