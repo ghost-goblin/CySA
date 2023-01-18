@@ -6,3 +6,6 @@
 + The process of investigating, collecting, analysing, and diseminating threat sources to provide data about the external threat landscape
   - Narrative report
   - Data Feeds
+
+## CISP
++ A not-for-profit group set  up to share sector specific threat intelligence and security best practices amongst its members
