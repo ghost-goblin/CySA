@@ -11,11 +11,8 @@
 </div>
 
 # Intelligence Sources
-
 #### Intelligence Cycle
 + `Requirements` (Direction & Planning) > `Collection & Processing` > `Analysis` > `Dissemination` > `Feedback` >
-  
-## Open-source intelligence
 #### Security Intelligence
 + The process through which data is collected, processed, analyzed, and disseminated to provide insights into the security status of systems, i.e. firewall logs
 #### Cyber Threat Intelligence
@@ -24,6 +21,9 @@
   - Data Feeds
 #### CISP (Cyber Security Information Sharing Partnership) | ISAC (Information Sharing & Analysis Center)
 + A not-for-profit group set  up to share sector specific threat intelligence and security best practices amongst its members
+  
+## Open-source intelligence (OSINT)
++ Methods of obtaining information about a person or organisation  through public records, websites, and social media
 
 ## Proprietary-source intelligence
 + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
