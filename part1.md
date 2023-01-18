@@ -26,26 +26,23 @@
 #### Closed-source intelligence
 + Honeynet data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
 
-#### Timeliness
-
-#### Relevancy
-
-#### Accuracy
-
-#### Confidence Levels
-+ Property of an intelligence source that ensures it produces qualified statements about reliability 
+1. Timeliness
+2. Relevancy
+3. Accuracy
+4. Confidence Levels
+    + Property of an intelligence source that ensures it produces qualified statements about reliability 
 
 
 ## Indicator management
-#### Structured Threat Information eXpression (STIX)
-+ XML for security
-#### Trusted Automated eXchange of Indicator Information (TAXII)
-#### OpenIoC
+1. Structured Threat Information eXpression (STIX)
+  + XML for security
+2. Trusted Automated eXchange of Indicator Information (TAXII)
+3. OpenIoC
 
 ## Threat classification
-- Known threat vs. unknown threat
-- Zero-day
-- Advanced persistent threat
++ Known threat vs. unknown threat
++ Zero-day
++ Advanced persistent threat
 
 ## Threat actors
 + Nation-state
