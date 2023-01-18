@@ -42,7 +42,9 @@
 ## Threat classification
 + Known threat vs. unknown threat
 + Zero-day
-+ Advanced persistent threat
+   + Usually applied to the vulnerbility itself but can also refer to an attack of malware that exploits it
++ **Advanced Persistent Threat** (APT)
+   + An attackers ability to obtain, maintain and diversify access to network systems using exploits and malware
 
 ## Threat actors
 + Nation-state
