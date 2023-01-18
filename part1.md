@@ -5,12 +5,14 @@
 ### 🏠 [HOME](README.md)
 ### ✏️ Download the study guide [here](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-cysa-cs0-002-exam-objectives-(6-0).pdf?sfvrsn=86668f47_2)
 
+# Threat and Vulnerability Management
+
 </div>
 
 
 - - -
 
-# Threat and Vulnerability Management
+
 
 ## Security Intelligence
 + The process through which data is collected, processed, analyzed, and disseminated to provide insights into the security status of systems, i.e. firewall logs
