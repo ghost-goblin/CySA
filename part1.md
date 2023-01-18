@@ -20,7 +20,7 @@
 #### CISP (Cyber Security Information Sharing Partnership) | ISAC (Information Sharing & Analysis Center)
 + A not-for-profit group set  up to share sector specific threat intelligence and security best practices amongst its members
   
-## Open-source intelligence (OSINT)
+## Open-Source Intelligence (OSINT)
 + Methods of obtaining information about a person or organisation  through public records, websites, and social media
 
 ## Proprietary-source intelligence
