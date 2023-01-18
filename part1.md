@@ -12,6 +12,8 @@
 
 # Intelligence Sources
 
+#### Intelligence Cycle
++ `Requirements` (Direction & Planning > `Collection & Processing` > `Analysis` > `Dissemination` > `Feedback` >
   
 ## Open-source intelligence
 #### Security Intelligence
