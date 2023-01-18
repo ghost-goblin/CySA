@@ -89,7 +89,8 @@
 + Lockhead Martin **Kill Chain**
   1. `Reconnaissance` >
       + The attacker determines what methods to use to complete the phases of the atttack
-  2. `Weaponisation` 
+  2. `Weaponisation`
+      + The payload code that exploit a vulnerability on the target system
   3. `Delivery` 
   4. `Exploitation` 
   5. `Installation` 
