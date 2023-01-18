@@ -41,12 +41,13 @@
 ## Accuracy
 
 
- - - -
+- - -
 
- ## Confidence Levels
+## Confidence Levels
   
   
- - - -
+- - -
 
 # Indicator management
 ## Structured Threat Information eXpression (STIX)
++ XML for security
