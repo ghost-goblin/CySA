@@ -35,11 +35,11 @@
 
 ## Indicator management
 1. Structured Threat Information eXpression (STIX)
-  + XML for security
+   + XML for security
 2. Trusted Automated eXchange of Indicator Information (TAXII)
 3. OpenIoC
- + Indicator of Compromise
- + A residual sign that an asset or network has been successfully attacked or in being attacked
+   + Indicator of Compromise
+   + A residual sign that an asset or network has been successfully attacked or in being attacked
 
 
 ## Threat classification
