@@ -40,23 +40,37 @@
 
 
 ## Confidence Levels
-  
++ Property of an intelligence source that ensures it produces qualified statements about reliability 
 
 
 ## Indicator management
 #### Structured Threat Information eXpression (STIX)
 + XML for security
+#### Trusted Automated eXchange of Indicator Information (TAXII)
+#### OpenIoC
 
-  
+## Threat classification
+- Known threat vs. unknown threat
+- Zero-day
+- Advanced persistent threat
+
+## Threat actors
+- Nation-state
+- Hacktivist
+- Organized crime
+- Insider threat
+ - Intentional
+ - Unintentional
+ 
 ## Intelligence Cycle
 + `Requirements` (Direction & Planning) > `Collection & Processing` > `Analysis` > `Dissemination` > `Feedback` >
 
 ## Information sharing and analysis communities
-- Healthcare
-- Financial
-- Aviation
-- Government
-- Critical infrastructure
++ Healthcare
++ Financial
++ Aviation
++ Government
++ Critical infrastructure
   
 - - -
 
