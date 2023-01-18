@@ -1,5 +1,3 @@
-# Cybersecurity Analyst
-
 <div align='center'>
 
 # 🛡️ Cybersecurity Analyst (CySA+)
