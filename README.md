@@ -10,9 +10,9 @@
 
 - - -
   
-1. 🧑‍🤝‍🧑 [Threat and Vulnerability Management](part1.md)
-2. 🗡️ [Software and Systems Security](part2.md)
-3. 🐉 [Security Operations and Monitoring](part3.md)
-4. 📝 [Incident Response](part4.md)
-5. ✏️ [Compliance and Assessment](part5.md)
+1. 👻 [Threat and Vulnerability Management](part1.md)
+2. 💾 [Software and Systems Security](part2.md)
+3. ⚙️ [Security Operations and Monitoring](part3.md)
+4. 🔥 [Incident Response](part4.md)
+5. 📝 [Compliance and Assessment](part5.md)
 
