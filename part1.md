@@ -38,6 +38,9 @@
   + XML for security
 2. Trusted Automated eXchange of Indicator Information (TAXII)
 3. OpenIoC
+ + Indicator of Compromise
+ + A residual sign that an asset or network has been successfully attacked or in being attacked
+
 
 ## Threat classification
 + Known threat vs. unknown threat
