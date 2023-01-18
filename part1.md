@@ -11,8 +11,6 @@
 </div>
 
 # Intelligence Sources
-#### Intelligence Cycle
-+ `Requirements` (Direction & Planning) > `Collection & Processing` > `Analysis` > `Dissemination` > `Feedback` >
 #### Security Intelligence
 + The process through which data is collected, processed, analyzed, and disseminated to provide insights into the security status of systems, i.e. firewall logs
 #### Cyber Threat Intelligence
@@ -41,13 +39,25 @@
 ## Accuracy
 
 
-- - -
-
 ## Confidence Levels
   
-  
-- - -
+
 
 # Indicator management
 ## Structured Threat Information eXpression (STIX)
 + XML for security
+
+  
+# Intelligence Cycle
++ `Requirements` (Direction & Planning) > `Collection & Processing` > `Analysis` > `Dissemination` > `Feedback` >
+
+# Information sharing and analysis communities
+- Healthcare
+- Financial
+- Aviation
+- Government
+- Critical infrastructure
+  
+- - -
+
+# Attack frameworks
