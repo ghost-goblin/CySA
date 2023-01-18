@@ -22,6 +22,12 @@
 #### CISP | ISAC (Information Sharing & Analysis Center)
 + A not-for-profit group set  up to share sector specific threat intelligence and security best practices amongst its members
 
+## Proprietary-source intelligence
++ Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
+
+
+## Closed-source intelligence
+
 ## Timeliness
 
 
