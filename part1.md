@@ -45,6 +45,7 @@
    + Usually applied to the vulnerbility itself but can also refer to an attack of malware that exploits it
 + **Advanced Persistent Threat** (APT)
    + An attackers ability to obtain, maintain and diversify access to network systems using exploits and malware
+   + Target large **PII data sets*
 
 ## Threat actors
 + Nation-state
