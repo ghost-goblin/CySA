@@ -84,6 +84,7 @@
 - - -
 
 ## Attack Frameworks
-1. MITRE ATT&CK
+1. MITRE ATT&CK Framework
 2. The Diamond Model of Intrusion Analysis
-3. Kill chain
+3. Lockhead Martin **Kill Chain**
++ `Reconnaissance` > `Weaponisation` > `Delivery` > `Exploitation` > `Installation` > `Command & Control` (C2) > `Actions on Objectives`
