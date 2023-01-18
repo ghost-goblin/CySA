@@ -19,27 +19,20 @@
   - Data Feeds
 #### CISP (Cyber Security Information Sharing Partnership) | ISAC (Information Sharing & Analysis Center)
 + A not-for-profit group set  up to share sector specific threat intelligence and security best practices amongst its members
-  
-## Open-Source Intelligence (OSINT)
+#### Open-Source Intelligence (OSINT)
 + Methods of obtaining information about a person or organisation  through public records, websites, and social media
-
-## Proprietary-source intelligence
+#### Proprietary-source intelligence
 + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
-
-
-## Closed-source intelligence
+#### Closed-source intelligence
 + Honeynet data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
 
-## Timeliness
+#### Timeliness
 
+#### Relevancy
 
-## Relevancy
+#### Accuracy
 
-
-## Accuracy
-
-
-## Confidence Levels
+#### Confidence Levels
 + Property of an intelligence source that ensures it produces qualified statements about reliability 
 
 
