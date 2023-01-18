@@ -6,6 +6,7 @@
 ### ✏️ Download the study guide [here](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-cysa-cs0-002-exam-objectives-(6-0).pdf?sfvrsn=86668f47_2)
 
 # Threat and Vulnerability Management
+[<<<](part5.md) | [>>>](ms-500-part2.md)
 
 </div>
 
