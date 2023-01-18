@@ -84,3 +84,6 @@
 - - -
 
 ## Attack Frameworks
+1. MITRE ATT&CK
+2. The Diamond Model of Intrusion Analysis
+3. Kill chain
