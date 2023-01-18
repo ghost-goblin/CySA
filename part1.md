@@ -38,16 +38,6 @@
    + XML for security
 2. Trusted Automated eXchange of Indicator Information (TAXII)
 3. OpenIoC
-   + Indicator of Compromise
-   + A residual sign that an asset or network has been successfully attacked or in being attacked
-      - Unauthorised software and files
-      - Suspicious emails
-      - Suspicious registry and file system changes
-      - Unknown port and protocol usage
-      - Rogue hardware
-      - Service disruption & disfacement
-      - Suspicious or unauthorised acoount usage
-
 
 ## Threat classification
 + Known threat vs. unknown threat
@@ -97,3 +87,14 @@
   5. `Installation`
   6. `Command & Control` (C2)
   7. `Actions on Objectives`
+
+## Threat Research
++ Indicator of Compromise
+   + A residual sign that an asset or network has been successfully attacked or in being attacked
+      - Unauthorised software and files
+      - Suspicious emails
+      - Suspicious registry and file system changes
+      - Unknown port and protocol usage
+      - Rogue hardware
+      - Service disruption & disfacement
+      - Suspicious or unauthorised acoount usage
