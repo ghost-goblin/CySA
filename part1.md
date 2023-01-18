@@ -43,15 +43,15 @@
   
 
 
-# Indicator management
-## Structured Threat Information eXpression (STIX)
+## Indicator management
+#### Structured Threat Information eXpression (STIX)
 + XML for security
 
   
-# Intelligence Cycle
+## Intelligence Cycle
 + `Requirements` (Direction & Planning) > `Collection & Processing` > `Analysis` > `Dissemination` > `Feedback` >
 
-# Information sharing and analysis communities
+## Information sharing and analysis communities
 - Healthcare
 - Financial
 - Aviation
@@ -60,4 +60,4 @@
   
 - - -
 
-# Attack frameworks
+## Attack frameworks
