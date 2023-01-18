@@ -8,9 +8,11 @@
 </div>
 
 
-## Security Intelligence
-+ The process through which data is collected, processed, analyzed, and disseminated to provide insights into the security status of systems, i.e. firewall logs
-# Cyber Threat Intelligence
-+ The process of investigating, collecting, analysing, and diseminating threat sources to provide data about the external threat landscape
-  - Narrative report
-  - Data Feeds
+- - -
+  
+1. 🧑‍🤝‍🧑 [Threat and Vulnerability Management](part1.md)
+2. 🗡️ [Software and Systems Security](part2.md)
+3. 🐉 [Security Operations and Monitoring](part3.md)
+4. 📝 [Incident Response](part4.md)
+5. ✏️ [Compliance and Assessment](part5.md)
+
