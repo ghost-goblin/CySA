@@ -40,6 +40,13 @@
 3. OpenIoC
    + Indicator of Compromise
    + A residual sign that an asset or network has been successfully attacked or in being attacked
+      - Unauthorised software and files
+      - Suspicious emails
+      - Suspicious registry and file system changes
+      - Unknown port and protocol usage
+      - Rogue hardware
+      - Service disruption & disfacement
+      - Suspicious or unauthorised acoount usage
 
 
 ## Threat classification
@@ -49,6 +56,7 @@
 + **Advanced Persistent Threat** (APT)
    + An attackers ability to obtain, maintain and diversify access to network systems using exploits and malware
    + Target large **PII data sets**
+
 
 ## Threat actors
 + Nation-state
