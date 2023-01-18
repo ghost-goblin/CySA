@@ -87,12 +87,12 @@
 + MITRE ATT&CK Framework
 + The Diamond Model of Intrusion Analysis
 + Lockhead Martin **Kill Chain**
-  1. `Reconnaissance` >
+  1. `Reconnaissance`
       + The attacker determines what methods to use to complete the phases of the atttack
   2. `Weaponisation`
       + The payload code that exploit a vulnerability on the target system
   3. `Delivery` 
-  4. `Exploitation` 
-  5. `Installation` 
-  6. `Command & Control` (C2) 
+  4. `Exploitation`
+  5. `Installation`
+  6. `Command & Control` (C2)
   7. `Actions on Objectives`
