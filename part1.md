@@ -10,6 +10,7 @@
 
 </div>
 
+# Explain the importance of threat data and intelligence
 ## Intelligence Sources
 #### Security Intelligence
 + The process through which data is collected, processed, analyzed, and disseminated to provide insights into the security status of systems, i.e. firewall logs
@@ -89,6 +90,7 @@
   
 - - -
 
+# Given a scenario, utilize threat intelligence to support organizational security
 ## Attack Frameworks
 + [MITRE ATT&CK](https://attack.mitre.org/) Framework | [attack.mitre.org](https://attack.mitre.org/)
   - A open-source knowledge base for listing and explaining specific adversary cyber tactics, techniques, and common knowleadge or precedures 
