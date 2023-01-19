@@ -52,7 +52,7 @@
 2. Trusted Automated eXchange of Indicator Information (TAXII)
 3. OpenIoC
 
-## Threat classification
+## Threat Classification
 + Known threat vs. unknown threat
 + Zero-day
    + Usually applied to the vulnerbility itself but can also refer to an attack of malware that exploits it
