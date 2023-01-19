@@ -24,9 +24,9 @@
 + [Senki.org](https://www.senki.org/operators-security-toolkit/open-source-threat-intelligence-feeds/)
 + [AlienVault Open Threat Exchange](https://otx.alienvault.com/)
 + [CISA](https://www.cisa.gov/uscert/ncas/alerts)
-#### Proprietary-Source intelligence
+#### Proprietary-Source Intelligence
 + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
-#### Closed-Source intelligence
+#### Closed-Source Intelligence
 + Honeynet data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
 
 1. **Timeliness**
@@ -36,7 +36,7 @@
     + Property of an intelligence source that ensures it produces qualified statements about reliability 
 
 
-## Indicator management
+## Indicator Management
 1. Structured Threat Information eXpression (STIX)
    + XML for security
 
