@@ -93,10 +93,10 @@
 + [MITRE ATT&CK](https://attack.mitre.org/) Framework | [attack.mitre.org](https://attack.mitre.org/)
   - A open-source knowledge base for listing and explaining specific adversary cyber tactics, techniques, and common knowleadge or precedures 
 + 💎 The Diamond Model of Intrusion Analysis
- + Adversary
-    + Infrastucture
-        + Capability
-           + Victim
+    + Adversary
+       + Infrastucture
+           + Capability
+              + Victim
 + Lockhead Martin **Kill Chain**
   1. `Reconnaissance`
       + The attacker determines what methods to use to complete the phases of the atttack
@@ -124,4 +124,10 @@
       1. __Base__
       2. __Temporal__
       3. __Environmental__
+## Threat Modeling Methodologies
+  - Adversary capability
+  - Total attack surface
+  - Attack vector
+  - Impact
+  - Likelihood
 
