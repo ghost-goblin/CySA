@@ -39,7 +39,7 @@
 
 ```json
   {
-    "type": "campaign",
+    "type": "threat-actor",
     "id": "campaign--8e2e2d2b-17d4-4cbf-938f-98ee46b3cd3f",
     "spec_version": "2.1",
     "created": "2016-04-06T20:03:00.000Z",
