@@ -139,3 +139,9 @@
   + Impact
   + Likelihood
 
+## Threat intelligence sharing with supported functions
++ Incident response
++ Vulnerability management
++ Risk management
++ Security engineering
++ Detection and monitoring
