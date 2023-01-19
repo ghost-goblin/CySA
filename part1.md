@@ -105,7 +105,7 @@
   7. `Actions on Objectives`
 
 ## Threat Research
-+ Indicator of Compromise
++ **Indicator of Compromise**
    + A residual sign that an asset or network has been successfully attacked or in being attacked
       - Unauthorised software and files
       - Suspicious emails
@@ -114,3 +114,4 @@
       - Rogue hardware
       - Service disruption & disfacement
       - Suspicious or unauthorised acoount usage
++ **Common Vulnerability Scoring System** (CVSS)
