@@ -22,11 +22,13 @@
 + A not-for-profit group set  up to share sector specific threat intelligence and security best practices amongst its members
 #### Open-Source Intelligence (OSINT)
 + Methods of obtaining information about a person or organisation  through public records, websites, and social media
-   + [Senki.org](https://www.senki.org/operators-security-toolkit/open-source-threat-intelligence-feeds/)
-   + [AlienVault Open Threat Exchange](https://otx.alienvault.com/)
-   + [CISA](https://www.cisa.gov/uscert/ncas/alerts)
-+ Social Media
-+ HTML code
+    + Social Media
+    + HTML Code
+    + Metadata
+       + [Senki.org](https://www.senki.org/operators-security-toolkit/open-source-threat-intelligence-feeds/)
+       + [AlienVault Open Threat Exchange](https://otx.alienvault.com/)
+       + [CISA](https://www.cisa.gov/uscert/ncas/alerts)
+       + [Shodan](https://www.shodan.io/)
 #### Proprietary-Source Intelligence
 + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
 #### Closed-Source Intelligence
