@@ -133,7 +133,7 @@
            + Custom software apllications
   + Attack vector
       + A specific path by which a threat actor gains access to a system
-         + Cyper
+         + Cyber
          + Human (Social Engineering)
          + Physical
   + Impact
