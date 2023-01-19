@@ -26,10 +26,10 @@
 #### Closed-source intelligence
 + Honeynet data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
 
-1. Timeliness
-2. Relevancy
-3. Accuracy
-4. Confidence Levels
+1. **Timeliness**
+2. **Relevancy**
+3. **Accuracy**
+4. **Confidence Levels**
     + Property of an intelligence source that ensures it produces qualified statements about reliability 
 
 
