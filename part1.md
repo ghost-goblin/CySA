@@ -147,3 +147,7 @@
 + Risk Management
 + Security Engineering
 + Detection & Monitoring
+  + Analyse network Traffic
+  + Analyse the executable process list
+  + Analyse other infected hosts
+  + Identify how the malicious process was executed
