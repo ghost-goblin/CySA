@@ -115,7 +115,9 @@
       - Service disruption & disfacement
       - Suspicious or unauthorised acoount usage
 + **Common Vulnerability Scoring System** (CVSS)
+   + Prioritise response actions
    + Gives a qualitative measure of severity via 3 metric groups
       1. __Base__
       2. __Temporal__
       3. __Environmental__
+
