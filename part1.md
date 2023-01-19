@@ -125,9 +125,14 @@
       2. __Temporal__
       3. __Environmental__
 ## Threat Modeling Methodologies
-  - Adversary capability
-  - Total attack surface
-  - Attack vector
-  - Impact
-  - Likelihood
+  + Adversary capability
+  + Total attack surface
+      + Points at which a network or application receives external connections or inputs/outputs that are potential vectors to be exploited
+           + The holistic network
+           + Websites or cloud services
+           + Custom software apllications
+  + Attack vector
+      + A specific path by which a threat actor gains access to a system
+  + Impact
+  + Likelihood
 
