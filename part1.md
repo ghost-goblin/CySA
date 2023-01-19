@@ -48,7 +48,7 @@
    + Target large **PII data sets**
 
 
-## Threat actors
+## Threat Actors
 + Nation-state
 + Hacktivist
 + Organized crime
@@ -76,7 +76,7 @@
 ## Attack Frameworks
 + [MITRE ATT&CK](https://attack.mitre.org/) Framework
   - A knowledge base maintained by the MITRE Corp. for listing and explaining specific adversary tactics, techniques, and common knowleadge or precedures 
-+ The Diamond Model of Intrusion Analysis
++ 💎 The Diamond Model of Intrusion Analysis
 + Lockhead Martin **Kill Chain**
   1. `Reconnaissance`
       + The attacker determines what methods to use to complete the phases of the atttack
