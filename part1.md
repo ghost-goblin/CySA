@@ -25,10 +25,6 @@
     + Social Media
     + HTML Code
     + Metadata
-       + [Senki.org](https://www.senki.org/operators-security-toolkit/open-source-threat-intelligence-feeds/)
-       + [AlienVault Open Threat Exchange](https://otx.alienvault.com/)
-       + [CISA](https://www.cisa.gov/uscert/ncas/alerts)
-       + [Shodan](https://www.shodan.io/)
 #### Proprietary-Source Intelligence
 + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
 #### Closed-Source Intelligence
