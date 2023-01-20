@@ -97,7 +97,8 @@
 # Given a scenario, utilize threat intelligence to support organizational security
 ## Attack Frameworks
 + [MITRE ATT&CK](https://attack.mitre.org/) Framework | [attack.mitre.org](https://attack.mitre.org/)
-  - A open-source knowledge base for listing and explaining specific adversary cyber tactics, techniques, and common knowleadge or precedures 
+  - A open-source knowledge base for listing and explaining specific adversary cyber tactics, techniques, and common knowleadge or precedures
+  - **TTP**s - Tactics, Techniques & Procedures
 + 💎 The Diamond Model of Intrusion Analysis
     + Adversary
        + Infrastucture
