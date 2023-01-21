@@ -25,7 +25,6 @@
     + Social Media
     + HTML Code
     + Metadata
-    + [CISA's (Cybersecurity & Infrastructure Security Agency)](https://www.cisa.gov/uscert/ncas/alerts)
 #### Proprietary-Source Intelligence
 + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
 #### Closed-Source Intelligence
@@ -33,7 +32,9 @@
 
 
 ### TTPs (Tactics, Techniques, and Procedures)
-  
++ [CISA's (Cybersecurity & Infrastructure Security Agency)](https://www.cisa.gov/uscert/ncas/alerts)
++ [MITRE ATT&CK](https://attack.mitre.org/) Framework | [attack.mitre.org](https://attack.mitre.org/)
+ 
 #### Pyramid of Pain
 
 ```sh
