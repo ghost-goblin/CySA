@@ -36,7 +36,7 @@
 ```sh
           ,/`.              TTPs
         ,'/ __`.            Tools
-      ,'_/_  _ _`.          Network/Host Artifacts
+      ,'_/_  _ _`.          Network / Host Artifacts
     ,'__/_ ___ _  `.        Domain Names
   ,'_  /___ __ _ __ `.      IP Addresses
  '-.._/___...-"-.-..__`.    Hash values
