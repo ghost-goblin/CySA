@@ -30,6 +30,18 @@
 #### Closed-Source Intelligence
 + Honeynet data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
 
+  
+#### Pyramid of Pain
+
+```sh
+          ,/`.              TTPs
+        ,'/ __`.            Tools
+      ,'_/_  _ _`.          Network/Host Artifacts
+    ,'__/_ ___ _  `.        Domain Names
+  ,'_  /___ __ _ __ `.      IP Addresses
+ '-.._/___...-"-.-..__`.    Hash values
+``
+  
 1. **Timeliness**
 2. **Relevancy**
 3. **Accuracy**
