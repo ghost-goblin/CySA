@@ -16,7 +16,9 @@
 + Host-centric log sources
     + Log removal
        - WinEventLog EventID `104`
-       - `Get-WinEvent -FilterHashTable @{LogName='System';ID='104'}`
+           - `Get-WinEvent -FilterHashTable @{LogName='System';ID='104'}`
+       - Event code `1100` indicates an event log service shutdown
+       - Codes `104` or `1102` indicate that the event log was cleared
     + A user accessing a file
     + A user attempting to authenticate
     + Editing a registry key or value
