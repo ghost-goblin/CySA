@@ -34,7 +34,7 @@
 #### Pyramid of Pain
 
 ```sh
-          ,/`.              TTPs
+          ,/`.              TTPs (Tactics, Techniques & Procedures)
         ,'/ __`.            Tools
       ,'_/_  _ _`.          Network / Host Artifacts
     ,'__/_ ___ _  `.        Domain Names
