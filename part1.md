@@ -110,10 +110,27 @@
   - A open-source knowledge base for listing and explaining specific adversary cyber tactics, techniques, and common knowleadge or precedures
   - **TTP**s - Tactics, Techniques & Procedures
 + 💎 The Diamond Model of Intrusion Analysis
+
+```sh
+      __________________
+    .-'  \ _.-''-._ /  '-.
+  .-/\   .'.      .'.   /\-.
+ _'/  \.'   '.  .'   './  \'_
+:======:======::======:======:  
+ '. '.  \     ''     /  .' .'
+   '. .  \   :  :   /  . .'
+     '.'  \  '  '  /  '.'
+       ':  \:    :/  :'
+         '. \    / .'
+           '.\  /.'    
+             '\/'
     + Adversary
        + Infrastucture
            + Capability
               + Victim
+
+```
+
 + Lockhead Martin **Kill Chain**
   1. `Reconnaissance`
       + The attacker determines what methods to use to complete the phases of the atttack
