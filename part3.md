@@ -10,6 +10,8 @@
 
  </div>
 
+# Security Monitoring Activities
+
 ## Security Information and Event Management (SIEM)
 + Host-centric log sources
     + Windows Event Logs
