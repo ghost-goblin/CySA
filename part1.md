@@ -25,7 +25,7 @@
     + Social Media
     + HTML Code
     + Metadata
-    + (https://www.cisa.gov/uscert/ncas/alerts)[CISA's Cybersecurity & Infrastructure Security Agency]
+    + [CISA's (Cybersecurity & Infrastructure Security Agency)](https://www.cisa.gov/uscert/ncas/alerts)
 #### Proprietary-Source Intelligence
 + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
 #### Closed-Source Intelligence
