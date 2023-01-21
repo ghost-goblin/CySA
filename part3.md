@@ -14,16 +14,14 @@
 
 ## Security Information and Event Management (SIEM)
 + Host-centric log sources
-    + Windows Event Logs
+    + Log removal
+       - WinEventLog EventID `104`
+       - `Get-WinEvent -FilterHashTable @{LogName='System';ID='104'}`
     + A user accessing a file
     + A user attempting to authenticate
-    + Editing a registry key or valur
+    + Editing a registry key or value
     + PowerShell execution
 + Network-centric Lod
     + SSH
     + FTP, Network file sharing activity
     + Web/VPN traffic
-
-```ps1
- Get-WinEvent -FilterHashTable @{LogName='System';ID='104'}
-```
