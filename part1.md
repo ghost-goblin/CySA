@@ -40,8 +40,6 @@
     ,'__/_ ___ _  `.        Domain Names
   ,'_  /___ __ _ __ `.      IP Addresses
  '-.._/___...-"-.-..__`.    Hash values
-
-
 ```
 
 
