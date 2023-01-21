@@ -8,6 +8,7 @@
 # ⚙️ Security Operations and Monitoring
 [<<<](part2.md) | [>>>](part4.md)
 
+    </div>
 
 ## Security Information and Event Management (SIEM)
 + Host-centric log sources
