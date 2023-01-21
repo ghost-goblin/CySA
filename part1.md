@@ -21,15 +21,18 @@
 #### CISP (Cyber Security Information Sharing Partnership) | ISAC (Information Sharing & Analysis Center)
 + A not-for-profit group set  up to share sector specific threat intelligence and security best practices amongst its members
 #### Open-Source Intelligence (OSINT)
-+ Methods of obtaining information about a person or organisation  through public records, websites, and social media
++ Methods of obtaining information about a person or organisation through public records, websites, and social media
     + Social Media
     + HTML Code
     + Metadata
+    + [https://www.cisa.gov/uscert/ncas/alerts](CISA's (Cybersecurity & Infrastructure Security Agency))
 #### Proprietary-Source Intelligence
 + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
 #### Closed-Source Intelligence
 + Honeynet data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
 
+
+### TTPs (Tactics, Techniques, and Procedures)
   
 #### Pyramid of Pain
 
