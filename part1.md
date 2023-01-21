@@ -18,6 +18,9 @@
 + The process of investigating, collecting, analysing, and diseminating threat sources to provide data about the external threat landscape
   - Narrative report
   - Data Feeds
+#### TTPs (Tactics, Techniques, and Procedures)
+  + [CISA's (Cybersecurity & Infrastructure Security Agency)](https://www.cisa.gov/uscert/ncas/alerts)
+  + [MITRE ATT&CK](https://attack.mitre.org/) Framework | [attack.mitre.org](https://attack.mitre.org/)
 #### CISP (Cyber Security Information Sharing Partnership) | ISAC (Information Sharing & Analysis Center)
 + A not-for-profit group set  up to share sector specific threat intelligence and security best practices amongst its members
 #### Open-Source Intelligence (OSINT)
@@ -30,10 +33,6 @@
 #### Closed-Source Intelligence
 + Honeynet data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
 
-
-### TTPs (Tactics, Techniques, and Procedures)
-+ [CISA's (Cybersecurity & Infrastructure Security Agency)](https://www.cisa.gov/uscert/ncas/alerts)
-+ [MITRE ATT&CK](https://attack.mitre.org/) Framework | [attack.mitre.org](https://attack.mitre.org/)
  
 #### Pyramid of Pain
 
