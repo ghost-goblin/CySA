@@ -10,3 +10,38 @@
 
 </div>
 
+# Apply security solutions for infrastructure management
+## Cloud vs. on-premises
+## Asset management
+- Asset tagging
+## Segmentation
+- Physical
+- Virtual
+- Jumpbox
+- System isolation
+ - Air gap
+## Network architecture
+- Physical
+- Software-defined
+- Virtual private cloud (VPC)
+- Virtual private network (VPN)
+- Serverless
+## Change management
+## Virtualization
+- Virtual desktop infrastructure (VDI)
+## Containerization
+## Identity and access management
+- Privilege management
+- Multifactor authentication (MFA)
+- Single sign-on (SSO)
+- Federation
+- Role-based
+- Attribute-based
+- Mandatory
+- Manual review
+## Cloud access security broker (CASB)
+## Honeypot
+## Monitoring and logging
+## Encryption
+## Certificate management
+## Active defense
