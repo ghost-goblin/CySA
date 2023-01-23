@@ -226,7 +226,7 @@ Infrastucture:======:======::======:======: Capability
 - Legacy systems
 - Proprietary systems
 
-
+# Analyze the output from common vulnerability assessment tools
 
 ### 🖥️ Lab Setup
 
