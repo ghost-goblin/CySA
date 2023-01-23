@@ -229,16 +229,6 @@ Infrastucture:======:======::======:======: Capability
 # Analyze the output from common vulnerability assessment tools
 ## 📡 OWASP Zed Attack Proxy (ZAP)
 + [OWASP ZAP](https://www.zaproxy.org/) is an open-source web application security scanner
-+ ⚔️ **XSS**
-```js
-// Inside of input field the following command will help find XSS by creating a simple alert
-<script>alert(1)</script>
-```
-Add the payload in the URL
-```sh
-# Exploiting a vulnerable URL parameter and alerting the users cookie
-http://10.10.226.56/vulnerabilities/xss_r/?name=<script>alert(document.cookie)</script>
-```
 - Burp suite
 - Nikto
 - Arachni
@@ -351,7 +341,16 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
 - On-path attack (previously known as man-in-the-middle attack)
 - Session hijacking
 - Rootkit
-- Cross-site scripting
+- Cross-site scripting (XSS)
+     ```js
+     // Inside of input field the following command will help find XSS by creating a simple alert
+     <script>alert(1)</script>
+     ```
+     + Add the payload in the URL
+     ```sh
+     # Exploiting a vulnerable URL parameter and alerting the users cookie
+     http://10.10.226.56/vulnerabilities/xss_r/?name=<script>alert(document.cookie)</script>
+     ```
  - Reflected
  - Persistent
  - Document object model (DOM)
