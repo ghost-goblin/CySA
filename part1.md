@@ -329,6 +329,40 @@ nmap -sV -p- -Pn 10.10.226.53
 - Insufficient logging and monitoring
 - Inability to access
 
+# Implement controls to mitigate attacks and software vulnerabilities
+## Attack types
+- Extensible markup
+ language (XML) attack
+- Structured query language (SQL) injection
+- Overflow attack
+ - Buffer
+ - Integer
+ - Heap
+- Remote code execution
+- Directory traversal
+- Privilege escalation
+- Password spraying
+- Credential stuffing
+- Impersonation
+- On-path attack (previously known as man-in-the-middle attack)
+- Session hijacking
+- Rootkit
+- Cross-site scripting
+ - Reflected
+ - Persistent
+ - Document object model (DOM)
+## Vulnerabilities
+- Improper error handling
+- Dereferencing
+- Insecure object reference
+- Race condition
+- Broken authentication
+- Sensitive data exposure
+- Insecure components
+- Insufficient logging and monitoring
+- Weak or default configurations
+- Use of insecure functions
+ - strcpy
 
 - - - 
 
