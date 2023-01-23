@@ -227,6 +227,11 @@ Infrastucture:======:======::======:======: Capability
 - Proprietary systems
 
 # Analyze the output from common vulnerability assessment tools
+## 📡 **OWASP ZAP**
++ 🌎 Web Hacking
++ [OWASP ZAP](https://www.zaproxy.org/) is an open-source web application security scanner
+
+
 
 ### 🖥️ Lab Setup
 
@@ -296,9 +301,6 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
 
 - - -
 
-# 🌎 Web Hacking
-### 📡 **OWASP ZAP**
-[OWASP ZAP](https://www.zaproxy.org/) is an open-source web application security scanner
 ### ⚔️ **XSS**
 ```js
 // Inside of input field the following command will help find XSS by creating a simple alert
