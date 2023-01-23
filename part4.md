@@ -13,6 +13,8 @@
 
 # Utilize basic digital forensics techniques
 ## Wireshark
++ Display filters
 ```sh
- ip.src == 152.106.6.125
+ tcp.port eq 25 or icmp
+ ip.src == 152.106.6.125 and ip.dst == 192.168.0.1
 ```
