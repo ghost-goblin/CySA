@@ -339,7 +339,11 @@ nmap -sV -p- -Pn 10.10.226.53
  - Integer
  - Heap
 - Remote code execution
-- Directory traversal
+- 📁 Directory traversal
+    + Enumerate web server on port 80 with `gobuster`
+```sh
+gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -o gobuster_scan.txt
+```
 - Privilege escalation
 - Password spraying
 - Credential stuffing
@@ -408,11 +412,6 @@ msfconsole -q
 ### 🚩 **Banner Grabbing**
 ```sh
 echo " " | nc -v 10.10.226.5 80
-```
-### 📁 **Directory Scanning**
-+ Enumerate web server on port 80 with `gobuster`
-```sh
-gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -o gobuster_scan.txt
 ```
 
 
