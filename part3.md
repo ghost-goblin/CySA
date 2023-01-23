@@ -17,19 +17,19 @@
 ## Trend analysis
 ## Endpoint
 - Malware
- - Reverse engineering
+     - Reverse engineering
 - Memory
 - System and application behavior
- - Known-good behavior
- - Anomalous behavior
- - Exploit techniques
+     - Known-good behavior
+     - Anomalous behavior
+     - Exploit techniques
 - File system
 - User and entity behavior
  analytics (UEBA)
 ## Network
 - Uniform Resource Locator (URL) and
  domain name system (DNS) analysis
- - Domain generation algorithm
+     - Domain generation algorithm
 - Flow analysis
 - Packet and protocol analysis
  - Malware
