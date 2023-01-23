@@ -310,6 +310,24 @@ nmap -sV -p- -Pn 10.10.226.53
 ## Supervisory control and data acquisition (SCADA)
 - Modbus
 
+# Threats and vulnerabilities operating in the cloud
+## Cloud service models
+- Software as a Service (SaaS)
+- Platform as a Service (PaaS)
+- Infrastructure as a Service (IaaS)
+## Cloud deployment models
+- Public
+- Private
+- Community
+- Hybrid
+## Function as a Service (FaaS)/ serverless architecture
+## Infrastructure as code (IaC)
+## Insecure application programming interface (API)
+## Improper key management
+## Unprotected storage
+## Logging and monitoring
+- Insufficient logging and monitoring
+- Inability to access
 
 
 - - - 
