@@ -18,6 +18,9 @@
     ```sh
      tcp.port eq 25 or icmp
      ip.src == 152.106.6.125 and ip.dst == 192.168.0.1
+     Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+     reg query HKLM\Software /v QuietUninstallString /s | find "Wireshark"
+     "C:\Program Files\Wireshark\uninstall-wireshark.exe" /S
     ```
 - `tcpdump`
 ## Endpoint
