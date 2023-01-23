@@ -227,8 +227,7 @@ Infrastucture:======:======::======:======: Capability
 - Proprietary systems
 
 # Analyze the output from common vulnerability assessment tools
-## 📡 **OWASP ZAP**
-+ 🌎 Web Hacking
+## 📡 OWASP Zed Attack Proxy (ZAP)
 + [OWASP ZAP](https://www.zaproxy.org/) is an open-source web application security scanner
 
 
