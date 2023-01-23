@@ -194,6 +194,39 @@ Infrastucture:======:======::======:======: Capability
 - False positive
 - True negative
 - False negative
+## Remediation/mitigation
+- Configuration baseline
+- Patching
+- Hardening
+- Compensating controls
+- Risk acceptance
+- Verification of mitigation
+## Scanning parameters and criteria
+- Risks associated with
+ scanning activities
+- Vulnerability feed
+- Scope
+- Credentialed vs. non-credentialed
+- Server-based vs. agent-based
+- Internal vs. external
+- Special considerations
+ - Types of data
+ - Technical constraints
+ - Workflow
+ - Sensitivity levels
+ - Regulatory requirements
+ - Segmentation
+ - Intrusion prevention system (IPS), intrusion detection system (IDS), and firewall settings
+## Inhibitors to remediation
+- Memorandum of understanding (MOU)
+- Service-level agreement (SLA)
+- Organizational governance
+- Business process interruption
+- Degrading functionality
+- Legacy systems
+- Proprietary systems
+
+
 
 ### 🖥️ Lab Setup
 
