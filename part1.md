@@ -365,6 +365,12 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
 - Insecure components
 - Insufficient logging and monitoring
 - Weak or default configurations
+    + On a vulnerable FTP server which allows anonymous access
+     ```sh
+     User:  anonymous
+     Password:  anonymous@domain.com
+     ```
+    + Anonymous FTP is a common way to get access to a server in order to view or download files that are publicly available
 - Use of insecure functions
  - strcpy
 
@@ -421,12 +427,3 @@ echo " " | nc -v 10.10.226.5 80
 ```sh
 smbclient \\\\{target_IP}\\{SHARE_NAME}
 ```
-
-
-### 📁 FTP Hacking
-### On a vulnerable FTP server which allows anonymous access
-```sh
-User:  anonymous
-Password:  anonymous@domain.com
-```
-Anonymous FTP is a common way to get access to a server in order to view or download files that are publicly available
