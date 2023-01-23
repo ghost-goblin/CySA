@@ -229,7 +229,70 @@ Infrastucture:======:======::======:======: Capability
 # Analyze the output from common vulnerability assessment tools
 ## 📡 OWASP Zed Attack Proxy (ZAP)
 + [OWASP ZAP](https://www.zaproxy.org/) is an open-source web application security scanner
-
++ ⚔️ **XSS**
+```js
+// Inside of input field the following command will help find XSS by creating a simple alert
+<script>alert(1)</script>
+```
+Add the payload in the URL
+```sh
+# Exploiting a vulnerable URL parameter and alerting the users cookie
+http://10.10.226.56/vulnerabilities/xss_r/?name=<script>alert(document.cookie)</script>
+```
+- Burp suite
+- Nikto
+- Arachni
+## Infrastructure vulnerability scanner
+- Nessus
+- OpenVAS
+- Qualys
+## Software assessment tools and techniques
+- Static analysis
+- Dynamic analysis
+- Reverse engineering
+- Fuzzing
+## Enumeration
+- Nmap
+```sh
+# Scan a single target
+nmap 10.129.86.241/24
+# Service Version Detection
+nmap -sV 10.129.86.241
+# Operating System Detection
+nmap -O 10.129.86.241
+# Run a detailed scan on open ports
+nmap 10.10.11.125 -sV -sC -p22,80,1337 -T4
+# Scan a server for open ports + running software version + OS + save to file named nmap_scan.txt
+nmap -sV -O -oN nmap_scan.txt 10.10.226.53
+# Scan server for ALL open ports + find what version of software is running (will take more time)
+# Treat all host as online (useful if scan is being blocked by firewall)
+nmap -sV -p- -Pn 10.10.226.53
+``````sh
+# Scan a single target
+nmap 10.129.86.241/24
+# Service Version Detection
+nmap -sV 10.129.86.241
+# Operating System Detection
+nmap -O 10.129.86.241
+# Run a detailed scan on open ports
+nmap 10.10.11.125 -sV -sC -p22,80,1337 -T4
+# Scan a server for open ports + running software version + OS + save to file named nmap_scan.txt
+nmap -sV -O -oN nmap_scan.txt 10.10.226.53
+# Scan server for ALL open ports + find what version of software is running (will take more time)
+# Treat all host as online (useful if scan is being blocked by firewall)
+nmap -sV -p- -Pn 10.10.226.53
+```
+- hping
+- Active vs. passive
+- Responder
+## Wireless assessment tools
+- Aircrack-ng
+- Reaver
+- oclHashcat
+## Cloud infrastructure assessment tools
+- ScoutSuite
+- Prowler
+- Pacu
 
 
 ### 🖥️ Lab Setup
@@ -262,24 +325,6 @@ iface eth0 inet static
         dns-nameservers 192.168.1.254
 ```
 
-# 🕸️ Enumeration
-### ☠️ **Nmap**
-```sh
-# Scan a single target
-nmap 10.129.86.241/24
-# Service Version Detection
-nmap -sV 10.129.86.241
-# Operating System Detection
-nmap -O 10.129.86.241
-# Run a detailed scan on open ports
-nmap 10.10.11.125 -sV -sC -p22,80,1337 -T4
-# Scan a server for open ports + running software version + OS + save to file named nmap_scan.txt
-nmap -sV -O -oN nmap_scan.txt 10.10.226.53
-# Scan server for ALL open ports + find what version of software is running (will take more time)
-# Treat all host as online (useful if scan is being blocked by firewall)
-nmap -sV -p- -Pn 10.10.226.53
-```
-
 ### Metasploit Framework
 
 ```sh
@@ -298,21 +343,6 @@ echo " " | nc -v 10.10.226.5 80
 gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -o gobuster_scan.txt
 ```
 
-- - -
-
-### ⚔️ **XSS**
-```js
-// Inside of input field the following command will help find XSS by creating a simple alert
-<script>alert(1)</script>
-```
-Add the payload in the URL
-```sh
-# Exploiting a vulnerable URL parameter and alerting the users cookie
-http://10.10.226.56/vulnerabilities/xss_r/?name=<script>alert(document.cookie)</script>
-```
-
-
-- - -
 
 
 # 🗄️ SMB Hacking
@@ -321,7 +351,6 @@ http://10.10.226.56/vulnerabilities/xss_r/?name=<script>alert(document.cookie)</
 smbclient \\\\{target_IP}\\{SHARE_NAME}
 ```
 
-- - -
 
 # 📁 FTP Hacking
 ### On a vulnerable FTP server which allows anonymous access
