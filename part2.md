@@ -78,3 +78,21 @@
 - Simple Object Access Protocol (SOAP)
 - Representational State Transfer (REST)
 - Microservices
+
+ # Hardware assurance best practices
+## Hardware root of trust
+- Trusted platform module (TPM)
+- Hardware security module (HSM)
+## eFuse
+## Unified Extensible Firmware Interface (UEFI)
+## Trusted foundry
+## Secure processing
+- Trusted execution
+- Secure enclave
+- Processor security extensions
+- Atomic execution
+## Anti-tamper
+## Self-encrypting drive
+## Trusted firmware updates
+## Measured boot and attestation
+## Bus encryption
