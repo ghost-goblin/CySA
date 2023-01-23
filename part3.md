@@ -10,7 +10,7 @@
 
  </div>
 
-# Security Monitoring Activities
+# Analyze data as part of security monitoring activities
 
 ## Security Information and Event Management (SIEM)
 + Host-centric log sources
