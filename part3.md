@@ -12,7 +12,38 @@
 
 # Analyze data as part of security monitoring activities
 
-## Security Information and Event Management (SIEM)
+
+## Heuristics
+## Trend analysis
+## Endpoint
+- Malware
+ - Reverse engineering
+- Memory
+- System and application behavior
+ - Known-good behavior
+ - Anomalous behavior
+ - Exploit techniques
+- File system
+- User and entity behavior
+ analytics (UEBA)
+## Network
+- Uniform Resource Locator (URL) and
+ domain name system (DNS) analysis
+ - Domain generation algorithm
+- Flow analysis
+- Packet and protocol analysis
+ - Malware
+## Log review
+- Event logs
+- Syslog
+- Firewall logs
+- Web application firewall (WAF)
+- Proxy
+- Intrusion detection system (IDS)/ Intrusion prevention system (IPS)
+## Impact analysis
+- Organization impact vs. localized impact
+- Immediate vs. total
+## Security Information and Event Management (SIEM) review
 + Host-centric log sources
     + Log removal
        - WinEventLog EventID `104`
