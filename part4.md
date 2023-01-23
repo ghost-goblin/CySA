@@ -12,7 +12,7 @@
 
 
 # Utilize basic digital forensics techniques
-# Nwtwork
+# Network
 + Wireshark
     + Display filters
     ```sh
