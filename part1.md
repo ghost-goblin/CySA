@@ -366,10 +366,10 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
 - Insufficient logging and monitoring
 - Weak or default configurations
     + A vulnerable FTP server which allows anonymous access:
-     ```sh
-     User:  anonymous
-     Password:  anonymous@domain.com
-     ```
+      ```sh
+      User:  anonymous
+      Password:  anonymous@domain.com
+      ```
     + Accessing SMB Shares using `smbclient`:
       ```sh
       smbclient \\\\{target_IP}\\{SHARE_NAME}
