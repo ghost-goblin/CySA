@@ -49,16 +49,16 @@
 
 
 # Software assurance best practices
-#####Platforms
+## Platforms
 - Mobile
 - Web application
 - Client/server
 - Embedded
 - System-on-chip (SoC)
 - Firmware
-### Software development life cycle (SDLC) integration
-### DevSecOps
-• Software assessment methods
+## Software development life cycle (SDLC) integration
+## DevSecOps
+## Software assessment methods
 - User acceptance testing
 - Stress test application
 - Security regression testing
