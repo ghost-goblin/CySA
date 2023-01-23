@@ -7,3 +7,9 @@
 
 # 🔥 Incident Response
 [<<<](part3.md) | [>>>](part5.md)
+
+# Utilize basic digital forensics techniques
+## Wireshark
+```sh
+ ip.src == 152.106.6.125
+```
