@@ -295,6 +295,10 @@ nmap -sV -p- -Pn 10.10.226.53
 - Pacu
 
 
+  
+- - - 
+
+
 ### 🖥️ Lab Setup
 
 ```sh
@@ -345,18 +349,17 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
 
 
 
-# 🗄️ SMB Hacking
+### 🗄️ SMB Hacking
 ### Accessing SMB Shares using `smbclient`
 ```sh
 smbclient \\\\{target_IP}\\{SHARE_NAME}
 ```
 
 
-# 📁 FTP Hacking
+### 📁 FTP Hacking
 ### On a vulnerable FTP server which allows anonymous access
 ```sh
 User:  anonymous
 Password:  anonymous@domain.com
 ```
 Anonymous FTP is a common way to get access to a server in order to view or download files that are publicly available
-
