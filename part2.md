@@ -45,3 +45,37 @@
 ## Encryption
 ## Certificate management
 ## Active defense
+
+
+
+# Software assurance best practices
+#####Platforms
+- Mobile
+- Web application
+- Client/server
+- Embedded
+- System-on-chip (SoC)
+- Firmware
+### Software development life cycle (SDLC) integration
+### DevSecOps
+• Software assessment methods
+- User acceptance testing
+- Stress test application
+- Security regression testing
+- Code review
+## Secure coding best practices
+- Input validation
+- Output encoding
+- Session management
+- Authentication
+- Data protection
+- Parameterized queries
+## Static analysis tools
+## Dynamic analysis tools
+## Formal methods for verification
+ of critical software
+## Service-oriented architecture
+- Security Assertions Markup Language (SAML)
+- Simple Object Access Protocol (SOAP)
+- Representational State Transfer (REST)
+- Microservices
