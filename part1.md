@@ -185,7 +185,15 @@ Infrastucture:======:======::======:======: Capability
   + Analyse other infected hosts
   + Identify how the malicious process was executed
   
-- - -
+## Vulnerability identification
+- Asset criticality
+- Active vs. passive scanning
+- Mapping/enumeration
+## Validation
+- True positive
+- False positive
+- True negative
+- False negative
 
 ### 🖥️ Lab Setup
 
