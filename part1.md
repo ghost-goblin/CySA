@@ -294,8 +294,24 @@ nmap -sV -p- -Pn 10.10.226.53
 - Prowler
 - Pacu
 
+# Threats and vulnerabilities associated with specialized technology
+## Mobile
+## Internet of Things (IoT)
+## Embedded
+## Real-time operating system (RTOS)
+## System-on-Chip (SoC)
+## Field programmable gate array (FPGA)
+## Physical access control
+## Building automation systems
+## Vehicles and drones
+- CAN bus
+## Workflow and process automation systems
+## Industrial control system
+## Supervisory control and data acquisition (SCADA)
+- Modbus
 
-  
+
+
 - - - 
 
 
