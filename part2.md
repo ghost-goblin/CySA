@@ -72,8 +72,7 @@
 - Parameterized queries
 ## Static analysis tools
 ## Dynamic analysis tools
-## Formal methods for verification
- of critical software
+## Formal methods for verification of critical software
 ## Service-oriented architecture
 - Security Assertions Markup Language (SAML)
 - Simple Object Access Protocol (SOAP)
