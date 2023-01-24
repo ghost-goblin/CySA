@@ -263,7 +263,7 @@ nmap -sV -O -oN nmap_scan.txt 10.10.226.53
 # Treat all host as online (useful if scan is being blocked by firewall)
 nmap -sV -p- -Pn 10.10.226.53
 
-# Scan with some casic scripts
+# Scan with some basic scripts
 nmap -sV -sC --script vuln 10.10.226.53
 ```
 
