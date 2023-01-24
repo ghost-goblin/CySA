@@ -242,7 +242,7 @@ Infrastucture:======:======::======:======: Capability
 - Reverse engineering
 - Fuzzing
 ## Enumeration
-- Nmap
+- `nmap`
 ```sh
 # Scan a single target
 nmap 10.129.86.241/24
