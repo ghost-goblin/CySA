@@ -27,6 +27,8 @@
 - User and entity behavior analytics (UEBA)
 ## Network
 - Uniform Resource Locator (URL) and domain name system (DNS) analysis
+   + **Percent encoding** allows a user-agaent to submit any safe or unsafe character (or binary data) to the server within the URL (encodeing unreserved characters)
+      + Percent encoding can be misused to obfuscate the nature of a URL and submit input as a script or binary to perform directory transversal
    - **Fast Flux Network** is a method used by malware to hide the presence of C&C networks by continually changing the host IP addresses in domain resords using Domain Generation Algorithms
    - **Domain Generation Algorithm** (DGA) used by malware to evade blacklists by generating domain names for C&C networks dynamically
 - Flow analysis
