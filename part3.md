@@ -27,13 +27,12 @@
 - User and entity behavior analytics (UEBA)
 ## Network
 - Uniform Resource Locator (URL) and domain name system (DNS) analysis
-     - Domain generation algorithm
+   - **Fast Flux Network** is a method used by malware to hide the presence of C&C networks by continually changing the host IP addresses in domain resords using Domain Generation Algorithms
+   - **Domain Generation Algorithm** (DGA) used by malware to evade blacklists by generating domain names for C&C networks dynamically
 - Flow analysis
    + **Flow collector** is a means of recording **metadata** and statistics about network traffic rather than recording each frame
 - Packet and protocol analysis
  - Malware
-   - **Fast Flux Network** is a method used by malware to hide the presence of C&C networks by continually changing the host IP addresses in domain resords using Domain Generation Algorithms
-   - **Domain Generation Algorithm** (DGA) used by malware to evade blacklists by generating domain names for C&C networks dynamically
 
   1. Attacker sets up one or more dynamic DNS services
   2. Malware code implements a DGA to create a list of new domain names
