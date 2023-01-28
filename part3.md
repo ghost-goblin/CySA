@@ -78,3 +78,18 @@
 - Header
     + FTP, Network file sharing activity
     + Web/VPN traffic
+
+# Implement configuration changesto existing controls to improve security
+## Permissions
+## Allow list (previously known as whitelisting)
+## Blocklist (previously known as blacklisting)
+## Firewall
+## Intrusion prevention system (IPS) rules
+## Data loss prevention (DLP)
+## Endpoint detection and response (EDR)
+## Network access control (NAC)
+## Sinkholing
+## Malware signatures
+- Development/rule writing
+## Sandboxing
+## Port security
