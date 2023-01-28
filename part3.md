@@ -34,7 +34,7 @@
  - Malware
  - **Fast Flux Network** is a method used by malware to hide the presence of C&C networks by continually changing the host IP addresses in domain resords using Domain Generation Algorithms
  - **Domain Generation Algorithm** (DGA) used by malware to evade blacklists by generating domain names for C&C networks dynamically
-```sh
+
   1. Attacker sets up one or more dynamic DNS services
   2. Malware code implements a DGA to create a list of new domain names
   3. A parallel DGA is used to create name records on the DDNS service
