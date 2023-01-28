@@ -421,4 +421,4 @@ echo " " | nc -v 10.10.226.5 80
 + Hyper-V / Virtualbox setup
    + `WAN` > bridged adapter to the external network
    + `LAN` > `Default Switch` adapter in Hyper-V
-   + Attach both adapters to the virtal machine and access the admin portal on the `LAN` network on amother machine
+   + Attach both adapters to the virtual machine and access the admin portal on the `LAN` network on amother machine: `http://192.168.1.1/`
