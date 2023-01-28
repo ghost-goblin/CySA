@@ -110,7 +110,7 @@
      ip.src == 152.106.6.125 and ip.dst == 192.168.0.1
      reg query HKLM\Software /v QuietUninstallString /s | find "Wireshark"
     ```
-- `tcpdump`
+- tcpdump
 
 ```sh
 tcpdump -e   # option includes the ethernet header during packet capture
