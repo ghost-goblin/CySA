@@ -7,12 +7,10 @@
 
 </div>
 
+### 🖥️ Home Lab
 
 - - -
 
-
-
-### 🖥️ Home Lab
 
 #### Kali Configs
   
