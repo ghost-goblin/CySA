@@ -46,6 +46,11 @@
 - Event logs
 - Syslog
 - Firewall logs
+   + **ACL**s are processed from __top-to-bottom__ with the most specific rules on top
+     1. Block incoming requests from internal or private, loopback and multicast IP addresses
+     2. Block incoming protocols that should only be used locally i.e. ICMP, DHCP, OSPF, SMB etc.
+     3. Configure IPv6 to either block all IPv6 traffic or allow it to authorised hosts and ports only
+
 - Web application firewall (WAF)
 - Proxy
 - Intrusion detection system (IDS)/ Intrusion prevention system (IPS)
