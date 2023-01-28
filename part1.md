@@ -419,4 +419,6 @@ echo " " | nc -v 10.10.226.5 80
 ```
 #### PfSense
 + Hyper-V / Virtualbox setup
-   + `WAN` & `LAN` Virtual Switch bridged to wireless adapter
+   + `WAN` > bridged adapter to the external network
+   + `LAN` > `Default Switch` adapter in Hyper-V
+   + Attach both adapters to the virtal machine and access the admin portal on the `LAN` network on amother machine
