@@ -374,8 +374,9 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
 - - - 
 
 
-### 🖥️ Lab Setup
-#### Kali
+### 🖥️ Home Lab
+
+#### Kali Configs
   
 ```sh
 # Returns useful information about the specific flavour of the OS and its kernel
@@ -405,7 +406,7 @@ iface eth0 inet static
         dns-nameservers 192.168.1.254
 ```
 
-### Metasploit Framework
+#### Metasploit Framework
 
 ```sh
 # Initialise the database
@@ -413,11 +414,12 @@ sudo msfdb init
 msfconsole -q
 ```
 
-### 🚩 **Banner Grabbing**
+#### 🚩 **Banner Grabbing**
 ```sh
 echo " " | nc -v 10.10.226.5 80
 ```
-#### PfSense
+
+#### 🔥 PfSense Firewall
 + Hyper-V / Virtualbox setup
    + `WAN` > bridged adapter to the external network
    + `LAN` > `Default Switch` adapter in Hyper-V
