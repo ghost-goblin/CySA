@@ -50,6 +50,7 @@
      1. Block incoming requests from internal or private, loopback and multicast IP addresses
      2. Block incoming protocols that should only be used locally i.e. ICMP, DHCP, OSPF, SMB etc.
      3. Configure IPv6 to either block all IPv6 traffic or allow it to authorised hosts and ports only
+     4. Block outgoing ICMP status messages to prevent firewalking
 
 - Web application firewall (WAF)
 - Proxy
