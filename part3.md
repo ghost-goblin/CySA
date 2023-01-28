@@ -44,6 +44,9 @@
 - Organization impact vs. localized impact
 - Immediate vs. total
 ## Security Information and Event Management (SIEM) review
+- Rule writing
+- Known-bad Internet protocol (IP)
+- Dashboard
 + Host-centric log sources
     + Log removal
        - WinEventLog EventID `104`
@@ -56,5 +59,22 @@
     + PowerShell execution
 + Network-centric Lod
     + SSH
+
+## Query writing
+- String search
+- Script
+- Piping
+## E-mail analysis
+- Malicious payload
+- Domain Keys Identified Mail (DKIM)
+- Domain-based Message Authentication, Reporting, and Conformance (DMARC)
+- Sender Policy Framework (SPF)
+- Phishing
+- Forwarding
+- Digital signature
+- E-mail signature block
+- Embedded links
+- Impersonation
+- Header
     + FTP, Network file sharing activity
     + Web/VPN traffic
