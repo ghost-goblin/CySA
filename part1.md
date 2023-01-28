@@ -375,7 +375,8 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
 
 
 ### 🖥️ Lab Setup
-
+#### Kali
+  
 ```sh
 # Returns useful information about the specific flavour of the OS and its kernel
 uname -a
@@ -416,3 +417,6 @@ msfconsole -q
 ```sh
 echo " " | nc -v 10.10.226.5 80
 ```
+###' PfSense
++ Hyper-V / Virtualbox setup
++ `WAN` & `LAN` Virtual Switch bridged to wireless adapter
