@@ -417,6 +417,6 @@ msfconsole -q
 ```sh
 echo " " | nc -v 10.10.226.5 80
 ```
-###' PfSense
+#### PfSense
 + Hyper-V / Virtualbox setup
-+ `WAN` & `LAN` Virtual Switch bridged to wireless adapter
+   + `WAN` & `LAN` Virtual Switch bridged to wireless adapter
