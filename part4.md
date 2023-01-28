@@ -111,6 +111,14 @@
      reg query HKLM\Software /v QuietUninstallString /s | find "Wireshark"
     ```
 - `tcpdump`
+
+```sh
+tcpdump -e   # option includes the ethernet header during packet capture
+tcpdump -n   # flag will show the IP addresses in numeric form
+tcpdump -nn  # option shows IP addresses and ports in numeric format
+tcpdump -X   # option will capture the packet's payload in hex and ASCII formats.
+```
+
 ## Endpoint
 - Disk
 - Memory
