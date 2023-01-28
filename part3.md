@@ -93,3 +93,28 @@
 - Development/rule writing
 ## Sandboxing
 ## Port security
+
+# Proactive threat hunting
+## Establishing a hypothesis
+## Profiling threat actors and activities
+## Threat hunting tactics
+- Executable process analysis
+## Reducing the attack surface area
+## Bundling critical assets
+## Attack vectors
+## Integrated intelligence
+## Improving detection capabilities
+
+# Automation concepts and technologies
+## Workflow orchestration
+- Security Orchestration, Automation, and Response (SOAR)
+## Scripting
+## Application programming interface (API) integration
+## Automated malware signature creation
+## Data enrichment
+## Threat feed combination
+## Machine learning
+## Use of automation protocols and standards
+- Security Content Automation Protocol (SCAP)
+## Continuous integration
+## Continuous deployment/delivery
