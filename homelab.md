@@ -62,4 +62,4 @@ echo " " | nc -v 10.10.226.5 80
    + `WAN` > bridged adapter to the external network
    + `LAN` > `Default Switch` adapter in Hyper-V
    + Attach both adapters to the virtual machine and access the admin portal on the `LAN` network on amother machine: `http://192.168.1.1/`
-+ Blackholing can be used to stop a DDoS attack at the routing layer by sending traffic to the `null0` interface
++ **Blackholing** can be used to stop a DDoS attack at the routing layer by sending traffic to the `null0` interface
