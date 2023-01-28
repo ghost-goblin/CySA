@@ -24,13 +24,12 @@
      - Anomalous behavior
      - Exploit techniques
 - File system
-- User and entity behavior
- analytics (UEBA)
+- User and entity behavior analytics (UEBA)
 ## Network
 - Uniform Resource Locator (URL) and domain name system (DNS) analysis
      - Domain generation algorithm
 - Flow analysis
- + **Flow collector** is a means of recording **metadata** and statistics about network traffic rather than recording each frame
+   + **Flow collector** is a means of recording **metadata** and statistics about network traffic rather than recording each frame
 - Packet and protocol analysis
  - Malware
  - **Fast Flux Network** is a method used by malware to hide the presence of C&C networks by continually changing the host IP addresses in domain resords using Domain Generation Algorithms
