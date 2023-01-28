@@ -27,12 +27,17 @@
 - User and entity behavior
  analytics (UEBA)
 ## Network
-- Uniform Resource Locator (URL) and
- domain name system (DNS) analysis
+- Uniform Resource Locator (URL) and domain name system (DNS) analysis
      - Domain generation algorithm
 - Flow analysis
 - Packet and protocol analysis
  - Malware
+ - **Domain Generation Algorithm** (DGA) used by malware to evade blacklists by generating domain names for C&C networks dynamically
+  1. Attacker sets up one or more dynamic DNS services
+  2. Malware code implements a DGA to create a list of new domain names
+  3. A parallel DGA is used to create name records on the DDNS service
+  4. The malware tries a selection of the domains it has created to connect to the C2 server
+  5. C&C server communicates with a new seed for the DGA to prevent from being blocked
 ## Log review
 - Event logs
 - Syslog
