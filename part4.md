@@ -10,7 +10,7 @@
 
  </div>
 
-# Incident response process
+# 🎨 Incident response process
 ## Communication plan
 - Limiting communication to trusted parties
 - Disclosing based on regulatory/ legislative requirements
@@ -34,7 +34,7 @@
 - Intellectual property
 - Corporate information
 
-# Apply the appropriate incident response procedure
+# 🖌️ Apply the appropriate incident response procedure
 ## Preparation
 - Training
 - Testing
@@ -70,7 +70,7 @@
 - IoC generation
 
 
-# Analyze potential indicators of compromise (IOCs)
+# 📐 Analyze potential indicators of compromise (IOCs)
 ## Network-related
 - Bandwidth consumption
 - Beaconing
@@ -101,7 +101,7 @@
 - Application log
 
 
-# Utilize basic digital forensics techniques
+# 🧪 Utilize basic digital forensics techniques
 # Network
 - Wireshark
     + Display filters
