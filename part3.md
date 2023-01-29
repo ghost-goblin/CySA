@@ -14,6 +14,24 @@
 ## Heuristics
 ## Trend analysis
 ## Endpoint
+
+
+
+| Layered Host Security                       |
+|---------------------------------------------|
+| Password and authentication                 |
+| Encryption                                  |
+| Host based firewalls or IPS                 |
+| Data Loss Prevention software               |
+| White-lists/black-lists                     |
+| Patch management                            |
+| Antivirus                                   |
+| System hardening                            |
+| Configuration management                    |
+| File Integrity Monitoring                   |
+| Logging                                     |
+
+
 - Malware
      - Reverse engineering
 - Memory
