@@ -29,8 +29,10 @@
 - Uniform Resource Locator (URL) and domain name system (DNS) analysis
    + **Percent encoding** allows a user-agaent to submit any safe or unsafe character (or binary data) to the server within the URL (encodeing unreserved characters)
       + Percent encoding can be misused to obfuscate the nature of a URL and submit input as a script or binary to perform directory transversal
-   - **Fast Flux Network** is a method used by malware to hide the presence of C&C networks by continually changing the host IP addresses in domain resords using Domain Generation Algorithms
+   - **Fast Flux Network** is a method used by malware to hide the presence of C&C networks by continually changing the host IP addresses in domain resords using _Domain Generation Algorithms_
    - **Domain Generation Algorithm** (DGA) used by malware to evade blacklists by generating domain names for C&C networks dynamically
+   - **Fast Flux DNS** is a technique that rapidly changed the IP address with the associated domain
+   - **Port Hopping** - An APT's C2 application might use any port to communicate and may jump betweeen different ports
 - Flow analysis
    + **Flow collector** is a means of recording **metadata** and statistics about network traffic rather than recording each frame
 - Packet and protocol analysis
