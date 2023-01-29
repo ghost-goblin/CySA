@@ -114,9 +114,23 @@
 
 # Implement configuration changes to existing controls to improve security
 ## Permissions
+
+
 ## Allow list (previously known as whitelisting)
+
 ## Blocklist (previously known as blacklisting)
+
 ## Firewall
++ Rest at network boundary
++ Packet Filtering
+    + Check each packet against ACL rules for IP and Port
++ Stateful Inspection
+    + Maintain information about the state of each connection
++ **NGFW**s - Next Generation Firewalls
+    + Contextual information - recognizes users, apps, and processes to make decisions
+    + Layer 7 of OSI model
+
+
 ## Intrusion prevention system (IPS) rules
 ## Data loss prevention (DLP)
 ## Endpoint detection and response (EDR)
