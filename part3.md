@@ -33,7 +33,7 @@
 
 
 - Malware
-     - Reverse engineering
+     - **Reverse engineering** is the process of analysing the structure of hardware or software to reveal more about how it functions
 - Memory
 - System and application behavior
      - Known-good behavior
@@ -165,6 +165,7 @@
 
 ## Malware signatures
 - Development/rule writing
++ Most modern malware used _fileless_ techniques to avoid detection by a signature-based system
 
 
 ## Sandboxing
