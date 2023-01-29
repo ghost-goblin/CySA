@@ -10,7 +10,7 @@
 
  </div>
 
-# Analyze data as part of security monitoring activities
+# 📊 Analyze data as part of security monitoring activities
 ## Heuristics
 ## Trend analysis
 ## Endpoint
@@ -130,7 +130,7 @@
     + Web/VPN traffic
 
 
-# Implement configuration changes to existing controls to improve security
+# ⚙️ Implement configuration changes to existing controls to improve security
 ## Permissions
 + Zero trust and least privilege access
 
@@ -175,7 +175,7 @@
 
 ## Port security
  
-# Proactive threat hunting
+# 🗡️ Proactive threat hunting
 ## Establishing a hypothesis
 ## Profiling threat actors and activities
 ## Threat hunting tactics
@@ -187,7 +187,7 @@
 ## Improving detection capabilities
 
 
-# Automation concepts and technologies
+# 🤖 Automation concepts and technologies
 ## Workflow orchestration
 - Security Orchestration, Automation, and Response (SOAR)
 ## Scripting
