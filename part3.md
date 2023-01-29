@@ -59,7 +59,16 @@
   + Prevent web-based exploits and vulnerbilities like SQL injection, XML injection, and XSS attacks
 
 - Proxy
+   + Forward Proxy
+   + Reverse Proxy
+   + **Nontransparent Proxy** is a server that redirects requests and responses for clients configured with the proxy address and port
+
 - Intrusion detection system (IDS)/ Intrusion prevention system (IPS)
+  + An IPS is an IDS that can actively block an attack
+     + **Snort** (IDS / IPS), open-source for Windows and selected Linux distros
+     + **Zeek** (Bro), open-source IDS for Unix/Linux distros
+     + **Security Onion**, open-source Linux-based platform for security monitoring, incident reesponse and threat hunting (bundles Snort, Suricata, Zeek, Wireshark, and NetworkMiner)
+
 ## Impact analysis
 - Organization impact vs. localized impact
 - Immediate vs. total
