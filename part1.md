@@ -120,7 +120,7 @@
   
 - - -
 
-# Utilize threat intelligence to support organizational security
+# 🧠 Utilize threat intelligence to support organizational security
 ## Attack Frameworks
 + [MITRE ATT&CK](https://attack.mitre.org/) Framework | [attack.mitre.org](https://attack.mitre.org/)
   - A open-source knowledge base for listing and explaining specific adversary cyber tactics, techniques, and common knowleadge or precedures
@@ -187,7 +187,7 @@ Infrastucture:======:======::======:======: Capability
   + Impact
   + Likelihood
 
-## Threat Intelligence Sharing with Supported Functions
+## 💀 Threat Intelligence Sharing with Supported Functions
 + Incident Response
 + Vulnerability Management
 + Risk Management
@@ -292,7 +292,7 @@ nmap -sV -sC --script vuln 10.10.226.53
 - Prowler
 - Pacu
 
-# Threats and vulnerabilities associated with specialized technology
+# 📱 Threats and vulnerabilities associated with specialized technology
 ## Mobile
 ## Internet of Things (IoT)
 ## Embedded
@@ -308,7 +308,7 @@ nmap -sV -sC --script vuln 10.10.226.53
 ## Supervisory control and data acquisition (SCADA)
 - Modbus
 
-# Threats and vulnerabilities operating in the cloud
+# ☁️ Threats and vulnerabilities operating in the cloud
 ## Cloud service models
 - Software as a Service (SaaS)
 - Platform as a Service (PaaS)
