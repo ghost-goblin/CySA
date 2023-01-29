@@ -56,7 +56,11 @@
 
 ## Indicator Management
 1. Structured Threat Information eXpression (STIX)
-   + XML for security
+   + JSON for security
+     - Observed Data
+     - Indicator
+     - Attack Patterm
+     - Campaign and Threat Actors
 
 ```json
   {
@@ -71,7 +75,9 @@
 ```
 
 2. Trusted Automated eXchange of Indicator Information (TAXII)
+  + A **protocol** for supplying codified information to automate incident detection and analysis
 3. OpenIoC
+  + A framework by Madiant that used XML-formatted files for supplying codied information to automate incident detection and analysis
 
 ## Threat Classification
 + Known threat vs. unknown threat
