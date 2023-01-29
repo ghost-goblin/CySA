@@ -10,7 +10,7 @@
 
 </div>
 
-# Apply security solutions for infrastructure management
+# 👮 Apply security solutions for infrastructure management
 ## Cloud vs. on-premises
 ## Asset management
 - Asset tagging
@@ -55,7 +55,7 @@
 
 
 
-# Software assurance best practices
+# 💾 Software assurance best practices
 ## Platforms
 - Mobile
 - Web application
@@ -86,7 +86,7 @@
 - Representational State Transfer (REST)
 - Microservices
 
- # Hardware assurance best practices
+# 💻 Hardware assurance best practices
 ## Hardware root of trust
 - Trusted platform module (TPM)
 - Hardware security module (HSM)
