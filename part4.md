@@ -122,6 +122,8 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 ## Endpoint
 - Disk
 - Memory
+   + **System Memory Acquisition** is a process that creates an image file of the system memory that can be analysed to identify the processes that are running, the contents of the temporary file systems. Registry data, network connections, cryptographic keys and more
+
 ## Mobile
 ## Cloud
 ## Virtualization
@@ -130,6 +132,7 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 ## Hashing
 - Changes to binaries
 ## Carving
+
 ## Data acquisition
 + CPU registers and cache memory
 + Contects of system memory (RAM), routing tables, ARP cache, process table, temporay swap files
