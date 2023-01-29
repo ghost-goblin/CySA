@@ -11,8 +11,6 @@
  </div>
 
 # Analyze data as part of security monitoring activities
-
-
 ## Heuristics
 ## Trend analysis
 ## Endpoint
@@ -25,6 +23,8 @@
      - Exploit techniques
 - File system
 - User and entity behavior analytics (UEBA)
+   + **Microsoft Advanced Threat Analystics**
+   + **Splunk**
    + A system that can provide automated identification of suspicious activity by user accounts and computer hosts
 
 ## Network
