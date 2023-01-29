@@ -10,7 +10,7 @@
 
 </div>
 
-# Explain the importance of threat data and intelligence
+# 👀 Explain the importance of threat data and intelligence
 ## Intelligence Sources
 #### Security Intelligence
 + The process through which data is collected, processed, analyzed, and disseminated to provide insights into the security status of systems, i.e. firewall logs
@@ -239,8 +239,8 @@ Infrastucture:======:======::======:======: Capability
 - Legacy systems
 - Proprietary systems
 
-# Analyze the output from common vulnerability assessment tools
-## 📡 OWASP Zed Attack Proxy (ZAP)
+# 📡 Analyze the output from common vulnerability assessment tools
+## OWASP Zed Attack Proxy (ZAP)
 + [OWASP ZAP](https://www.zaproxy.org/) is an open-source web application security scanner
 - Burp suite
 - Nikto
@@ -332,7 +332,7 @@ nmap -sV -sC --script vuln 10.10.226.53
 - Insufficient logging and monitoring
 - Inability to access
 
-# Implement controls to mitigate attacks and software vulnerabilities
+# 🌱 Implement controls to mitigate attacks and software vulnerabilities
 ## Attack types
 - Extensible markup
  language (XML) attack
