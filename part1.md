@@ -187,7 +187,7 @@ Infrastucture:======:======::======:======: Capability
   + Impact
   + Likelihood
 
-## 💀 Threat Intelligence Sharing with Supported Functions
+## Threat Intelligence Sharing with Supported Functions
 + Incident Response
 + Vulnerability Management
 + Risk Management
