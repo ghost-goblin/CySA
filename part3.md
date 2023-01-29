@@ -23,7 +23,7 @@
    + `csrss.exe` manages low-level Windows functions, running from `%SystemRoot%\System32` and has no parent process
    + `wininit.exe` managed driver and services and should only have a single instance running as a process
    + `Services.exe` hosts nonboot drivers and background services
-   + `lsass.exe` handles authentication and authorisation services, singke instance running as a child of `wininit.exe`
+   + `lsass.exe` handles authentication and authorisation services, single instance running as a child of `wininit.exe`
    + `winlogon.exe` managed access to the user desktop for each user session with Desktop Window Manager (`dwm.exe`) as a child process
    + `userinit.exe` sets up the shell (`explorer.exe`) and then quits
    + `explorer.exe` is the typical user shell launched with the user's account privileges and is the parent process for the logged-on user
