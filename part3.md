@@ -37,12 +37,11 @@
    + **Flow collector** is a means of recording **metadata** and statistics about network traffic rather than recording each frame
 - Packet and protocol analysis
  - Malware
-
-  1. Attacker sets up one or more dynamic DNS services
-  2. Malware code implements a DGA to create a list of new domain names
-  3. A parallel DGA is used to create name records on the DDNS service
-  4. The malware tries a selection of the domains it has created to connect to the C2 server
-  5. C&C server communicates with a new seed for the DGA to prevent from being blocked
+     1. Attacker sets up one or more dynamic DNS services
+     2. Malware code implements a DGA to create a list of new domain names
+     3. A parallel DGA is used to create name records on the DDNS service
+     4. The malware tries a selection of the domains it has created to connect to the C2 server
+     5. C&C server communicates with a new seed for the DGA to prevent from being blocked
 
 ## Log review
 - Event logs
