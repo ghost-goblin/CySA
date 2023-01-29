@@ -112,7 +112,7 @@
     + Web/VPN traffic
 
 
-# Implement configuration changesto existing controls to improve security
+# Implement configuration changes to existing controls to improve security
 ## Permissions
 ## Allow list (previously known as whitelisting)
 ## Blocklist (previously known as blacklisting)
