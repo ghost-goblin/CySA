@@ -156,8 +156,11 @@
 
 
 ## Intrusion prevention system (IPS) rules
+
 ## Data loss prevention (DLP)
+
 ## Endpoint detection and response (EDR)
++ Reduce false positives
 
 
 ## Network access control (NAC)
