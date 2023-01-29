@@ -42,8 +42,15 @@
 ## Cloud access security broker (CASB)
 ## Honeypot
 ## Monitoring and logging
+
 ## Encryption
++ Data at rest
++ Security keys and passwords must be secured
++ Hashing required to maintain integrity
+
+
 ## Certificate management
+
 ## Active defense
 
 
