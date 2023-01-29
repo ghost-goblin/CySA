@@ -308,13 +308,18 @@ nmap -sV -sC --script vuln 10.10.226.53
 - Software as a Service (SaaS)
 - Platform as a Service (PaaS)
 - Infrastructure as a Service (IaaS)
+
 ## Cloud deployment models
 - Public
 - Private
 - Community
 - Hybrid
+
 ## Function as a Service (FaaS)/ serverless architecture
+
 ## Infrastructure as code (IaC)
++ Azure Resource Manager (arm) templates
+  
 ## Insecure application programming interface (API)
 ## Improper key management
 ## Unprotected storage
