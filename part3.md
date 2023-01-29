@@ -115,7 +115,13 @@
 ## Intrusion prevention system (IPS) rules
 ## Data loss prevention (DLP)
 ## Endpoint detection and response (EDR)
+
+
 ## Network access control (NAC)
++ 802.1X
++ A standard for encapsulating **EAP** (Extensible Authentication Protocol) communications over a LAN or wireless LAN that provides port-based authentication
+   + **Port-based NAC** is a switch (or router) that performs some sort of authentication of the attached device before activating the port
+
 ## Sinkholing
 ## Malware signatures
 - Development/rule writing
