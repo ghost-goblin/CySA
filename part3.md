@@ -29,14 +29,14 @@
    + `explorer.exe` is the typical user shell launched with the user's account privileges and is the parent process for the logged-on user
      - Known-good behavior
      - Anomalous behavior
-1. Any process name that you do not recognise
-2. Any process name that is similar to a legitime system process (`svhost`)
-3. Processes that appear without an icon, version information, description or company name
-4. Processes that are unsigned
-5. Any process whose digital signiture dioesn't match the identified publisher
-6. Any process that does not have a parent/child relationship with a principle Windows process
-7. Any process hosted by Windows utilities like Explorer
-8. Any proces that is packed or compressed _(highlighted purple)_ in process explorer
+          1. Any process name that you do not recognise
+          2. Any process name that is similar to a legitime system process (`svhost`)
+          3. Processes that appear without an icon, version information, description or company name
+          4. Processes that are unsigned
+          5. Any process whose digital signiture dioesn't match the identified publisher
+          6. Any process that does not have a parent/child relationship with a principle Windows process
+          7. Any process hosted by Windows utilities like Explorer
+          8. Any proces that is packed or compressed _(highlighted purple)_ in process explorer
      - Exploit techniques
 - File system
 - User and entity behavior analytics (UEBA)
