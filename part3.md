@@ -56,6 +56,8 @@
    + A **Black Hole** is a means of mitigating a DoS or intrsuin attacks by silently dropping traffic
 
 - Web application firewall (WAF)
+  + Prevent web-based exploits and vulnerbilities like SQL injection, XML injection, and XSS attacks
+
 - Proxy
 - Intrusion detection system (IDS)/ Intrusion prevention system (IPS)
 ## Impact analysis
