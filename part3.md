@@ -135,6 +135,10 @@
 
 
 ## Sandboxing
++ A computing environment that is isolated from the host system
+   + Monitor system changed
+   + Execute known malware
+
 
 ## Port security
 
