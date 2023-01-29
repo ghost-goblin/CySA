@@ -131,3 +131,11 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 - Changes to binaries
 ## Carving
 ## Data acquisition
++ CPU registers and cache memory
++ Contects of system memory (RAM), routing tables, ARP cache, process table, temporay swap files
++ Data on persistent mass storage (HSS/SDD/flash drive)
++ Remore logging and monitoring data
++ Physical configuration and network topology
++ Archival media
+
+> While most of the Windows registry is stored on the disk, some keys (like `HKLM\Hardware`) are only stored in memory, so you should analyse the Registry via a memory dump
