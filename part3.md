@@ -132,7 +132,7 @@
 
 # Implement configuration changes to existing controls to improve security
 ## Permissions
-
++ Zero trust and least privilege access
 
 ## Allow list (previously known as whitelisting)
 
@@ -174,7 +174,7 @@
 
 
 ## Port security
-
+ 
 # Proactive threat hunting
 ## Establishing a hypothesis
 ## Profiling threat actors and activities
