@@ -70,7 +70,7 @@
 - IoC generation
 
 
-# Analyze potential indicators of compromise
+# Analyze potential indicators of compromise (IOCs)
 ## Network-related
 - Bandwidth consumption
 - Beaconing
