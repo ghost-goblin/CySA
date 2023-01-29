@@ -25,6 +25,8 @@
      - Exploit techniques
 - File system
 - User and entity behavior analytics (UEBA)
+   + A system that can provide automated identification of suspicious activity by user accounts and computer hosts
+
 ## Network
 - Uniform Resource Locator (URL) and domain name system (DNS) analysis
    + **Percent encoding** allows a user-agaent to submit any safe or unsafe character (or binary data) to the server within the URL (encodeing unreserved characters)
@@ -92,6 +94,8 @@
 - String search
 - Script
 - Piping
+
+
 ## E-mail analysis
 - Malicious payload
 - Domain Keys Identified Mail (DKIM)
@@ -106,6 +110,7 @@
 - Header
     + FTP, Network file sharing activity
     + Web/VPN traffic
+
 
 # Implement configuration changesto existing controls to improve security
 ## Permissions
@@ -123,9 +128,14 @@
    + **Port-based NAC** is a switch (or router) that performs some sort of authentication of the attached device before activating the port
 
 ## Sinkholing
+
+
 ## Malware signatures
 - Development/rule writing
+
+
 ## Sandboxing
+
 ## Port security
 
 # Proactive threat hunting
@@ -138,6 +148,7 @@
 ## Attack vectors
 ## Integrated intelligence
 ## Improving detection capabilities
+
 
 # Automation concepts and technologies
 ## Workflow orchestration
