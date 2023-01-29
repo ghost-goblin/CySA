@@ -197,7 +197,9 @@ Infrastucture:======:======::======:======: Capability
   + Analyse the executable process list
   + Analyse other infected hosts
   + Identify how the malicious process was executed
-  
+
+
+# 💔 Vulnerability management activities  
 ## Vulnerability identification
 - Asset criticality
 - Active vs. passive scanning
