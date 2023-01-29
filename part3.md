@@ -128,7 +128,8 @@
    + **Port-based NAC** is a switch (or router) that performs some sort of authentication of the attached device before activating the port
 
 ## Sinkholing
-
++ A technique to redirect malicious traffic to a server under the control of the defender
++ A DNS sinkhole _or black hole DNS_ is used to spoof DNS servers to prevent the resolving hostnames of specific URLS
 
 ## Malware signatures
 - Development/rule writing
