@@ -309,6 +309,7 @@ nmap -sV -sC --script vuln 10.10.226.53
 ## Industrial control system
 ## Supervisory control and data acquisition (SCADA)
 - Modbus
+   + An industrial protocol for communication possible between automation devices over TCP/IP (UDP)
 
 # ☁️ Threats and vulnerabilities operating in the cloud
 ## Cloud service models
