@@ -31,7 +31,7 @@
 #### Proprietary-Source Intelligence
 + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
 #### Closed-Source Intelligence
-+ Honeynet data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
++ _Honeynet_ data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
 
  
 #### Pyramid of Pain
@@ -45,8 +45,13 @@
  '-.._/___...-"-.-..__`.    Hash values
 ```
 
+| CIA Triad       |
+|-----------------|
+| Confidentiality |
+| Integrity       |
+| Availability    |
 
-  
+
 1. **Timeliness**
 2. **Relevancy**
 3. **Accuracy**
@@ -362,6 +367,9 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
  - Reflected
  - Persistent
  - Document object model (DOM)
+
+
+
 ## Vulnerabilities
 - Improper error handling
 - Dereferencing
