@@ -45,11 +45,12 @@
  '-.._/___...-"-.-..__`.    Hash values
 ```
 
-| CIA Triad       |
-|-----------------|
-| Confidentiality |
-| Integrity       |
-| Availability    |
+ ### The 3 main objectives of cybersecurity prodessionals is:
+| **CIA** Triad           |
+|---------------------|
+| **C**onfidentiality |
+| **I**ntegrity       |
+| **A**vailability    |
 
 
 1. **Timeliness**
