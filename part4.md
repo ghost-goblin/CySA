@@ -121,6 +121,10 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 
 ## Endpoint
 - Disk
+   + `C:\Windows\AppCompat\Programs\Amcache.hve` - Windows programs that were recently run on the system
+   + `C:\Windows\System32\Config`
+   + `C:\Windows\System32\Config\RegBack`
+   + NTUSER.DAT hive in the `C:\Users\<username>\` directory
 - Memory
    + **System Memory Acquisition** is a process that creates an image file of the system memory that can be analysed to identify the processes that are running, the contents of the temporary file systems. Registry data, network connections, cryptographic keys and more
 
