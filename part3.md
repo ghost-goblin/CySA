@@ -178,7 +178,7 @@
 + Whitelisting can be an effective fallback posture to use while conduting incident response
 
 ## Blocklist (previously known as blacklisting)
-+ `dig axfr example.com @ns1.example.com` DNS Zone transfers
+
  
 ## Firewall
 + Rest at network boundary
