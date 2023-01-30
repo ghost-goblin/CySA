@@ -204,7 +204,7 @@ Infrastucture:======:======::======:======: Capability
 ## Vulnerability identification
 - Asset criticality
 - Active vs. passive scanning
- + Pinging Hosts
+   + Pinging Hosts
 - Mapping/Enumeration
    + DNS Zone transfers `dig axfr example.com @ns1.example.com`
 ## Validation
