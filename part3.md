@@ -118,7 +118,8 @@
 - String search
 - Script
 - Piping
-
+ + `get-winevent -listlog * | where-object { $_.logname -like "*IIS*" } | format-list -property logname`
+  
 
 ## E-mail analysis
 - Malicious payload
