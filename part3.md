@@ -71,7 +71,14 @@
 
 ## Log review
 - Event logs
+   1. Application
+   2. Security
+   3. System
+   4. Setup
+   5. Forwarded Events
 - Syslog
+   + A protocol enabling different appliances and software to transmit logs or event records to a central server
+   + Port 514 (UDP) over TCP/IP, i.e. `10.1.0.248:514` (newer implemetations can use TLS 1.3)
 - Firewall logs
    + **ACL**s are processed from __top-to-bottom__ with the most specific rules on top
      1. Block incoming requests from internal or private, loopback and multicast IP addresses
@@ -108,7 +115,16 @@
 - Organization impact vs. localized impact
 - Immediate vs. total
 ## Security Information and Event Management (SIEM) review
+    1. Splunk
+    2. ELK / Elastic Stack
+    3. ArcSight
+    4. QRadar
+    5. Alien Vault and OSSIM
+    6. Graylog
 - Rule writing
+  + Data sources with indicators
+  + Query strings used to correlate indicators
+  + Action to occur when event is triggered
 - Known-bad Internet protocol (IP)
 - Dashboard
 + Host-centric log sources
