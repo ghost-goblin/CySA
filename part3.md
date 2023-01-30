@@ -24,7 +24,7 @@
      + **Downloader** is a piece of code that connects to the Internet to retrieve additional tools after the initial infection by a dropper
      + Shellcode is any lightweight code designed to run an exploit on the target, which may include any type of code format from scripting to binary code
    + [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/) Process Utilities:
-     + autoruns
+     + `autoruns` - perform baseline system scans
      + ProcDump
 - Memory
 - System and application behavior
