@@ -161,6 +161,7 @@
 
 ## Endpoint detection and response (EDR)
 + Reduce false positives
++ [VirusTotal](https://www.virustotal.com/)
 
 
 ## Network access control (NAC)
