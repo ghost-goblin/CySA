@@ -12,7 +12,11 @@
 
 # 📊 Analyze data as part of security monitoring activities
 ## Heuristics
++  Focusses on behaviours instead of looking for a specific package
+ 
 ## Trend analysis
++ Identitfy large-scale changes from the norm
+
 ## Endpoint
 - Malware
      - **Reverse engineering** is the process of analysing the structure of hardware or software to reveal more about how it functions
