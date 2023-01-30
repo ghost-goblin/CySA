@@ -88,11 +88,21 @@
    + Reverse Proxy
    + **Nontransparent Proxy** is a server that redirects requests and responses for clients configured with the proxy address and port
 
-- Intrusion detection system (IDS)/ Intrusion prevention system (IPS)
-  + An IPS is an IDS that can actively block an attack
-     + **Snort** (IDS / IPS), open-source for Windows and selected Linux distros
-     + **Zeek** (Bro), open-source IDS for Unix/Linux distros
-     + **Security Onion**, open-source Linux-based platform for security monitoring, incident reesponse and threat hunting (bundles Snort, Suricata, Zeek, Wireshark, and NetworkMiner)
+- Intrusion detection system (IDS) / Intrusion prevention system (IPS)
+     1. **Network Intrusion Detection System** (NIDS) monitors the traffic flow from various areas of the network
+     2. **Host-based Intrusion Detection System** (HIDS) monitors the traffic flow from a _single endpoint device_
+  + An **IPS** is an IDS that can actively block an attack
+     1. Network Intrusion Prevention System (NIPS)
+     2. Behaviour-based Intrusion Prevention System (Network Behaviour Analysis - NBA)
+     3. Wireless Intrusion Prevention System (WIPS)
+     4. Host-based Intrusion Prevention System (HIPS)
+  + Detection /Prevention Techniques
+     + Signature-Based
+     + Behaviour-Based
+     + Policy-Based
+  + 🐽 **Snort** (IDS / IPS), open-source for Windows and selected Linux distros
+  + **Zeek** (Bro), open-source IDS for Unix/Linux distros
+  + 🧅 **Security Onion**, open-source Linux-based platform for security monitoring, incident reesponse and threat hunting (bundles Snort, Suricata, Zeek, Wireshark, and NetworkMiner)
 
 ## Impact analysis
 - Organization impact vs. localized impact
