@@ -141,6 +141,7 @@
 + Zero trust and least privilege access
 
 ## Allow list (previously known as whitelisting)
++ Whitelisting can be an effective fallback posture to use while conduting incident response
 
 ## Blocklist (previously known as blacklisting)
 
@@ -162,6 +163,8 @@
 ## Endpoint detection and response (EDR)
 + Reduce false positives
 + [VirusTotal](https://www.virustotal.com/)
+    + Or create custom signatures or detection rules
++ Yara
 
 
 ## Network access control (NAC)
@@ -209,5 +212,4 @@
 ## Machine learning
 ## Use of automation protocols and standards
 - Security Content Automation Protocol (SCAP)
-## Continuous integration
-## Continuous deployment/delivery
+## Continuous integration / Continuous deployment/delivery
