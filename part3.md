@@ -23,9 +23,9 @@
      + **Dropper** Malware is designed to install or run other types of malware embedded in a payload on an infected host
      + **Downloader** is a piece of code that connects to the Internet to retrieve additional tools after the initial infection by a dropper
      + Shellcode is any lightweight code designed to run an exploit on the target, which may include any type of code format from scripting to binary code
-   + [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/) Process Utilities
-    + autoruns
-    + ProcDump
+   + [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/) Process Utilities:
+     + autoruns
+     + ProcDump
 - Memory
 - System and application behavior
   - Behaviour Analysis
