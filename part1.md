@@ -200,11 +200,12 @@ Infrastucture:======:======::======:======: Capability
   + Identify how the malicious process was executed
 
 
-# 💔 Vulnerability management activities  
+# 🩹 Vulnerability management activities  
 ## Vulnerability identification
 - Asset criticality
 - Active vs. passive scanning
 - Mapping/enumeration
+   + DNS Zone transfers `dig axfr example.com @ns1.example.com`
 ## Validation
 - True positive
 - False positive
@@ -218,8 +219,7 @@ Infrastucture:======:======::======:======: Capability
 - Risk acceptance
 - Verification of mitigation
 ## Scanning parameters and criteria
-- Risks associated with
- scanning activities
+- Risks associated with scanning activities
 - Vulnerability feed
 - Scope
 - Credentialed vs. non-credentialed
