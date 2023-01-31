@@ -212,22 +212,26 @@ Infrastucture:======:======::======:======: Capability
 | Burp     | Using open-source intelligence (OSINT)  |
 
 - Mapping/Enumeration
-+ SSL and TLS:
-    + **TLS 1.2** or newer
-    + Must use current, secure ciphers
-    + Certificates must remain valid and uncompromised
-+ Domain Name Server:
-   + DNS Zone transfers `dig axfr example.com @ns1.example.com`
-+ Internal IP Disclosure
-   + Bad packet headers revealing information that should be hidden by NAT
-+ VPN
-   + Protocols, encryption tunnels can be vulnerable
+    + SSL and TLS:
+        + **TLS 1.2** or newer
+        + Must use current, secure ciphers
+        + Certificates must remain valid and uncompromised
+    + Domain Name Server:
+       + DNS Zone transfers `dig axfr example.com @ns1.example.com`
+    + Internal IP Disclosure
+       + Bad packet headers revealing information that should be hidden by NAT
+    + VPN
+       + Protocols, encryption tunnels can be vulnerable
 
 ## Validation
 - True positive
+    + A legitimate attack which triggers to produce an alarm
 - False positive
+    + An event signalling to produce an alarm when no attack has taken place
 - True negative
+    + When no alarm is raised when an attack has taken place
 - False negative
+    + An event when no attack has occurred, and no detection is made
 
 ## Remediation/Mitigation
 - Configuration baseline
