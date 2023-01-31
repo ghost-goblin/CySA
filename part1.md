@@ -204,21 +204,39 @@ Infrastucture:======:======::======:======: Capability
 ## Vulnerability identification
 - Asset criticality
 - Active vs. passive scanning
-   + Pinging Hosts
+
+| Active   | Passive                                 |
+|----------|-----------------------------------------|
+| Nmap     | DNS reconnaissance                      |
+| Gobuster | Simple packet monitoring and inspection |
+| Burp     | Using open-source intelligence (OSINT)  |
+
 - Mapping/Enumeration
++ SSL and TLS:
+    + **TLS 1.2** or newer
+    + Must use current, secure ciphers
+    + Certificates must remain valid and uncompromised
++ Domain Name Server:
    + DNS Zone transfers `dig axfr example.com @ns1.example.com`
++ Internal IP Disclosure
+   + Bad packet headers revealing information that should be hidden by NAT
++ VPN
+   + Protocols, encryption tunnels can be vulnerable
+
 ## Validation
 - True positive
 - False positive
 - True negative
 - False negative
-## Remediation/mitigation
+
+## Remediation/Mitigation
 - Configuration baseline
 - Patching
 - Hardening
 - Compensating controls
 - Risk acceptance
 - Verification of mitigation
+
 ## Scanning parameters and criteria
 - Risks associated with scanning activities
 - Vulnerability feed
@@ -234,6 +252,7 @@ Infrastucture:======:======::======:======: Capability
  - Regulatory requirements
  - Segmentation
  - Intrusion prevention system (IPS), intrusion detection system (IDS), and firewall settings
+
 ## Inhibitors to remediation
 - Memorandum of understanding (MOU)
 - Service-level agreement (SLA)
@@ -263,30 +282,24 @@ Infrastucture:======:======::======:======: Capability
 ```sh
 # Scan a single target
 nmap 10.129.86.241/24
-
 # Service Version Detection
 nmap -sV 10.129.86.241
-
 # Operating System Detection
 nmap -O 10.129.86.241
-
 # Run a detailed scan on open ports
 nmap 10.10.11.125 -sV -sC -p22,80,1337 -T4
-
 # Scan a server for open ports + running software version + OS + save to file named nmap_scan.txt
 nmap -sV -O -oN nmap_scan.txt 10.10.226.53
-
 # Scan server for ALL open ports + find what version of software is running (will take more time)
 # Treat all host as online (useful if scan is being blocked by firewall)
 nmap -sV -p- -Pn 10.10.226.53
-
 # Scan with some basic scripts
 nmap -sV -sC --script vuln 10.10.226.53
 ```
-
 - hping
 - Active vs. passive
 - Responder
+
 ## Wireless assessment tools
 - Aircrack-ng
 - Reaver
