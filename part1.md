@@ -297,8 +297,13 @@ nmap -sV -p- -Pn 10.10.226.53
 nmap -sV -sC --script vuln 10.10.226.53
 ```
 - hping
+
 - Active vs. passive
-- Responder
+
+- [Responder](https://github.com/SpiderLabs/Responder)
++ A python script whisch is a hybrid between active and passive information gathering
++ Passivley monitors the network, waiting for system to send out broadcasts intended for other devices running network services
++ Actively attempts to the hijack the session onces passively identifying these requests
 
 ## Wireless assessment tools
 - Aircrack-ng
