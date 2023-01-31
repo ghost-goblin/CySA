@@ -83,10 +83,10 @@
 ```
 
 2. Trusted Automated eXchange of Indicator Information (TAXII)
-  + A **protocol** for supplying codified information to automate incident detection and analysis
+   + A **protocol** for supplying codified information to automate incident detection and analysis
 3. OpenIoC
-  + A framework by Madiant that used XML-formatted files for supplying codied information to automate incident detection and analysis
-+ **Malware Information Sharing Project** (MISP) provides a server platform for cyber threat intelligence sharing, a proprietary format, supports open IOC definitions, and can import and export STIX over TAXII
+   + A framework by Madiant that used XML-formatted files for supplying codied information to automate incident detection and analysis
+   + **Malware Information Sharing Project** (MISP) provides a server platform for cyber threat intelligence sharing, a proprietary format, supports open IOC definitions, and can import and export STIX over TAXII
 
 
 ## Threat Classification
@@ -171,10 +171,6 @@ Infrastucture:======:======::======:======: Capability
       - Suspicious or unauthorised acoount usage
 + **Common Vulnerability Scoring System** (CVSS)
    + Prioritise response actions
-   + Gives a qualitative measure of severity via 3 metric groups
-      1. __Base__
-      2. __Temporal__
-      3. __Environmental__
 ## Threat Modeling Methodologies
   + Adversary capability
   + Total attack surface
@@ -342,19 +338,15 @@ nmap -sV -sC --script vuln 10.10.226.53
 - Software as a Service (SaaS)
 - Platform as a Service (PaaS)
 - Infrastructure as a Service (IaaS)
-
 ## Cloud deployment models
 - Public
 - Private
 - Community
 - Hybrid
-
 ## Function as a Service (FaaS)/ serverless architecture
-
 ## Infrastructure as code (IaC)
 + DevOps
 + Azure Resource Manager (ARM) templates
-  
 ## Insecure application programming interface (API)
 ## Improper key management
 ## Unprotected storage
