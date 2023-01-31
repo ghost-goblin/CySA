@@ -221,10 +221,13 @@ Infrastucture:======:======::======:======: Capability
 ## Vulnerability identification
 - Asset criticality
 - Active vs. passive scanning
-    + Pinging hosts
-    + Port scanning and service discovery
-    + Passive Footprinting
-       + Log data and configuration analysis
+
+| Active   | Passive                                 |
+|----------|-----------------------------------------|
+| Nmap     | DNS reconnaissance                      |
+| Gobuster | Simple packet monitoring and inspection |
+| Burp     | Using open-source intelligence (OSINT)  |
+       
 
 - Mapping/Enumeration
     + SSL and TLS:
@@ -284,6 +287,25 @@ Infrastucture:======:======::======:======: Capability
 - Legacy systems
 - Proprietary systems
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 📡 Analyze the output from common vulnerability assessment tools
 ## OWASP Zed Attack Proxy (ZAP)
 + [OWASP ZAP](https://www.zaproxy.org/) is an open-source web application security scanner
@@ -323,13 +345,13 @@ nmap -sV -sC --script vuln 10.10.226.53
     + `sudo hping3 -S --flood -p 80 www.wisetut.com`
 
 - Active vs. passive
-
-| Active   | Passive                                 |
-|----------|-----------------------------------------|
-| Nmap     | DNS reconnaissance                      |
-| Gobuster | Simple packet monitoring and inspection |
-| Burp     | Using open-source intelligence (OSINT)  |
-
+    + Pinging hosts
+    + Port scanning and service discovery
+    + Passive Footprinting
+       + Log data and configuration analysis
+    + Social Engineering
+       + Creepy
+       
 
 - [Responder](https://github.com/SpiderLabs/Responder)
     + A python script whisch is a hybrid between active and passive information gathering
@@ -370,6 +392,16 @@ nmap -sV -sC --script vuln 10.10.226.53
 ## Supervisory control and data acquisition (SCADA)
 - Modbus
    + An industrial protocol for communication possible between automation devices over TCP/IP (UDP)
+
+
+
+
+
+
+
+
+
+
 
 # ☁️ Threats and vulnerabilities operating in the cloud
 ## Cloud service models
