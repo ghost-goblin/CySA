@@ -121,7 +121,12 @@
 + Government
 + Critical infrastructure
   
-- - -
+
+
+
+
+
+
 
 # 🧠 Utilize threat intelligence to support organizational security
 ## Attack Frameworks
@@ -198,6 +203,20 @@ Infrastucture:======:======::======:======: Capability
   + Identify how the malicious process was executed
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 🩹 Vulnerability management activities  
 ## Vulnerability identification
 - Asset criticality
@@ -205,6 +224,7 @@ Infrastucture:======:======::======:======: Capability
     + Pinging hosts
     + Port scanning and service discovery
     + Passive Footprinting
+       + Log data and configuration analysis
 
 - Mapping/Enumeration
     + SSL and TLS:
@@ -215,6 +235,7 @@ Infrastucture:======:======::======:======: Capability
        + Harvesting data with `whois` and `nslookup`
        + **DNS Zone transfers**: 
             + `dig axfr example.com @ns1.example.com`
+       + DNS Brute Forcing
     + Internal IP Disclosure
        + Bad packet headers revealing information that should be hidden by NAT
     + VPN
@@ -324,6 +345,15 @@ nmap -sV -sC --script vuln 10.10.226.53
 - Prowler
 - Pacu
 
+
+
+
+
+
+
+
+
+
 # 📱 Threats and vulnerabilities associated with specialized technology
 ## Mobile
 ## Internet of Things (IoT)
@@ -362,6 +392,14 @@ nmap -sV -sC --script vuln 10.10.226.53
 - Insufficient logging and monitoring
 - Inability to access
 
+
+
+
+
+
+
+
+
 # 🌱 Implement controls to mitigate attacks and software vulnerabilities
 ## Attack types
 - Extensible markup
@@ -397,9 +435,6 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
  - Reflected
  - Persistent
  - Document object model (DOM)
-
-
-
 ## Vulnerabilities
 - Improper error handling
 - Dereferencing
