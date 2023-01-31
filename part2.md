@@ -91,6 +91,7 @@
 - Trusted platform module (TPM)
 - Hardware security module (HSM)
 ## eFuse
+ + Firmware security
 ## Unified Extensible Firmware Interface (UEFI)
 ## Trusted foundry
 ## Secure processing
