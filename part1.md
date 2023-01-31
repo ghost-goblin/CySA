@@ -202,12 +202,9 @@ Infrastucture:======:======::======:======: Capability
 ## Vulnerability identification
 - Asset criticality
 - Active vs. passive scanning
-
-| Active   | Passive                                 |
-|----------|-----------------------------------------|
-| Nmap     | DNS reconnaissance                      |
-| Gobuster | Simple packet monitoring and inspection |
-| Burp     | Using open-source intelligence (OSINT)  |
+    + Pinging hosts
+    + Port scanning and service discovery
+    + Passive Footprinting
 
 - Mapping/Enumeration
     + SSL and TLS:
@@ -215,7 +212,8 @@ Infrastucture:======:======::======:======: Capability
         + Must use current, secure ciphers
         + Certificates must remain valid and uncompromised
     + Domain Name Server:
-       + DNS Zone transfers 
+       + Harvesting data with `whois` and `nslookup`
+       + **DNS Zone transfers**: 
             + `dig axfr example.com @ns1.example.com`
     + Internal IP Disclosure
        + Bad packet headers revealing information that should be hidden by NAT
@@ -304,6 +302,13 @@ nmap -sV -sC --script vuln 10.10.226.53
     + `sudo hping3 -S --flood -p 80 www.wisetut.com`
 
 - Active vs. passive
+
+| Active   | Passive                                 |
+|----------|-----------------------------------------|
+| Nmap     | DNS reconnaissance                      |
+| Gobuster | Simple packet monitoring and inspection |
+| Burp     | Using open-source intelligence (OSINT)  |
+
 
 - [Responder](https://github.com/SpiderLabs/Responder)
     + A python script whisch is a hybrid between active and passive information gathering
