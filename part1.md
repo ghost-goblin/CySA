@@ -215,7 +215,8 @@ Infrastucture:======:======::======:======: Capability
         + Must use current, secure ciphers
         + Certificates must remain valid and uncompromised
     + Domain Name Server:
-       + DNS Zone transfers `dig axfr example.com @ns1.example.com`
+       + DNS Zone transfers 
+            + `dig axfr example.com @ns1.example.com`
     + Internal IP Disclosure
        + Bad packet headers revealing information that should be hidden by NAT
     + VPN
@@ -299,6 +300,8 @@ nmap -sV -p- -Pn 10.10.226.53
 nmap -sV -sC --script vuln 10.10.226.53
 ```
 - hping
+    + TCP/IP packet assembler and analyzer
+    + `sudo hping3 -S --flood -p 80 www.wisetut.com`
 
 - Active vs. passive
 
