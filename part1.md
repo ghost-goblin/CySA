@@ -18,6 +18,14 @@
 + The process of investigating, collecting, analysing, and diseminating threat sources to provide data about the external threat landscape
   - Narrative report
   - Data Feeds
+
+#### The 3 main objectives of cybersecurity prodessionals is:
+| **CIA** Triad       |
+|---------------------|
+| **C**onfidentiality |
+| **I**ntegrity       |
+| **A**vailability    |
+
 #### TTPs (Tactics, Techniques, and Procedures)
   + [CISA's (Cybersecurity & Infrastructure Security Agency)](https://www.cisa.gov/uscert/ncas/alerts)
   + [MITRE ATT&CK](https://attack.mitre.org/) Framework | [attack.mitre.org](https://attack.mitre.org/)
@@ -45,12 +53,6 @@
  '-.._/___...-"-.-..__`.    Hash values
 ```
 
- ### The 3 main objectives of cybersecurity prodessionals is:
-| **CIA** Triad           |
-|---------------------|
-| **C**onfidentiality |
-| **I**ntegrity       |
-| **A**vailability    |
 
 
 1. **Timeliness**
