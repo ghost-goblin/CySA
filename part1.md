@@ -328,6 +328,7 @@ nmap -sV -sC --script vuln 10.10.226.53
 ## Function as a Service (FaaS)/ serverless architecture
 
 ## Infrastructure as code (IaC)
++ DevOps
 + Azure Resource Manager (ARM) templates
   
 ## Insecure application programming interface (API)
