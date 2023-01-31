@@ -275,7 +275,7 @@ Infrastucture:======:======::======:======: Capability
 ## Infrastructure vulnerability scanner
 - Nessus
 - OpenVAS
-- Qualys
+- Qualys (cloud-based SaaS)
 ## Software assessment tools and techniques
 - Static analysis
 - Dynamic analysis
