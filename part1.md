@@ -360,9 +360,9 @@ nmap -sV -sC --script vuln 10.10.226.53
 ```
 - hping / hping3
     + TCP/IP packet assembler and analyzer
-    + `sudo hping3 -S --flood -p 80 www.wisetut.com`
-    + `sudo hping3 -S 192.168.200.15`, send SYN packets to the target IP address
-    + `hping3 -0 192.168.200.15`. send a raw IP through the network
+        + `sudo hping3 -S --flood -p 80 www.wisetut.com`
+        + `sudo hping3 -S 192.168.200.15`, send SYN packets to the target IP address
+        + `sudo hping3 -0 192.168.200.15`, send a raw IP through the network
 
 - Active vs. passive
     + Pinging hosts
