@@ -238,13 +238,17 @@ Infrastucture:======:======::======:======: Capability
        
 
 - Mapping/Enumeration
-    + SSL and TLS:
+    + SSL & TLS:
         + The lastest version, TLS 1.2
         + Use **TLS 1.1** or newer
         + Vulnerable protocols:
            + SSL 2.0, SSL 2.1, TLS 1.0
         + Must use current, secure ciphers
         + Certificates must remain valid and uncompromised
+    + Ceritficate Management (PKI):
+       + Use of an untrusted CA
+       + Expiration of a certificate
+       + Mismatch in certificate name
     + Domain Name Server:
        + Harvesting data with `whois` and `nslookup`
        + **DNS Zone transfers**: 
@@ -253,7 +257,9 @@ Infrastucture:======:======::======:======: Capability
     + Internal IP Disclosure
        + Bad packet headers revealing information that should be hidden by NAT
     + VPN
-       + Protocols, encryption tunnels can be vulnerable
+       + Protocols, encryption tunnels can be vulnerable (PPTP)
+    + Virtualisation
+       + VM Escape
 
 ## Validation
 - True positive
@@ -513,6 +519,7 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
 - Session hijacking
 - Rootkit
 - Cross-site scripting (XSS)
+     + An attacker embeds scripting commands on the website which can be executed by an unsuspecting user
      ```js
      // Inside of input field the following command will help find XSS by creating a simple alert
      <script>alert(1)</script>
@@ -525,6 +532,7 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
  - Reflected
  - Persistent
  - Document object model (DOM)
+     + see _JavaScript_
 ## Vulnerabilities
 - Improper error handling
 - Dereferencing
