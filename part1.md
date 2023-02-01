@@ -239,7 +239,7 @@ Infrastucture:======:======::======:======: Capability
 
 - Mapping/Enumeration
     + SSL & TLS:
-        + The lastest version, TLS 1.2
+        + HTTP over TLS (1.3)
         + Use **TLS 1.1** or newer
         + Vulnerable protocols:
            + SSL 2.0, SSL 2.1, TLS 1.0
@@ -554,3 +554,5 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
       ```
 - Use of insecure functions
  - strcpy
+    + Used to copy the source string to the destination srting
+    + If the buffer size of the destination string is smaller than the size of the source string which may cause a stack overflow
