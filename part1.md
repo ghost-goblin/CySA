@@ -482,6 +482,12 @@ responder-Icmp-Redirect -h
 + DevOps
 + Azure Resource Manager (ARM) templates
 ## Insecure application programming interface (API)
+  + Limit exposure of the API keys to the smallest set of individuals possible
+  + Use different API keys for differnt user, applications and services
+  + Restrict the rights associated with each API key
+  + Never transmit API keys over unencrypted channels
+  + Never store API key in unencrypted form
+  + Ensure API keys are removed from any public code repository like Github
 ## Improper key management
 ## Unprotected storage
 ## Logging and monitoring
