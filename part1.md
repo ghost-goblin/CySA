@@ -446,13 +446,17 @@ responder-Icmp-Redirect -h
 ## Mobile
 ## Internet of Things (IoT)
 ## Embedded
++ Computer intergrated into the operations of another device, such as a vehicle
 ## Real-time operating system (RTOS)
++ Slimmed-down operating systems packed onto a single chip
 ## System-on-Chip (SoC)
 ## Field programmable gate array (FPGA)
++ Computer chips that allow the end user to reprogam their funtion
 ## Physical access control
 ## Building automation systems
 ## Vehicles and drones
-- CAN bus
+- Controller Area Network (CAN) bus
+    + Specialised networks designed to facilitate the communication the communication between embedded systems without the TCP/IP network
 ## Workflow and process automation systems
 ## Industrial control system
 ## Supervisory control and data acquisition (SCADA)
