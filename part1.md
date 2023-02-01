@@ -176,14 +176,14 @@ Infrastucture:======:======::======:======: Capability
       - Suspicious or unauthorised acoount usage
 + **Common Vulnerability Scoring System** (CVSSv3.1)
    + Prioritise response actions
-         + Attack Vector (AV)
-         + Attack Complexity (AC)
-         + Privileges Required (PR)
-         + User Interaction (UI)
-         + Authorization Scope (S)
-         + Confidentiality (C) 
-         + Integrity (I)
-         + Availability (A) 
+           + Attack Vector (AV)
+           + Attack Complexity (AC)
+           + Privileges Required (PR)
+           + User Interaction (UI)
+           + Authorization Scope (S)
+           + Confidentiality (C) 
+           + Integrity (I)
+           + Availability (A) 
 ## Threat Modeling Methodologies
   + Adversary capability
   + Total attack surface
