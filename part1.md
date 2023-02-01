@@ -256,6 +256,9 @@ Infrastucture:======:======::======:======: Capability
        + DNS Brute Forcing
     + Internal IP Disclosure
        + Bad packet headers revealing information that should be hidden by NAT
+       + HTTP version 1.0 request to the server without the Host header set, the server will refer to itself by its internal IP address
+       + HTTP 1.0 protocol doesn't require the Host header to be set by the client as part of a request
+       + `ncat -ssl owa.mymailserver.net 443 GET / HTTP/1.0`
     + VPN
        + Protocols, encryption tunnels can be vulnerable (PPTP)
     + Virtualisation
