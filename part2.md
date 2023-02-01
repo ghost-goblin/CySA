@@ -17,7 +17,7 @@
 ## Segmentation
 - Physical
 - Virtual
-   + irtual Desktop Infrastructure (VDI)
+   + Virtual Desktop Infrastructure (VDI)
 - Jumpbox
    + Can span 2 different security zones
    + Access into segmented networks from different security zones through a VPN
