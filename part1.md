@@ -348,6 +348,8 @@ Infrastucture:======:======::======:======: Capability
 - Nikto
 - Arachni
 ## Infrastructure vulnerability scanner
++ Common Vulnerabilities and Exposures (CVE)
+   + [CVE-2020-1472](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-1472)
 - Nessus
 - OpenVAS
 - Qualys (cloud-based SaaS)
