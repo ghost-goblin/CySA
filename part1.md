@@ -309,7 +309,20 @@ Infrastucture:======:======::======:======: Capability
 # 📡 Analyze the output from common vulnerability assessment tools
 ## OWASP Zed Attack Proxy (ZAP)
 + [OWASP ZAP](https://www.zaproxy.org/) is an open-source web application security scanner
++ HTTP Methods
+   + GET
+   + POST
+   + PUT
+   + HEAD
+   + DELETE
+   + PATCH
+   + OPTIONS
+   + CONNECT
+   + TRACE
 - Burp suite
+   + A set of tools used for the penetration testing of _web applications_
+   + Contains an an **intercepting proxy** that lets the user see and modify the contesnt of requests and responses in transit
+   + Intruder fuzzer for brute-force attacks and dictionary attacks on password forms
 - Nikto
 - Arachni
 ## Infrastructure vulnerability scanner
