@@ -17,18 +17,20 @@
 ## Segmentation
 - Physical
 - Virtual
+   + irtual Desktop Infrastructure (VDI)
 - Jumpbox
    + Can span 2 different security zones
    + Access into segmented networks from different security zones through a VPN
 - System isolation
  - Air gap
+   + Ensures that there is no connection at all between the infrastructures
 ## Network architecture
 - Physical
 - Software-defined
 - Virtual private cloud (VPC)
 - Virtual private network (VPN)
 - Serverless
-## Change management
+## Change management (CAB)
 ## Virtualization
 - Virtual desktop infrastructure (VDI)
 ## Containerization
