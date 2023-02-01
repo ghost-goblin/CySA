@@ -20,7 +20,8 @@
 + `intext:"CVE-2020-1472" site:microsoft.com`
 
 
-
+#### IIS Web Server
++ `%SYSTEMDRIVE%\inetpub\wwwroot`
 
 #### Kali Configs
   
