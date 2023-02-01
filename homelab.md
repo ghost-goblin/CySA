@@ -13,6 +13,14 @@
 
 - - -
 
+#### Google Hacking
++ `"Jessica Hyde"`, exact match of the string
++ `@`, search for results in social media
++ `site:microsoft.com`
++ `intext:"CVE-2020-1472" site:microsoft.com`
+
+
+
 
 #### Kali Configs
   
