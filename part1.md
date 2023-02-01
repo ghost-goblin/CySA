@@ -239,7 +239,10 @@ Infrastucture:======:======::======:======: Capability
 
 - Mapping/Enumeration
     + SSL and TLS:
-        + **TLS 1.2** or newer
+        + The lastest version, TLS 1.2
+        + Use **TLS 1.1** or newer
+        + Vulnerable protocols:
+           + SSL 2.0, SSL 2.1, TLS 1.0
         + Must use current, secure ciphers
         + Certificates must remain valid and uncompromised
     + Domain Name Server:
