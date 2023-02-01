@@ -308,7 +308,12 @@ Infrastucture:======:======::======:======: Capability
 
 # 📡 Analyze the output from common vulnerability assessment tools
 ## OWASP Zed Attack Proxy (ZAP)
-+ [OWASP ZAP](https://www.zaproxy.org/) is an open-source web application security scanner
++ [OWASP ZAP](https://www.zaproxy.org/) is an open-source web application security scanner that detects common threats to web applications
+   + SQL injection 
+   + XSS (Cross-site scripting) 
+   + CSRF (Cross-site request forgery) 
+   + Misconfigurations 
+   + Data leakage 
 + HTTP Methods
    + GET
    + POST
