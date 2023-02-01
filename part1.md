@@ -364,6 +364,9 @@ nmap -sV -sC --script vuln 10.10.226.53
   |__| |_____|_____|   __|_____|__|__|_____||_____|__|
                    |__|
 
+sudo apt install responder
+responder-Icmp-Redirect -h
+
 ```
 
 
