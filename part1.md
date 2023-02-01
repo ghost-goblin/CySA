@@ -336,9 +336,14 @@ Infrastucture:======:======::======:======: Capability
 - Qualys (cloud-based SaaS)
 ## Software assessment tools and techniques
 - Static analysis
+   + Source code analysis is done by reviewing the code for an application
 - Dynamic analysis
+   + Relies on the execution of the code while providing it input to test the softwre
 - Reverse engineering
+   + Use a compiler to convert the source code into binary (machine) code that the computer can read
+   + Use a decompiler to convert the binary code back into source code
 - Fuzzing
+  + Sending invalid or random data to application to test it's ability to handle unexpected data
 ## Enumeration
 - Nmap
 ```sh
@@ -394,12 +399,20 @@ responder-Icmp-Redirect -h
 
 ## Wireless assessment tools
 - Aircrack-ng
+   + Capture packets from wireless networks
+   + Conduct packet injection attacks
+   + Crack preshared keys used on **WEP**, **WPA**, and **WPA2** nerworks
 - Reaver
+   + Find WPA and WPA2 passphrases on networks that support the WiFi Protected Setup (WPS) features
 - oclHashcat
+   + Multi-hash cracker used for brute force and dictionary attacks
 ## Cloud infrastructure assessment tools
 - ScoutSuite
+   + A multicloud auditing tool into user's accounts of cloud service providers and retrieves configuration information using their service API
 - Prowler
+   + A security configuration testing tool
 - Pacu
+  + An exploitation framework used for cloud service penetration tests
 
 
 
