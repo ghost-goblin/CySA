@@ -230,6 +230,8 @@
 ## Threat hunting tactics
 - Executable process analysis
 ## Reducing the attack surface area
++ Physical
++ Digital
 ## Bundling critical assets
 ## Attack vectors
 ## Integrated intelligence
