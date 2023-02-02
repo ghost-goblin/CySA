@@ -271,8 +271,10 @@
 ## Application programming interface (API) integration
 ## Automated malware signature creation
 ## Data enrichment
++ Processes that improve/refine your original data
 ## Threat feed combination
 ## Machine learning
 ## Use of automation protocols and standards
 - Security Content Automation Protocol (SCAP)
 ## Continuous integration / Continuous deployment/delivery
++ DevOps
