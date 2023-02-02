@@ -32,10 +32,15 @@
 #### CISP (Cyber Security Information Sharing Partnership) | ISAC (Information Sharing & Analysis Center)
 + A not-for-profit group set  up to share sector specific threat intelligence and security best practices amongst its members
 #### Open-Source Intelligence (OSINT)
++ Social Engineering
+   + Creepy - social media geotagging
+   + Metasploit
 + Methods of obtaining information about a person or organisation through public records, websites, and social media
     + Social Media
     + HTML Code
     + Metadata
+       + Electronic document harvesting
+       + `Exif` tag data from photos
 #### Proprietary-Source Intelligence
 + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
 #### Closed-Source Intelligence
@@ -399,8 +404,6 @@ nmap -sV -sC --script vuln 10.10.226.53
        + Log data and configuration analysis
        + **Netflow** is a Cisco network protocol that collects IP traffic information
        + `netstat` shows active TCP and UDP connection filtered by protocol
-    + Social Engineering
-       + Creepy - social media geotagging
        
 
 - [Responder](https://github.com/SpiderLabs/Responder)
