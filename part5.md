@@ -11,7 +11,7 @@
 
 </div>
  
-#  Data privacy and protection
+#  📌 Data privacy and protection
 ## Privacy vs. security
 ## Non-technical controls
 - Classification
@@ -36,7 +36,7 @@
 - Geographic access requirements
 - Access controls
 
-# Apply security concepts in support of organizational risk mitigation
+# 📌 Apply security concepts in support of organizational risk mitigation
 ## Business impact analysis
 ## Risk identification process
 ## Risk calculation
@@ -58,7 +58,7 @@
 - Hardware source authenticity
 
 
-# Framework policies, procedures, and controls
+# 📌 Framework policies, procedures, and controls
 ## Frameworks
 - Risk-based
 - Prescriptive
