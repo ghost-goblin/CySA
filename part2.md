@@ -40,12 +40,16 @@
 - Privilege management
    + Part of Authentication, Authorization and Accounting (AAA) framework
    + Identity and Access Management systems are built to create, store and manage permissions, groups and other information
-   + Enabling and requiring TLS to keep LDAP queries and authentication secure
+   + Enabling and requiring TLS to keep LDAP queries and authentication secure which helps protect data in transit
    + Setting password storage to use a secure method
    + LDAP v2 defines three types of authentication: anonymous, simple (clear-text password) and Kerberos v4
-   + Kerberos is designed to operate on untrusted networks and uses encryption to protect its authentication traffic
+   + LDAP ACLs can limit which accounts or users can access objects in the directory
+   + Kerberos _(unlike RADIUS and TACACS+)_ is designed to operate on untrusted networks and uses encryption to protect its authentication traffic
        + [LDAP Injection](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html) is used improperly filtered user input via web applications to send arbitary LDAP queries
-   + RADIUS & TACACS+
+   + **RADIUS**
+   + **TACACS+**
+       + TACACS+ should be run in an isolated environment to protect it from attackers
+   + OAuth redirect exploits are a form of impersonation attack, allowing the attacker to pretend to be a legimate user
 - Multifactor authentication (MFA)
 - Single sign-on (SSO)
 - Federation
