@@ -182,6 +182,7 @@
  
 ## Firewall
 + Rest at network boundary
++ Filter network connections based on **source**, **destination** and **port**
 + Packet Filtering
     + Check each packet against ACL rules for IP and Port
 + Stateful Inspection
