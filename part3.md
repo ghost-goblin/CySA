@@ -90,6 +90,7 @@
        + Linux: 
           + `/var/log`
           + `/var/log/auth.log`, user login logs
+          + `/var/log/faillog`, failed login attempts
        + Windows: `eventvwr. msc` / `%SystemRoot%\System32\Winevt\Logs\`
 - Firewall logs
    + **ACL**s are processed from __top-to-bottom__ with the most specific rules on top
