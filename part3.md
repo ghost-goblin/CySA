@@ -246,6 +246,7 @@
 # 🤖 Automation concepts and technologies
 ## Workflow orchestration
 - Security Orchestration, Automation, and Response (SOAR)
+   + A technique to find previously unknown malware by observing behaviours common to malicious software
 ## Scripting
 ## Application programming interface (API) integration
 ## Automated malware signature creation
