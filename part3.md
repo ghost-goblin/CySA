@@ -161,6 +161,7 @@
 
 ## Query writing
 - String search
+   + `grep "cys[abc]" example.txt`
    + `grep cysa example.txt | more`
 - Script
 - Piping
