@@ -47,9 +47,13 @@
 - Multifactor authentication (MFA)
 - Single sign-on (SSO)
 - Federation
-- Role-based
-- Attribute-based
-- Mandatory
+- Role-based (RBAC)
+   + Subjects can only use permission if they have a role
+   + The subject's role must be authorised for them to have
+   + Subjects can use permissions only if the subject's role is authorised to use it
+- Attribute-based (ABAC)
+   + Based on policies
+- Mandatory (MAC)
 - Manual review
 ## Cloud access security broker (CASB)
 ## Honeypot
