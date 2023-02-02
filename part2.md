@@ -14,6 +14,7 @@
 ## Cloud vs. on-premises
 ## Asset management
 - Asset tagging
++ Labeling or otherwise identifying systems, devices and other items
 ## Segmentation
 - Physical
 - Virtual
