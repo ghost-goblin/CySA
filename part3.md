@@ -173,6 +173,7 @@
 # ⚙️ Implement configuration changes to existing controls to improve security
 ## Permissions
 + Zero trust and least privilege access
++ **Privilege Creep** occurs when a user changes roles but their permissions are not updated with their new respnsibilities
 
 ## Allow list (previously known as whitelisting)
 + Whitelisting can be an effective fallback posture to use while conduting incident response
