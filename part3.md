@@ -225,6 +225,8 @@
 
 
 ## Port security
++ A layer 2 switch security option that will allow only specific MAC addresses to access the port
+
  
 # 🗡️ Proactive threat hunting
 ## Establishing a hypothesis
