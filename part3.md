@@ -87,6 +87,8 @@
 - Syslog
    + A protocol enabling different appliances and software to transmit logs or event records to a central server
    + Port 514 (UDP) over TCP/IP, i.e. `10.1.0.248:514` (newer implemetations can use TLS 1.3)
+       + Linux: `/var/log`
+       + Windows: `eventvwr. msc` / `%SystemRoot%\System32\Winevt\Logs\`
 - Firewall logs
    + **ACL**s are processed from __top-to-bottom__ with the most specific rules on top
      1. Block incoming requests from internal or private, loopback and multicast IP addresses
