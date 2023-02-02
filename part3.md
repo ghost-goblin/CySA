@@ -79,19 +79,19 @@
 
 ## Log review
 - Event logs
-   1. Application
-   2. Security
-   3. System
-   4. Setup
-   5. Forwarded Events
+   + Linux: 
+      + `/var/log`
+      + `/var/log/auth.log`, user login logs
+      + `/var/log/faillog`, failed login attempts
+   + Windows: `eventvwr. msc` / `%SystemRoot%\System32\Winevt\Logs\`
+      1. Application
+      2. Security
+      3. System
+      4. Setup
+      5. Forwarded Events
 - Syslog
    + A protocol enabling different appliances and software to transmit logs or event records to a central server
    + Port 514 (UDP) over TCP/IP, i.e. `10.1.0.248:514` (newer implemetations can use TLS 1.3)
-       + Linux: 
-          + `/var/log`
-          + `/var/log/auth.log`, user login logs
-          + `/var/log/faillog`, failed login attempts
-       + Windows: `eventvwr. msc` / `%SystemRoot%\System32\Winevt\Logs\`
 - Firewall logs
    + **ACL**s are processed from __top-to-bottom__ with the most specific rules on top
      1. Block incoming requests from internal or private, loopback and multicast IP addresses
