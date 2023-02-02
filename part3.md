@@ -195,6 +195,7 @@
 ## Intrusion prevention system (IPS) rules
 
 ## Data loss prevention (DLP)
++ A system that scans outbound traffic and prevents it from being transmitted if it contains specific contect types
 
 ## Endpoint detection and response (EDR)
 + Reduce false positives
