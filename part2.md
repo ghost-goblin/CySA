@@ -35,7 +35,7 @@
 ## Virtualization
 - Virtual desktop infrastructure (VDI)
 ## Containerization
-+ A technology that bungles together an application and their files, libraries and other dependencies, allowing the application to be deployed to multiple platforms or systems
++ A technology that bundles together an application and their files, libraries and other dependencies, allowing the application to be deployed to multiple platforms or systems
 ## Identity and access management
 - Privilege management
    + Part of Authentication, Authorization and Accounting (AAA) framework
