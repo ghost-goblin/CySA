@@ -36,6 +36,14 @@
 ## Containerization
 ## Identity and access management
 - Privilege management
+   + Part of Authentication, Authorization and Accounting (AAA) framework
+   + Identity and Access Management systems are built to create, store and manage permissions, groups and other information
+   + Enabling and requiring TLS to keep LDAP queries and authentication secure
+   + Setting password storage to use a secure method
+   + LDAP v2 defines three types of authentication: anonymous, simple (clear-text password) and Kerberos v4
+   + Kerberos is designed to operate on untrusted networks and uses encryption to protect its authentication traffic
+       + [LDAP Injection](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html) is used improperly filtered user input via web applications to send arbitary LDAP queries
+   + RADIUS & TACACS+
 - Multifactor authentication (MFA)
 - Single sign-on (SSO)
 - Federation
