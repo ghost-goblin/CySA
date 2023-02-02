@@ -398,7 +398,7 @@ nmap -sV -sC --script vuln 10.10.226.53
     + Passive Footprinting
        + Log data and configuration analysis
     + Social Engineering
-       + Creepy
+       + Creepy - social media geotagging
        
 
 - [Responder](https://github.com/SpiderLabs/Responder)
