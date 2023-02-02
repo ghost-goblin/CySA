@@ -53,6 +53,10 @@
           8. Any proces that is packed or compressed _(highlighted purple)_ in process explorer
      - Exploit techniques
 - File system
+   + File monitoring and commerical Host Intrusion Detection Systems (HIDS)
+   + Monitor and report on syetem file changes
+      + Tripwire
+      + OSSEC
 - User and entity behavior analytics (UEBA)
    + Designed to monitor end user behaviour to prevent targeted attacks and insider threats
    + A system that can provide automated identification of suspicious activity by user accounts and computer hosts
@@ -155,6 +159,7 @@
 
 ## Query writing
 - String search
+   + `grep cysa example.txt | more`
 - Script
 - Piping
    + `get-winevent -listlog * | where-object { $_.logname -like "*IIS*" } | format-list -property logname`
@@ -162,6 +167,7 @@
 
 ## E-mail analysis
 - Malicious payload
++ An attachment or a clickable downloadable link
 - Domain Keys Identified Mail (DKIM)
    + Validates that a a domain is associated with a message
 - Domain-based Message Authentication, Reporting, and Conformance (DMARC)
@@ -270,7 +276,6 @@
 ## Scripting
 + Linux
    + `df`, show a system's surrent disk utilization
-   + `grep cysa example.txt | more`
 ## Application programming interface (API) integration
 ## Automated malware signature creation
 ## Data enrichment
