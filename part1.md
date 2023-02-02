@@ -175,6 +175,7 @@ Infrastucture:======:======::======:======: Capability
       - Service disruption & disfacement
       - Suspicious or unauthorised acoount usage
 + **Common Vulnerability Scoring System** (CVSSv3.1)
+   + CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
    + Prioritise response actions
        + Attack Vector (AV)
        + Attack Complexity (AC)
