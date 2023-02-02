@@ -488,6 +488,9 @@ responder-Icmp-Redirect -h
 - Community
 - Hybrid
 ## Function as a Service (FaaS)/ serverless architecture
++ AWS Lambda
++ Google Cloud Functions
++ Microsoft Azure Functions
 ## Infrastructure as code (IaC)
 + DevOps
 + Azure Resource Manager (ARM) templates
