@@ -62,7 +62,7 @@
 ## Monitoring and logging
 
 ## Encryption
-+ Data at rest
++ Encryption at rest used at the host layer
 + Security keys and passwords must be secured
 + Hashing required to maintain integrity
 
