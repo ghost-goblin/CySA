@@ -58,6 +58,9 @@
 - Mandatory (MAC)
 - Manual review
 ## Cloud access security broker (CASB)
++ Provide an additonal protection layer for accessing cloud-based applications
+   + API-based CASB
+   + Inline CASB solutions require either the **network configuration** or the use of a **software agent** to intercept requestd from the users to the cloud provider to monitor and enforce policies
 ## Honeypot
 ## Monitoring and logging
 
