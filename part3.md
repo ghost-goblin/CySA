@@ -31,6 +31,8 @@
      + `autoruns` - perform baseline system scans
      + ProcDump
 - Memory
+   + Windows Resource Monitor: `resmon`
+   + Linuc / Unix: `top`, `ps`
 - System and application behavior
   - Behaviour Analysis
    + System Idle (`PID 0`) and System (`PID4`) a kernel-level binary that is the parent of the first user-mode process (`smss.exe`)
