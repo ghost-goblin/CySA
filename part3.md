@@ -160,8 +160,11 @@
 ## E-mail analysis
 - Malicious payload
 - Domain Keys Identified Mail (DKIM)
+   + Validates that a a domain is associated with a message
 - Domain-based Message Authentication, Reporting, and Conformance (DMARC)
+   + A protocol that combines SPF and DKIM to prove that the sender is who they claim to be
 - Sender Policy Framework (SPF)
+   + Lists the servers that are authorised to send from your domain
 - Phishing
 - Forwarding
 - Digital signature
