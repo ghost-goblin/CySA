@@ -58,6 +58,7 @@
    + Subjects can only use permission if they have a role
    + The subject's role must be authorised for them to have
    + Subjects can use permissions only if the subject's role is authorised to use it
+   + **Privilege Creep** occurs when a user changes roles but their permissions are not updated with their new respnsibilities
 - Attribute-based (ABAC)
    + Based on policies
 - Mandatory (MAC)
