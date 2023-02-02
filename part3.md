@@ -55,9 +55,9 @@
 - File system
 - User and entity behavior analytics (UEBA)
    + Designed to monitor end user behaviour to prevent targeted attacks and insider threats
-   + **Microsoft Advanced Threat Analystics**
-   + **Splunk**
    + A system that can provide automated identification of suspicious activity by user accounts and computer hosts
+       + **Microsoft Advanced Threat Analystics**
+       + **Splunk**
 
 ## Network
 - Uniform Resource Locator (URL) and domain name system (DNS) analysis
