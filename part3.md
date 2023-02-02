@@ -268,6 +268,8 @@
 - Security Orchestration, Automation, and Response (SOAR)
    + A technique to find previously unknown malware by observing behaviours common to malicious software
 ## Scripting
++ Linux
+   + `df`, show a system's surrent disk utilization
 ## Application programming interface (API) integration
 ## Automated malware signature creation
 ## Data enrichment
