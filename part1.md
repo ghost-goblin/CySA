@@ -432,8 +432,8 @@ responder-Icmp-Redirect -h
 ## Cloud infrastructure assessment tools
 - ScoutSuite
    + A multicloud auditing tool into user's accounts of cloud service providers and retrieves configuration information using their service API
-- Prowler
-   + A security configuration testing tool
+- Prowler / Inspector
+   + A AWS-specific security configuration testing tool
 - Pacu
   + An exploitation framework used for cloud service penetration tests
 
