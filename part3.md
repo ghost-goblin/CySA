@@ -181,6 +181,7 @@
 
 # ⚙️ Implement configuration changes to existing controls to improve security
 ## Permissions
++ Layered security
 + Zero trust and least privilege access
 
 
@@ -248,7 +249,17 @@
 + Digital
 ## Bundling critical assets
 ## Attack vectors
++ External / Removable media
++ Attrition (brute-force attacks)
++ Web
++ Email
++ Impersonation
++ Improper usage
++ Loss or theft of equipment
++ Unknown
++ Other
 ## Integrated intelligence
++ Combines multiple intelligence sources to provide a better view of threats
 ## Improving detection capabilities
 
 
