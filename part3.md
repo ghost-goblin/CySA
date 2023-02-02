@@ -270,6 +270,7 @@
 ## Scripting
 + Linux
    + `df`, show a system's surrent disk utilization
+   + `grep cysa example.txt | more`
 ## Application programming interface (API) integration
 ## Automated malware signature creation
 ## Data enrichment
