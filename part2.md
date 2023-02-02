@@ -53,6 +53,7 @@
 - Multifactor authentication (MFA)
 - Single sign-on (SSO)
 - Federation
+   + Identity Providers (IDPs)
 - Role-based (RBAC)
    + Subjects can only use permission if they have a role
    + The subject's role must be authorised for them to have
