@@ -108,7 +108,6 @@
     ```sh
      tcp.port eq 25 or icmp
      ip.src == 152.106.6.125 and ip.dst == 192.168.0.1
-     reg query HKLM\Software /v QuietUninstallString /s | find "Wireshark"
     ```
 - tcpdump
 
@@ -126,7 +125,11 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
    + `C:\Windows\System32\Config\RegBack`
    + NTUSER.DAT hive in the `C:\Users\<username>\` directory
 - Memory
-   + **System Memory Acquisition** is a process that creates an image file of the system memory that can be analysed to identify the processes that are running, the contents of the temporary file systems. Registry data, network connections, cryptographic keys and more
+   + **System Memory Acquisition** is a process that creates an image file of the system memory that can be analysed to identify the processes that are running, the contents of the temporary file systems
+   + While most of the Windows registry is stored on the disk, some keys (like `HKLM\Hardware`) are only stored in memory, so you should analyse the Registry via a memory dump
+      + Registry data
+      + Network connections
+      + Cryptographic keys
 
 ## Mobile
 ## Cloud
@@ -141,8 +144,16 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 + CPU registers and cache memory
 + Contects of system memory (RAM), routing tables, ARP cache, process table, temporay swap files
 + Data on persistent mass storage (HSS/SDD/flash drive)
+
+```sh
+mkdir ~/tmp
+md5sum /dev/disk/by-label/[label of your drive] > ~/exercise7_1_ original.md5
+# clone the drive
+dd if=/dev/disk/by-label/[label of your drive] of=~/tmp/ exercise7_1_disk.img bs=64k
+md5sum ~/tmp/exercise7_1_disk.img > ~/exercise7_1_clone.md5
+```
+ 
 + Remore logging and monitoring data
 + Physical configuration and network topology
 + Archival media
 
-> While most of the Windows registry is stored on the disk, some keys (like `HKLM\Hardware`) are only stored in memory, so you should analyse the Registry via a memory dump
