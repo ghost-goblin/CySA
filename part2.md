@@ -36,16 +36,17 @@
 - Virtual desktop infrastructure (VDI)
 ## Containerization
 + A technology that bundles together an application and their files, libraries and other dependencies, allowing the application to be deployed to multiple platforms or systems
-## Identity and access management
+## Identity and access management (IAM)
 - Privilege management
    + Part of Authentication, Authorization and Accounting (AAA) framework
    + Identity and Access Management systems are built to create, store and manage permissions, groups and other information
-   + Enabling and requiring TLS to keep LDAP queries and authentication secure which helps protect data in transit
-   + Setting password storage to use a secure method
-   + LDAP v2 defines three types of authentication: anonymous, simple (clear-text password) and Kerberos v4
-   + LDAP ACLs can limit which accounts or users can access objects in the directory
-   + Kerberos _(unlike RADIUS and TACACS+)_ is designed to operate on untrusted networks and uses encryption to protect its authentication traffic
-       + [LDAP Injection](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html) is used to improperly filter user input via web applications to send arbitary LDAP queries
+   + Active Directory
+       + Enabling and requiring TLS to keep LDAP queries and authentication secure which helps protect data in transit
+       + Setting password storage to use a secure method
+       + LDAP v2 defines three types of authentication: anonymous, simple (clear-text password) and Kerberos v4
+       + LDAP ACLs can limit which accounts or users can access objects in the directory
+       + Kerberos _(unlike RADIUS and TACACS+)_ is designed to operate on untrusted networks and uses encryption to protect its authentication traffic
+           + [LDAP Injection](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html) is used to improperly filter user input via web applications to send arbitary LDAP queries
    + **RADIUS**
    + **TACACS+**
        + TACACS+ should be run in an isolated environment to protect it from attackers
