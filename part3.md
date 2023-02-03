@@ -164,6 +164,8 @@
    + `grep "cys[abc]" example.txt`
    + `grep cysa example.txt | more`
 - Script
+   + Linux
+     + `df`, show a system's surrent disk utilization
 - Piping
    + `get-winevent -listlog * | where-object { $_.logname -like "*IIS*" } | format-list -property logname`
    + `reg query HKLM\Software /v QuietUninstallString /s | find "Wireshark"`
@@ -278,8 +280,6 @@
 - Security Orchestration, Automation, and Response (SOAR)
    + A technique to find previously unknown malware by observing behaviours common to malicious software
 ## Scripting
-+ Linux
-   + `df`, show a system's surrent disk utilization
 ## Application programming interface (API) integration
 ## Automated malware signature creation
 ## Data enrichment
