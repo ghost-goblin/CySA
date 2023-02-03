@@ -173,7 +173,7 @@
 
 ## E-mail analysis
 - Malicious payload
-+ An attachment or a clickable downloadable link
+  + An attachment or a clickable downloadable link
 - Domain Keys Identified Mail (DKIM)
    + Validates that a a domain is associated with a message
 - Domain-based Message Authentication, Reporting, and Conformance (DMARC)
