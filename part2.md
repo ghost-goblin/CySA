@@ -41,20 +41,28 @@
    + Part of Authentication, Authorization and Accounting (AAA) framework
    + Identity and Access Management systems are built to create, store and manage permissions, groups and other information
    + Active Directory
+       + [LDAP Injection](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html) is used to improperly filter user input via web applications to send arbitary LDAP queries
        + Enabling and requiring TLS to keep LDAP queries and authentication secure which helps protect data in transit
        + Setting password storage to use a secure method
-       + LDAP v2 defines three types of authentication: anonymous, simple (clear-text password) and Kerberos v4
+          + LDAP v2 defines three types of authentication: anonymous, simple (clear-text password) and Kerberos v4
        + LDAP ACLs can limit which accounts or users can access objects in the directory
        + Kerberos _(unlike RADIUS and TACACS+)_ is designed to operate on untrusted networks and uses encryption to protect its authentication traffic
-           + [LDAP Injection](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html) is used to improperly filter user input via web applications to send arbitary LDAP queries
+          + Administrator account attacks
+          + Kerberos Ticket Reuse
+          + Ticket-granting ticket focussed attacks
    + **RADIUS**
    + **TACACS+**
-       + TACACS+ should be run in an isolated environment to protect it from attackers
+       + Should be run in an isolated environment to protect it from attackers
    + OAuth redirect exploits are a form of impersonation attack, allowing the attacker to pretend to be a legimate user
 - Multifactor authentication (MFA)
 - Single sign-on (SSO)
 - Federation
+   + Move beyond the trust boundaries of your organisation
    + Identity Providers (IDPs)
+       + ADFS
+       + SAML
+       + OAuth
+       + OpenID Connect
 - Role-based (RBAC)
    + Subjects can only use permission if they have a role
    + The subject's role must be authorised for them to have
