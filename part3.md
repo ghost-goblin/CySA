@@ -231,6 +231,10 @@
 + 802.1X
 + A standard for encapsulating **EAP** (Extensible Authentication Protocol) communications over a LAN or wireless LAN that provides port-based authentication
    + **Port-based NAC** is a switch (or router) that performs some sort of authentication of the attached device before activating the port
+1. Agent-based vs agentless
+2. In-band vs Out-of-Band
++ RADIUS
+
 
 ## Sinkholing
 + A technique to redirect malicious traffic to a server under the control of the defender
