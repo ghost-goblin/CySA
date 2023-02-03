@@ -166,6 +166,7 @@
 - Script
 - Piping
    + `get-winevent -listlog * | where-object { $_.logname -like "*IIS*" } | format-list -property logname`
+   + `reg query HKLM\Software /v QuietUninstallString /s | find "Wireshark"`
   
 
 ## E-mail analysis
