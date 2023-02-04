@@ -93,19 +93,6 @@
    + Target large **PII data sets** 
 
 
-```sh
-#### Pyramid of Pain
-          ,/`.              TTPs (Tactics, Techniques & Procedures)
-        ,'/ __`.            Tools
-      ,'_/_  _ _`.          Network / Host Artifacts
-    ,'__/_ ___ _  `.        Domain Names
-  ,'_  /___ __ _ __ `.      IP Addresses
- '-.._/___...-"-.-..__`.    Hash values
-```
-
-- TTPs (Tactics, Techniques, and Procedures)
-  + [CISA's (Cybersecurity & Infrastructure Security Agency)](https://www.cisa.gov/uscert/ncas/alerts)
-  + [MITRE ATT&CK](https://attack.mitre.org/) Framework | [attack.mitre.org](https://attack.mitre.org/)
 
 ## Threat Actors
 + Nation-state
@@ -183,6 +170,21 @@ Infrastucture:======:======::======:======: Capability
       - Rogue hardware
       - Service disruption & disfacement
       - Suspicious or unauthorised acoount usage
+
+```sh
+# The Pyramid of Pain shows that some Indicator of Compromise are more challenging to attackers than others
+          ,/`.TOUGH!        TTPs (Tactics, Techniques & Procedures)
+        ,'/ __`.            Tools
+      ,'_/_  _ _`.          Network / Host Artifacts
+    ,'__/_ ___ _  `.        Domain Names
+  ,'_  /___ __ _ __ `.      IP Addresses
+ '-.._/___...-"-.-..__`.    Hash values
+```
+
+- TTPs (Tactics, Techniques, and Procedures) is how the attacker goes about their mission from reconnaissance down to data exfiltration
+  + [CISA's (Cybersecurity & Infrastructure Security Agency)](https://www.cisa.gov/uscert/ncas/alerts)
+  + [MITRE ATT&CK](https://attack.mitre.org/) Framework | [attack.mitre.org](https://attack.mitre.org/)
+
 + **Common Vulnerability Scoring System** (CVSSv3.1)
    + CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
        + Prioritise response actions
