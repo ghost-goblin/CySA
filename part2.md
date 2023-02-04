@@ -153,6 +153,9 @@
 - Code review
 ## Secure coding best practices
 - Input validation
+    + Ensures no unexpected input is sent the webserver
+    + Blocks the use of the apostrophe `'` that is needed to break out of the SQL query
+    + `orange tiger pillow'; SELECT CustomerName, CreditCardNumber FROM Orders; --`
 - Output encoding
 - Session management
 - Authentication
