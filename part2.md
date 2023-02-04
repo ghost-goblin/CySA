@@ -41,18 +41,34 @@
    + Part of Authentication, Authorization and Accounting (AAA) framework
    + Identity and Access Management systems are built to create, store and manage permissions, groups and other information
    + Active Directory
-       + [LDAP Injection](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html) is used to improperly filter user input via web applications to send arbitary LDAP queries
-       + Enabling and requiring TLS to keep LDAP queries and authentication secure which helps protect data in transit
-       + Setting password storage to use a secure method
-       + Using password-based authentication:
+       + Enable and require TLS to keep LDAP queries and authentication secure which helps protect data in transit
+       + Set password storage to use a secure method
+       + Use password-based authentication:
           + LDAP v2 defines three types of authentication: anonymous, unauthenticated (clear-text password) and Kerberos v4
           + Unauthenticated sessions should be turned off
-       + Replication of LDAP servers to prvent DDoS attacked and other service outages
+       + Replicate of LDAP servers to prvent DDoS attacked and other service outages
        + LDAP ACLs can limit which accounts or users can access objects in the directory
        + Kerberos _(unlike RADIUS and TACACS+)_ is designed to operate on untrusted networks and uses encryption to protect its authentication traffic
           + Administrator account attacks
-          + Kerberos Ticket Reuse
+          + Kerberos Ticket Reuse (impersonation)
           + Ticket-granting ticket focussed attacks
+       + Active Directory Attacks:
+         + Malware-focussed (crediential capturing, exploit-based on systems or AD servers)
+         + Crediential theft via phishing etc.
+         + Privilge escalation
+         + Forgotton service accounts
+         + Administrator rights that exist for more users than necessary
+         + Use of vulnerable, down-level of protocols:
+              + NTLM v1
+              + LANMAN
+              + NetBIOS
+              + Unsigned LDAP
+              + SMB
+       + LDAP Attacks:
+          + Attacks against insecure binding connection medtahod that target unencrypted LDAP traffic
+          + Improper LDAP access controls allow attackers to harvest directory information and/or make modifacations to directory entries
+          + [LDAP Injection](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html) is used to improperly filter user input via web applications to send arbitary LDAP queries
+          + Denial-of-service (DoS) attacks which disrupt authentication services
    + **RADIUS**
        + Operates via UDP / TCP in a client-server model
        + Sends passwords that are obfusicated by a shared secret and MD5 hash
@@ -60,11 +76,15 @@
    + **TACACS+**
        + Cisco-designed
        + TCP traffic
-       + Should be run in an isolated environment to protect it from attackers from its encryption flaws
+       + Should be run in an isolated environment to protect it from attackers from it's encryption flaws
    + OAuth
        + Authorisation standard used by Google, Microsoft, Facebook via Access Tokens
        + Enables users to share identity and account information while authenticating via the original identity provider
        + Redirect exploits are a form of impersonation attack, allowing the attacker to pretend to be a legimate user
+    + OpenID
+       + Open-sourced standard for decenralised authentication
+     + OpenID Connect
+       + An authentication layer built using the OAuth protocol
 - Multifactor authentication (MFA)
 - Single sign-on (SSO)
 - Federation
@@ -82,6 +102,7 @@
 - Attribute-based (ABAC)
    + Based on policies
 - Mandatory (MAC)
+   + Mandatory Access control systems rely on the operating system to control what subjects can access and what action they can perforn
 - Manual review
 ## Cloud access security broker (CASB)
 + Provide an additonal protection layer for accessing cloud-based applications
