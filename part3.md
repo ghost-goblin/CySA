@@ -58,11 +58,6 @@
       7. Any process hosted by Windows utilities like Explorer
       8. Any proces that is packed or compressed _(highlighted purple)_ in process explorer
    - Exploit techniques
-      + Registry changes or anomalies
-         + `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run`
-      + Unauthorised Scheduled Tasks
-      + Introduction of new accounts
-      + Service interuption
 - File system
    + File monitoring and commerical Host Intrusion Detection Systems (HIDS)
    + Monitor and report on syetem file changes
