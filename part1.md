@@ -172,7 +172,7 @@ Infrastucture:======:======::======:======: Capability
       - Suspicious or unauthorised account usage
 
 ```sh
-# The Pyramid of Pain shows that some Indicator of Compromise are more challenging to attackers than others
+# The Pyramid of Pain shows that some Indicators of Compromise are more challenging to attackers than others
           ,/`.TOUGH!        TTPs (Tactics, Techniques & Procedures)
         ,'/ __`.            Tools
       ,'_/_  _ _`.          Network / Host Artifacts
