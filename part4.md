@@ -73,11 +73,18 @@
 # 🔬 Analyze potential indicators of compromise (IOCs)
 ## Network-related
 - Bandwidth consumption
+  + Cause service disruption
 - Beaconing
+  + Activity sent to a C&C system as part of a botnet or malware remote system
+  + Typically HTTTP / HTTPS traffic
+  + Request commands, provide status, download additional malware
 - Irregular peer-to-peer communication
 - Rogue device on the network
 - Scan/sweep
 - Unusual traffic spike
+  + Baseline or anomaly-cased detection
+  + Heuristic or behaviour-based detected
+  + Protocol analysis
 - Common protocol over non-standard port
 ## Host-related
 - Processor consumption
