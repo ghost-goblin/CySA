@@ -98,6 +98,7 @@
 - Abnormal OS process behavior
 - File system change or anomaly
 - Registry change or anomaly
+  + `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run`
 - Unauthorized scheduled task
 ## Application-related
 - Anomalous activity
