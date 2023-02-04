@@ -20,6 +20,7 @@
 + Drive Capacity Monitoring
 + Application and service anomaly detection
 + Unexpected Traffic
++ Bandwidth consumption
 
 ## Endpoint
 - Malware
