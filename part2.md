@@ -117,6 +117,7 @@
    + API-based CASB
    + Inline CASB solutions require either the **network configuration** or the use of a **software agent** to intercept requests from the users to the cloud provider to monitor and enforce policies
 ## Honeypot
++ Systems that are designed to look like an attractive target to an attacket
 ## Monitoring and logging
 
 ## Encryption
@@ -126,6 +127,10 @@
 
 
 ## Certificate management
++ Keep private keys and passphases secure
++ Ensure that systems use and respect certificate revocations
++ Manage certificate lifecycles
++ Responses to events like compromised keys or changes in the certificate root vendors
 
 ## Active defense
 
