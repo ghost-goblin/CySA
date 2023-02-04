@@ -36,7 +36,7 @@
    + Creepy - social media geotagging
    + Metasploit
 + Methods of obtaining information about a person or organisation through public records, websites, and social media
-    + Social Media
+    + Social Media Analysis
     + HTML Code
     + Metadata
        + Electronic document harvesting
@@ -257,9 +257,20 @@ Infrastucture:======:======::======:======: Capability
        + Mismatch in certificate name
     + Domain Name Server:
        + Harvesting data with `whois` and `nslookup`
+            + [BGP Looking Glasses](https://www.bgp4.as/looking-glasses)
+            + `nslookup microsoft.com 8.8.8.8`
+            + `nslookup -query=mx microsoft.com`
        + **DNS Zone transfers**: 
+            + `host -t axfr domain.name dns-server`
             + `dig axfr example.com @ns1.example.com`
        + DNS Brute Forcing
+            + Scripted quey for each IP address that an organisation uss
+       + DNS Antiharvesting Techniques:
+            + Blaclisting systems and/or networks that abuse the service
+            + Use CAPTCHAs to prvent bots
+            + Privacy services that use third-party DNS registration information
+            + Implement **rate limiting** to ensure that lookups are not done at high speeds
+            + Not publishing zone files
     + Internal IP Disclosure
        + Bad packet headers revealing information that should be hidden by NAT
        + HTTP version 1.0 request to the server without the Host header set, the server will refer to itself by its internal IP address
@@ -269,6 +280,10 @@ Infrastucture:======:======::======:======: Capability
        + Protocols, encryption tunnels can be vulnerable (PPTP)
     + Virtualisation
        + VM Escape
+       + Management Interface Acess
+       + Virtual Host Patching
+       + Virtual Guest issues
+       + Virtual Network Issues
 
 ## Validation
 - True positive
@@ -536,11 +551,15 @@ responder-Icmp-Redirect -h
 gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -o gobuster_scan.txt
 ```
 - Privilege escalation
-- Password spraying
-- Credential stuffing
++ Password Reuse:
+    - Password spraying
+    - Credential stuffing
 - Impersonation
+    + OAuth open redirects
 - On-path attack (previously known as man-in-the-middle attack)
+   + Interfere in the communication flow between two systems
 - Session hijacking
+  + Session key or cookie exploitation causing the session to pass through a system under the attacker's control
 - Rootkit
 - Cross-site scripting (XSS)
      + An attacker embeds scripting commands on the website which can be executed by an unsuspecting user
