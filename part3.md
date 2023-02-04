@@ -35,29 +35,29 @@
    + Linuc / Unix: `top`, `ps`
 - System and application behavior
   - Known-good behavior
-          + System Idle (`PID 0`) and System (`PID4`) a kernel-level binary that is the parent of the first user-mode process (`smss.exe`)
-          + `csrss.exe` manages low-level Windows functions, running from `%SystemRoot%\System32` and has no parent process
-          + `wininit.exe` managed driver and services and should only have a single instance running as a process
-          + `Services.exe` hosts nonboot drivers and background services
-          + `lsass.exe` handles authentication and authorisation services, single instance running as a child of `wininit.exe`
-          + `winlogon.exe` managed access to the user desktop for each user session with Desktop Window Manager (`dwm.exe`) as a child process
-          + `userinit.exe` sets up the shell (`explorer.exe`) and then quits
-          + `explorer.exe` is the typical user shell launched with the user's account privileges and is the parent process for the logged-on user
+     + System Idle (`PID 0`) and System (`PID4`) a kernel-level binary that is the parent of the first user-mode process (`smss.exe`)
+     + `csrss.exe` manages low-level Windows functions, running from `%SystemRoot%\System32` and has no parent process
+     + `wininit.exe` managed driver and services and should only have a single instance running as a process
+     + `Services.exe` hosts nonboot drivers and background services
+     + `lsass.exe` handles authentication and authorisation services, single instance running as a child of `wininit.exe`
+     + `winlogon.exe` managed access to the user desktop for each user session with Desktop Window Manager (`dwm.exe`) as a child process
+     + `userinit.exe` sets up the shell (`explorer.exe`) and then quits
+     + `explorer.exe` is the typical user shell launched with the user's account privileges and is the parent process for the logged-on user
     - Anomalous behavior
-          1. Any process name that you do not recognise; `cmd.exe`, `schtasks.exe`, `wmic.exe`, `powershell.exe`, `reg.exe`, `sc.exe`
-          2. Any process name that is similar to a legitimate system process (`svhost`)
-          3. Processes that appear without an icon, version information, description or company name
-          4. Processes that are unsigned
-          5. Any process whose digital signiture doesn't match the identified publisher
-          6. Any process that does not have a parent/child relationship with a principle Windows process
-          7. Any process hosted by Windows utilities like Explorer
-          8. Any proces that is packed or compressed _(highlighted purple)_ in process explorer
+       1. Any process name that you do not recognise; `cmd.exe`, `schtasks.exe`, `wmic.exe`, `powershell.exe`, `reg.exe`, `sc.exe`
+       2. Any process name that is similar to a legitimate system process (`svhost`)
+       3. Processes that appear without an icon, version information, description or company name
+       4. Processes that are unsigned
+       5. Any process whose digital signiture doesn't match the identified publisher
+       6. Any process that does not have a parent/child relationship with a principle Windows process
+       7. Any process hosted by Windows utilities like Explorer
+       8. Any proces that is packed or compressed _(highlighted purple)_ in process explorer
      - Exploit techniques
-          + Registry changes or anomalies
-            + `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run`
-          + Unauthorised Scheduled Tasks
-          + Introduction of new accounts
-          + Service interuption
+        + Registry changes or anomalies
+          + `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run`
+        + Unauthorised Scheduled Tasks
+        + Introduction of new accounts
+        + Service interuption
 - File system
    + File monitoring and commerical Host Intrusion Detection Systems (HIDS)
    + Monitor and report on syetem file changes
