@@ -16,6 +16,10 @@
  
 ## Trend analysis
 + Identitfy large-scale changes from the norm
++ Processor Monitoring
++ Drive Capacity Monitoring
++ Application and service anomaly detection
++ Unexpected Traffic
 
 ## Endpoint
 - Malware
