@@ -54,8 +54,8 @@
           + Ticket-granting ticket focussed attacks
        + Active Directory Attacks:
          + Malware-focussed (crediential capturing, exploit-based on systems or AD servers)
-         + Crediential theft via phishing etc.
-         + Privilge escalation
+         + Credential theft via phishing etc.
+         + Privilege escalation
          + Forgotton service accounts
          + Administrator rights that exist for more users than necessary
          + Use of vulnerable, down-level of protocols:
@@ -71,6 +71,8 @@
           + Denial-of-service (DoS) attacks which disrupt authentication services
    + **RADIUS**
        + Operates via UDP / TCP in a client-server model
+          + UDP 1812, **authentication** and **authorization** port
+          + UDP 1813, the **accouting** port
        + Sends passwords that are obfusicated by a shared secret and MD5 hash
        + Traffic between the network access server is usually encrypted using IPSec tunnels
    + **TACACS+**
