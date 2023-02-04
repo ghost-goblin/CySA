@@ -44,16 +44,27 @@
        + [LDAP Injection](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html) is used to improperly filter user input via web applications to send arbitary LDAP queries
        + Enabling and requiring TLS to keep LDAP queries and authentication secure which helps protect data in transit
        + Setting password storage to use a secure method
-          + LDAP v2 defines three types of authentication: anonymous, simple (clear-text password) and Kerberos v4
+       + Using password-based authentication:
+          + LDAP v2 defines three types of authentication: anonymous, unauthenticated (clear-text password) and Kerberos v4
+          + Unauthenticated sessions should be turned off
+       + Replication of LDAP servers to prvent DDoS attacked and other service outages
        + LDAP ACLs can limit which accounts or users can access objects in the directory
        + Kerberos _(unlike RADIUS and TACACS+)_ is designed to operate on untrusted networks and uses encryption to protect its authentication traffic
           + Administrator account attacks
           + Kerberos Ticket Reuse
           + Ticket-granting ticket focussed attacks
    + **RADIUS**
+       + Operates via UDP / TCP in a client-server model
+       + Sends passwords that are obfusicated by a shared secret and MD5 hash
+       + Traffic between the network access server is usually encrypted using IPSec tunnels
    + **TACACS+**
-       + Should be run in an isolated environment to protect it from attackers
-   + OAuth redirect exploits are a form of impersonation attack, allowing the attacker to pretend to be a legimate user
+       + Cisco-designed
+       + TCP traffic
+       + Should be run in an isolated environment to protect it from attackers from its encryption flaws
+   + OAuth
+       + Authorisation standard used by Google, Microsoft, Facebook via Access Tokens
+       + Enables users to share identity and account information while authenticating via the original identity provider
+       + Redirect exploits are a form of impersonation attack, allowing the attacker to pretend to be a legimate user
 - Multifactor authentication (MFA)
 - Single sign-on (SSO)
 - Federation
