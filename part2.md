@@ -75,6 +75,11 @@
           + UDP 1813, the **accouting** port
        + Sends passwords that are obfusicated by a shared secret and MD5 hash
        + Traffic between the network access server is usually encrypted using IPSec tunnels
+   + RADIUS Attacks
+       + Session replay attack of server responses
+       + Targeting RADIUS fixed shared secret that can be compromised at the client level
+       + DoS attacks aimed to prevent users from authenticating
+       + Credential-based attacks to brute-force the RADIUS shared secret
    + **TACACS+**
        + Cisco-designed
        + TCP traffic
