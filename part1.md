@@ -12,52 +12,35 @@
 
 # 👀 Explain the importance of threat data and intelligence
 ## Intelligence Sources
-#### Security Intelligence
-+ The process through which data is collected, processed, analyzed, and disseminated to provide insights into the security status of systems, i.e. firewall logs
-#### Cyber Threat Intelligence (CTI)
-+ The process of investigating, collecting, analysing, and diseminating threat sources to provide data about the external threat landscape
-  - Narrative report
-  - Data Feeds
+- Cyber Threat Intelligence (CTI)
+    + The process of investigating, collecting, analysing, and diseminating threat sources to provide data about the external threat landscape
+      - Narrative report
+      - Data Feeds
 
-#### The 3 main objectives of cybersecurity prodessionals is:
+  
 | **CIA** Triad       |
 |---------------------|
 | **C**onfidentiality |
 | **I**ntegrity       |
 | **A**vailability    |
 
-#### TTPs (Tactics, Techniques, and Procedures)
-  + [CISA's (Cybersecurity & Infrastructure Security Agency)](https://www.cisa.gov/uscert/ncas/alerts)
-  + [MITRE ATT&CK](https://attack.mitre.org/) Framework | [attack.mitre.org](https://attack.mitre.org/)
-#### CISP (Cyber Security Information Sharing Partnership) | ISAC (Information Sharing & Analysis Center)
-+ A not-for-profit group set  up to share sector specific threat intelligence and security best practices amongst its members
-#### Open-Source Intelligence (OSINT)
-+ Social Engineering
-   + Creepy - social media geotagging
-   + Metasploit
-+ Methods of obtaining information about a person or organisation through public records, websites, and social media
+
+- CISP (Cyber Security Information Sharing Partnership) | ISAC (Information Sharing & Analysis Center)
+    + A not-for-profit group set  up to share sector specific threat intelligence and security best practices amongst its members
+- Open-Source Intelligence (OSINT)
+    + Methods of obtaining information about a person or organisation through public records, websites, and social media
+    + Social Engineering
+       + Creepy - social media geotagging
+       + Metasploit
     + Social Media Analysis
     + HTML Code
     + Metadata
        + Electronic document harvesting
        + `Exif` tag data from photos
-#### Proprietary-Source Intelligence
-+ Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
-#### Closed-Source Intelligence
-+ _Honeynet_ data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
-
- 
-#### Pyramid of Pain
-
-```sh
-          ,/`.              TTPs (Tactics, Techniques & Procedures)
-        ,'/ __`.            Tools
-      ,'_/_  _ _`.          Network / Host Artifacts
-    ,'__/_ ___ _  `.        Domain Names
-  ,'_  /___ __ _ __ `.      IP Addresses
- '-.._/___...-"-.-..__`.    Hash values
-```
-
+- Proprietary-Source Intelligence
+    + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
+- Closed-Source Intelligence
+    + _Honeynet_ data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
 
 
 1. **Timeliness**
@@ -96,12 +79,33 @@
 
 ## Threat Classification
 + Known threat vs. unknown threat
+   + External/Removable Media
+   + Attrition, an attack that employs brute-force methods
+   + Web
+   + Email
+   + Impersonation
+   + Improper usage
+   + Loss or Theft of Equipment
 + Zero-day
    + Usually applied to the vulnerbility itself but can also refer to an attack of malware that exploits it
 + **Advanced Persistent Threat** (APT)
    + An attackers ability to obtain, maintain and diversify access to network systems using exploits and malware
-   + Target large **PII data sets**
+   + Target large **PII data sets** 
 
+
+```sh
+#### Pyramid of Pain
+          ,/`.              TTPs (Tactics, Techniques & Procedures)
+        ,'/ __`.            Tools
+      ,'_/_  _ _`.          Network / Host Artifacts
+    ,'__/_ ___ _  `.        Domain Names
+  ,'_  /___ __ _ __ `.      IP Addresses
+ '-.._/___...-"-.-..__`.    Hash values
+```
+
+- TTPs (Tactics, Techniques, and Procedures)
+  + [CISA's (Cybersecurity & Infrastructure Security Agency)](https://www.cisa.gov/uscert/ncas/alerts)
+  + [MITRE ATT&CK](https://attack.mitre.org/) Framework | [attack.mitre.org](https://attack.mitre.org/)
 
 ## Threat Actors
 + Nation-state
