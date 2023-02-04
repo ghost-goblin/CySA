@@ -528,6 +528,9 @@ responder-Icmp-Redirect -h
   + Never store API key in unencrypted form
   + Ensure API keys are removed from any public code repository like Github
 ## Improper key management
+  + Unauthorised diclosure of a key
+  + Non-rotation of keys
+  + Inapproriate key storage
 ## Unprotected storage
 ## Logging and monitoring
 - Insufficient logging and monitoring
