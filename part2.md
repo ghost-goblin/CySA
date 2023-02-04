@@ -88,12 +88,18 @@
      + OpenID Connect
        + An authentication layer built using the OAuth protocol
 - Multifactor authentication (MFA)
+    + Something you know
+    + Something you have
+    + Something you are (biometric)
+    + Somewhere you are (location)
 - Single sign-on (SSO)
 - Federation
    + Move beyond the trust boundaries of your organisation
-   + Identity Providers (IDPs)
+   + Linking an identity and it's attributes between multiple identity management systems
+   + Identity Providers (IDPs) integrate with Service Providers (SP) or the relying party
        + ADFS
        + SAML
+          + XML-based
        + OAuth
        + OpenID Connect
 - Role-based (RBAC)
@@ -104,7 +110,7 @@
 - Attribute-based (ABAC)
    + Based on policies
 - Mandatory (MAC)
-   + Mandatory Access control systems rely on the operating system to control what subjects can access and what action they can perforn
+   + Mandatory Access Control systems rely on the operating system to control what subjects can access and what action they can perforn
 - Manual review
 ## Cloud access security broker (CASB)
 + Provide an additonal protection layer for accessing cloud-based applications
