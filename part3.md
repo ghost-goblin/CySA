@@ -75,6 +75,15 @@
    - **Port Hopping** - An APT's C2 application might use any port to communicate and may jump betweeen different ports
 - Flow analysis
    + **Flow collector** is a means of recording **metadata** and statistics about network traffic rather than recording each frame
+   + Router-based monitoring:
+     + NetFlow standard
+     + RMON
+     + SNMP
+    + PRTG:
+      + Packet sniffing which monitors the headers of packets
+      + Flows
+      + SNMP
+      + WMI
 - Packet and protocol analysis
  - Malware
      1. Attacker sets up one or more dynamic DNS services
