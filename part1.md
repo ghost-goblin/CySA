@@ -169,7 +169,7 @@ Infrastucture:======:======::======:======: Capability
       - Unknown port and protocol usage
       - Rogue hardware
       - Service disruption & disfacement
-      - Suspicious or unauthorised acoount usage
+      - Suspicious or unauthorised account usage
 
 ```sh
 # The Pyramid of Pain shows that some Indicator of Compromise are more challenging to attackers than others
