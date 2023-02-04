@@ -173,13 +173,14 @@
     + A user attempting to authenticate
     + Editing a registry key or value
     + PowerShell execution
-+ Network-centric Lod
++ Network-centric Log
     + SSH
 
 ## Query writing
 - String search
    + `grep "cys[abc]" example.txt`
    + `grep cysa example.txt | more`
+   + `grep -c "string" example.txt`
 - Script
    + Linux
      + `df`, show a system's surrent disk utilization
