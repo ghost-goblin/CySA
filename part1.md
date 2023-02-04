@@ -555,10 +555,12 @@ responder-Icmp-Redirect -h
  - Heap
 - Remote code execution
 - 📁 Directory traversal
+    + Insert filesystem path values into a query string
+    + `http://10.10.226.146/policy?document='aup.pdf'`
     + Enumerate web server on port 80 with `gobuster`
-```sh
-gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -o gobuster_scan.txt
-```
+        ```sh
+        gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -o gobuster_scan.txt
+        ```
 - Privilege escalation
 + Password Reuse:
     - Password spraying
@@ -570,6 +572,7 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
 - Session hijacking
   + Session key or cookie exploitation causing the session to pass through a system under the attacker's control
 - Rootkit
+     + Combined multiple malicious software tools to provide continued access to a system while hiding their own existence
 - Cross-site scripting (XSS)
      + An attacker embeds scripting commands on the website which can be executed by an unsuspecting user
      ```js
@@ -582,9 +585,13 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
      http://10.10.226.56/vulnerabilities/xss_r/?name=<script>alert(document.cookie)</script>
      ```
  - Reflected
+     + The attacker trick the user in sending the attack to the server disguised as a ligimate query string or other content
+     + The setver sends (reflects) the attack back to the user, causing it to execute
  - Persistent
+     + The attacker is able to store the attack code on a server, waiting for the user to request the infected content
  - Document object model (DOM)
      + see _JavaScript_
+     + Attacks occur within a database maintained by the user's web browser
 ## Vulnerabilities
 - Improper error handling
 - Dereferencing
@@ -606,5 +613,5 @@ gobuster dir -u http://10.10.226.146/ -w /usr/share/wordlists/dirbuster/director
       ```
 - Use of insecure functions
  - strcpy
-    + Used to copy the source string to the destination srting
-    + If the buffer size of the destination string is smaller than the size of the source string which may cause a stack overflow
+    + Used to copy the source string to the destination string
+    + A stack overflow is caised if the buffer size of the destination string is smaller than the size of the source string
