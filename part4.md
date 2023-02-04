@@ -139,7 +139,13 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 ## Hashing
 - Changes to binaries
 ## Carving
-
++ Looks at data on a block-by-block basis, looking for information like file headers and other indicators of file structure adn attempts to recover the files
+   + Header and footer-based carving:
+     + JPEG header: `xFF\xD8`
+     + JPEG footer: `xFF\xD9`
+   + Contect-based
+   + File structure-based
+ 
 ## Data acquisition
 + CPU registers and cache memory
 + Contects of system memory (RAM), routing tables, ARP cache, process table, temporay swap files
