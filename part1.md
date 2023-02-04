@@ -597,6 +597,7 @@ responder-Icmp-Redirect -h
 - Dereferencing
 - Insecure object reference
 - Race condition
+   + Rely on timing
 - Broken authentication
 - Sensitive data exposure
 - Insecure components
