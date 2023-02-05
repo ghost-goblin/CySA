@@ -168,14 +168,20 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 ## Data acquisition
 + CPU registers and cache memory
 + Contects of system memory (RAM), routing tables, ARP cache, process table, temporay swap files
+   + `%SYSTEMROOT%\MEMORY.DMP`
 + Data on persistent mass storage (HSS/SDD/flash drive)
++ `dd` is used to clone drives in RAW format, the `bs` flag is used for setting the block size in bytes
++ `dd bs=64k if=/dev/disk/by-label/input-file of=/dev/disk/by-label/output-file`
++ `fdisk -l` or `lsblk` to list drives
 
 ```sh
 mkdir ~/tmp
-md5sum /dev/disk/by-label/[label of your drive] > ~/exercise7_1_ original.md5
+ # verify file authenticity and integrity
+md5sum /dev/disk/by-label/[label of your drive] > ~/original.md5
 # clone the drive
-dd if=/dev/disk/by-label/[label of your drive] of=~/tmp/ exercise7_1_disk.img bs=64k
-md5sum ~/tmp/exercise7_1_disk.img > ~/exercise7_1_clone.md5
+dd if=/dev/disk/by-label/[label of your drive] of=~/tmp/disk.img bs=64k
+ # verify again
+md5sum ~/tmp/disk.img > ~/clone.md5
 ```
  
 + Remore logging and monitoring data
