@@ -68,6 +68,10 @@
    + A system that can provide automated identification of suspicious activity by user accounts and computer hosts
        + **Microsoft Advanced Threat Analystics**
        + **Splunk**
+           + ```sh
+              process where subtype.create and
+             (process_name == "wsmprovhost.exe" and parent_process_name == "svchost.exe")
+              ```   
 
 ## Network
 - Uniform Resource Locator (URL) and domain name system (DNS) analysis
