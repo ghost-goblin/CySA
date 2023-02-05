@@ -146,6 +146,8 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 ## Procedures
 ## Hashing
 - Changes to binaries
+  + `Get-FileHash .\OpenVPN_2.5.1_I601_amd64.msi -Algorithm MD5`
+  + Change the hash value: `echo "AppendTheHash" >> .\OpenVPN_2.5.1_I601_amd64.msi`
 ## Carving
 + Looks at data on a block-by-block basis, looking for information like file headers and other indicators of file structure and attempts to recover the files
    + Header and footer-based carving:
