@@ -381,13 +381,18 @@ Infrastucture:======:======::======:======: Capability (TTPs)
    + Contains an an **intercepting proxy** that lets the user see and modify the contesnt of requests and responses in transit
    + Intruder fuzzer for brute-force attacks and dictionary attacks on password forms
 - Nikto
+   + An open-source web server and web apllication scanner
+      + Find SQL injection and XXS vulnerbilities
+      + Report on unusual headers
+      + Identify installed software
 - Arachni
+   + Open-source penetration testing framework for web applications
 ## Infrastructure vulnerability scanner
 + Common Vulnerabilities and Exposures (CVE)
    + [CVE-2020-1472](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-1472)
 - Nessus
 - OpenVAS
-- Qualys (cloud-based SaaS)
+- Qualys _(cloud-based SaaS)_
 ## Software assessment tools and techniques
 - Static analysis
    + Source code analysis is done by reviewing the code for an application
@@ -486,7 +491,7 @@ responder-Icmp-Redirect -h
 + Slimmed-down operating systems packed onto a single chip
 ## System-on-Chip (SoC)
 ## Field programmable gate array (FPGA)
-+ Computer chips that allow the end user to reprogam their funtion
++ Computer chips that allow the end user to reprogam their function
 ## Physical access control
 ## Building automation systems
 ## Vehicles and drones
