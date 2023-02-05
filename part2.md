@@ -58,12 +58,6 @@
          + Privilege escalation
          + Forgotton service accounts
          + Administrator rights that exist for more users than necessary
-         + Use of vulnerable, down-level of protocols:
-              + NTLM v1
-              + LANMAN
-              + NetBIOS
-              + Unsigned LDAP
-              + SMB
        + LDAP Attacks:
           + Attacks against insecure binding connection medtahod that target unencrypted LDAP traffic
           + Improper LDAP access controls allow attackers to harvest directory information and/or make modifacations to directory entries
