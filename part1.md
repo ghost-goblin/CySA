@@ -201,6 +201,7 @@ Infrastucture:======:======::======:======: Capability
            + Low (L)
            + High (H)
 ## Threat Modeling Methodologies
+  + A risk assessment that models organizational strengths and weaknesses
   + Adversary capability
   + Total attack surface
       + Points at which a network or application receives external connections or inputs/outputs that are potential vectors to be exploited
