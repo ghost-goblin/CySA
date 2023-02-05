@@ -379,7 +379,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
 - [Burpsuite](https://www.kali.org/tools/burpsuite)
    + A set of tools used for the penetration testing of _web applications_
       + Contains an **intercepting proxy** to see and modify the content of requests and responses in transit
-      + **Intruder fuzzer** for brute-force eumeration and dictionary attacks on password forms
+      + **Intruder fuzzer** for brute-force enumeration and dictionary attacks on password forms
       + **Repeater** to modify requests and responses
 - [Nikto](https://www.kali.org/tools/nikto)
    + An open-source web server and web apllication scanner
