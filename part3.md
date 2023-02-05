@@ -186,6 +186,8 @@
      + `df`, show a system's surrent disk utilization
      + `/etc/init.d/servicename status`
      + `service --status-all`
+     + `chmod a+x my_script.sh`
+     + `wget https://wordpress.org/latest.zip`
 - Piping
    + `get-winevent -listlog * | where-object { $_.logname -like "*IIS*" } | format-list -property logname`
    + `reg query HKLM\Software /v QuietUninstallString /s | find "Wireshark"`
@@ -296,6 +298,7 @@
 - Security Orchestration, Automation, and Response (SOAR)
    + A technique to find previously unknown malware by observing behaviours common to malicious software
 ## Scripting
++ `touch /home/username/Documents/Web.html`
 ## Application programming interface (API) integration
 ## Automated malware signature creation
 ## Data enrichment
