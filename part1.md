@@ -371,17 +371,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
    + XSS (Cross-site scripting) 
    + CSRF (Cross-site request forgery) 
    + Misconfigurations 
-   + Data leakage 
-+ HTTP Methods
-   + GET
-   + POST
-   + PUT
-   + HEAD
-   + DELETE
-   + PATCH
-   + OPTIONS
-   + CONNECT
-   + TRACE
+   + Data leakage
 - [Burpsuite](https://www.kali.org/tools/burpsuite)
    + A set of tools used for the penetration testing of _web applications_
       + Contains an **intercepting proxy** to see and modify the content of requests and responses in transit
@@ -394,6 +384,16 @@ Infrastucture:======:======::======:======: Capability (TTPs)
       + Identify installed software
 - [Arachni](https://www.arachni-scanner.com)
    + Open-source penetration testing framework for web applications
++ HTTP Methods
+   + GET
+   + POST
+   + PUT
+   + HEAD
+   + DELETE
+   + PATCH
+   + OPTIONS
+   + CONNECT
+   + TRACE
 ## Infrastructure vulnerability scanner
 + Common Vulnerabilities and Exposures (CVE)
    + [CVE-2020-1472](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-1472)
