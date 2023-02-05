@@ -301,6 +301,11 @@
 + `touch /home/username/Documents/Web.html`
 ## Application programming interface (API) integration
 ## Automated malware signature creation
++ Malware repositories:
+   + VirusTotal
+   + Malpedia
+   + MalShare
++ [YARA](https://yara.readthedocs.io/en/v4.1.1/index.html) can create malware signatures based on textual and binary patterns
 ## Data enrichment
 + Processes that improve/refine your original data
 ## Threat feed combination
