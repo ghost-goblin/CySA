@@ -129,6 +129,8 @@
 + [MITRE ATT&CK](https://attack.mitre.org/) Framework | [attack.mitre.org](https://attack.mitre.org/)
   - A open-source knowledge base for listing and explaining specific adversary cyber tactics, techniques, and common knowleadge or precedures
   - **TTP**s - Tactics, Techniques & Procedures
+  - **APT** - Advanced Persistent Threat
+  - [Cyber Analytics Repository](https://car.mitre.org/)
 + 💎 The Diamond Model of Intrusion Analysis
 
 ```sh
