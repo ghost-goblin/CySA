@@ -295,6 +295,12 @@ Infrastucture:======:======::======:======: Capability (TTPs)
        + Virtual Host Patching
        + Virtual Guest issues
        + Virtual Network Issues
+    + Use of vulnerable, down-level of protocols:
+       + NTLM v1
+       + LANMAN
+       + NetBIOS
+       + Unsigned LDAP
+       + SMB
 
 ## Validation
 - True positive
