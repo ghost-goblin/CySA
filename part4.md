@@ -184,7 +184,7 @@ dd if=/dev/disk/by-label/[label of your drive] of=~/tmp/disk.img bs=64k
 md5sum ~/tmp/disk.img > ~/clone.md5
 ```
  
-+ Remore logging and monitoring data
++ Remove logging and monitoring data
 + Physical configuration and network topology
 + Archival media
 
