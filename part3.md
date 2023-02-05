@@ -268,7 +268,7 @@
 
 ## Sandboxing
 + A computing environment that is isolated from the host system
-   + Monitor system changed
+   + Monitor system changes
    + Execute known malware
 
 
