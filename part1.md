@@ -620,4 +620,4 @@ responder-Icmp-Redirect -h
 - Use of insecure functions
  - strcpy
     + Used to copy the source string to the destination string
-    + A stack overflow is caised if the buffer size of the destination string is smaller than the size of the source string
+    + A stack overflow is caused if the buffer size of the destination string is smaller than the size of the source string
