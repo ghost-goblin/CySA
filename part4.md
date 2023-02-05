@@ -97,9 +97,17 @@
 - Data exfiltration
 - Abnormal OS process behavior
 - File system change or anomaly
+  + [Wazuh](https://documentation.wazuh.com) monitors file integrity, permissions, ownership, and file attributes
+  + Tripwire
+  + Advanced Intrusion Detection Environment (AIDE)
+  + Manual verification of digital signitures using checksums
 - Registry change or anomaly
   + `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run`
 - Unauthorized scheduled task
+  + Windows Task Scheduler, `schtasks.exe`
+  + Linux:
+     + `cat /etc/crontab`
+     + `crontab -l`
 ## Application-related
 - Anomalous activity
 - Introduction of new accounts
