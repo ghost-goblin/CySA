@@ -145,7 +145,8 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 ## Legal hold
 ## Procedures
 ## Hashing
-- Changes to binaries
++ Changes to binaries
++ A hash is not considered to be cryptographically secure if two files have the same hash value or digest
   + `Get-FileHash .\OpenVPN_2.5.1_I601_amd64.msi -Algorithm MD5`
   + Change the hash value: `echo "AppendTheHash" >> .\OpenVPN_2.5.1_I601_amd64.msi`
 ## Carving
