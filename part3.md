@@ -69,7 +69,7 @@
        + **Microsoft Advanced Threat Analystics**
        + **Splunk**
            + ```sh
-              process where subtype.create and
+             process where subtype.create and
              (process_name == "wsmprovhost.exe" and parent_process_name == "svchost.exe")
               ```   
 
