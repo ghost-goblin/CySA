@@ -376,16 +376,16 @@ Infrastucture:======:======::======:======: Capability (TTPs)
    + OPTIONS
    + CONNECT
    + TRACE
-- Burp suite
+- [Burpsuite](https://www.kali.org/tools/burpsuite)
    + A set of tools used for the penetration testing of _web applications_
    + Contains an an **intercepting proxy** that lets the user see and modify the contesnt of requests and responses in transit
    + Intruder fuzzer for brute-force attacks and dictionary attacks on password forms
-- Nikto
+- [Nikto](https://www.kali.org/tools/nikto)
    + An open-source web server and web apllication scanner
       + Find SQL injection and XXS vulnerbilities
       + Report on unusual headers
       + Identify installed software
-- Arachni
+- [Arachni](https://www.arachni-scanner.com)
    + Open-source penetration testing framework for web applications
 ## Infrastructure vulnerability scanner
 + Common Vulnerabilities and Exposures (CVE)
