@@ -197,7 +197,7 @@
 - Sender Policy Framework (SPF)
    + Lists the servers that are authorised to send from your domain
 - Phishing
-   + Check the [Phishing Page](https://attack.mitre.org/techniques/T1566/) on MITRE ATT&CK
+   + Check out the [Phishing Page](https://attack.mitre.org/techniques/T1566/) on MITRE ATT&CK
 - Forwarding
 - Digital signature
 - E-mail signature block
