@@ -275,7 +275,8 @@ Infrastucture:======:======::======:======: Capability (TTPs)
             + `host -t axfr domain.name dns-server`
             + `dig axfr example.com @ns1.example.com`
        + DNS Brute Forcing:
-            + Scripted quey for each IP address that an organisation uss
+            + Scripted query for each IP address that an organisation uses
+            + Bypass IDS and IPS systems
        + DNS Antiharvesting Techniques:
             + Blaclisting systems and/or networks that abuse the service
             + Use CAPTCHAs to prevent bots
@@ -290,6 +291,8 @@ Infrastucture:======:======::======:======: Capability (TTPs)
     + Microsoft SQL Server:
        + TCP port 1433
        + HTTPS connection through a URL: TCP port 443
+    + MySQL:
+       + TCP port 3306
     + VPN:
        + Protocols, encryption tunnels can be vulnerable (PPTP)
     + Virtualisation:
