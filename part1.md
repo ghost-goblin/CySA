@@ -108,7 +108,11 @@
        - **Shadow IT**
  
 ## Intelligence Cycle
-+ `Requirements` (Direction & Planning) > `Collection & Processing` > `Analysis` > `Dissemination` > `Feedback` >
++ `Requirements` (Direction & Planning) > 
++ `Collection & Processing` > 
++ `Analysis` > 
++ `Dissemination` (Create and share threat reports) >
++ `Feedback` >
 
 ## Information sharing and analysis communities
 + Healthcare
