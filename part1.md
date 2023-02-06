@@ -274,7 +274,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
        + **DNS Zone transfers**: 
             + `host -t axfr domain.name dns-server`
             + `dig axfr example.com @ns1.example.com`
-       + DNS Brute Forcing
+       + DNS Brute Forcing:
             + Scripted quey for each IP address that an organisation uss
        + DNS Antiharvesting Techniques:
             + Blaclisting systems and/or networks that abuse the service
@@ -282,14 +282,17 @@ Infrastucture:======:======::======:======: Capability (TTPs)
             + Privacy services that use third-party DNS registration information
             + Implement **rate limiting** to ensure that lookups are not done at high speeds
             + Not publishing zone files
-    + Internal IP Disclosure
+    + Internal IP Disclosure:
        + Bad packet headers revealing information that should be hidden by NAT
        + HTTP version 1.0 request to the server without the Host header set, the server will refer to itself by its internal IP address
        + HTTP 1.0 protocol doesn't require the Host header to be set by the client as part of a request
        + `ncat -ssl owa.mymailserver.net 443 GET / HTTP/1.0`
-    + VPN
+    + Microsoft SQL Server:
+       + TCP port 1433
+       + HTTPS connection through a URL: TCP port 443
+    + VPN:
        + Protocols, encryption tunnels can be vulnerable (PPTP)
-    + Virtualisation
+    + Virtualisation:
        + VM Escape
        + Management Interface Acess
        + Virtual Host Patching
