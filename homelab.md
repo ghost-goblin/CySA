@@ -62,6 +62,10 @@ msfconsole -q
 ```
 
 #### 🚩 **Banner Grabbing**
++ Netcat
++ Telnet
++ Wget
+
 ```sh
 echo " " | nc -v 10.10.226.5 80
 ```
