@@ -469,7 +469,8 @@ nmap -sV -sC --script vuln 10.10.226.53
 - Active vs. passive
     + Active:
        + Pinging hosts
-       + Port scanning and service discovery
+       + Angry IP Scanner
+       + Port scanning and service discovery (Nmap)
        + DNS forward or reverse lookup
        + DNS Zone Transfer
        +  🚩 Banner Grabbing
@@ -482,7 +483,9 @@ nmap -sV -sC --script vuln 10.10.226.53
        + WHOIS lookups
        + BGP looking glass
        + Log data and configuration analysis
-       + **Netflow** is a Cisco network protocol that collects IP traffic information
+       + Capturing network traffic by using a sniffing tool
+          + Wireshark
+          + **Netflow** is a Cisco network protocol that collects IP traffic information
        + `netstat` shows active TCP and UDP connection filtered by protocol
           + Windows, Linux & macOS
        
