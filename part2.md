@@ -117,7 +117,7 @@
    + Inline CASB solutions require either the **network configuration** or the use of a **software agent** to intercept requests from the users to the cloud provider to monitor and enforce policies
 ## Honeypot
 + Systems that are designed to look like an attractive target to an attacker
-+ Honeynet detection systems that are placed in segments of unused network space will detect scan that blindly traverse IP reanges
++ Honeynet detection systems that are placed in segments of unused network space will detect scans that **blindly traverse IP ranges**
 ## Monitoring and logging
 
 ## Encryption
