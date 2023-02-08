@@ -614,7 +614,9 @@ responder-Icmp-Redirect -h
 - Privilege escalation
 + Password Reuse:
     - Password spraying
+       + Brute-force attacks resulting in thousands or millions of username attempts
     - Credential stuffing
+       + Stolen username and password wordlists from another site
 - Impersonation
     + OAuth open redirects
 - On-path attack (previously known as man-in-the-middle attack)
