@@ -116,7 +116,8 @@
    + API-based CASB
    + Inline CASB solutions require either the **network configuration** or the use of a **software agent** to intercept requests from the users to the cloud provider to monitor and enforce policies
 ## Honeypot
-+ Systems that are designed to look like an attractive target to an attacket
++ Systems that are designed to look like an attractive target to an attacker
++ Honeynet detection systems that are placed in segments of unused network space will detect scan that blindly traverse IP reanges
 ## Monitoring and logging
 
 ## Encryption
