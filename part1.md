@@ -462,7 +462,11 @@ nmap -sV -sC --script vuln 10.10.226.53
     + Active:
        + Pinging hosts
        + Port scanning and service discovery
-       + Banner Grabbing
+       +  🚩 Banner Grabbing
+          + Telnet
+          + Wget
+          + `echo " " | nc -v 10.10.226.5 80`
+
     + Passive Footprinting:
        + DNS Registrar checks
        + WHOIS lookups
