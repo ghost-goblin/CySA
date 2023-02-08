@@ -288,7 +288,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
             + Scripted query for each IP address that an organisation uses
             + Bypass IDS and IPS systems
        + DNS Antiharvesting Techniques:
-            + Blaclisting systems and/or networks that abuse the service
+            + Blacklisting systems and/or networks that abuse the service
             + Use CAPTCHAs to prevent bots
             + Privacy services that use third-party DNS registration information
             + Implement **rate limiting** to ensure that lookups are not done at high speeds
