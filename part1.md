@@ -277,6 +277,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
             + [BGP Looking Glasses](https://www.bgp4.as/looking-glasses)
             + `nslookup microsoft.com 8.8.8.8`
             + `nslookup -query=mx microsoft.com`
+       + [MX Lookup Tool](https://mxtoolbox.com/)
        + **DNS Zone transfers**: 
             + `host -t axfr domain.name dns-server`
             + `dig axfr example.com @ns1.example.com`
