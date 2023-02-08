@@ -41,7 +41,12 @@
     + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
 - Closed-Source Intelligence
     + _Honeynet_ data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
-
+- Threat Intelligence information is commonly shared with:
+    + _Incident Response_
+    + _Vulnerbility Management_
+    + _Risk Management_
+    + _Security Engineering_
+    + _Detection & Monitoring_
 
 1. **Timeliness**
 2. **Relevancy**
