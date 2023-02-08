@@ -426,7 +426,9 @@ Infrastucture:======:======::======:======: Capability (TTPs)
 - Fuzzing
   + Sending invalid or random data to application to test it's ability to handle unexpected data
 ## Enumeration
-- Nmap
+- **Nmap**
+   + By default, Nmap uses a **TCP SYN** scan
+
 ```sh
 # Scan a single target
 nmap 10.129.86.241/24
