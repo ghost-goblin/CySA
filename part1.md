@@ -34,6 +34,7 @@
        + Metasploit
     + Social Media Analysis
     + HTML Code
+    + [The Wayback Machine](https://web.archive.org/) Internet Archive
     + Metadata
        + Electronic document harvesting
        + `Exif` tag data from photos
