@@ -429,6 +429,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
 - **Nmap**
    + By default, Nmap uses a **TCP SYN** scan
    + Nmap supports `HTTP` and `SOCKS 4` proxies, allowing the attacker to configure a remote host as a reverse HTTP proxy and bounce their scans through it
+      + `proxychains nmap -sT -Pn -n -p445,139,88,80 172.16.0.4,115`
 
 ```sh
 # Scan a single target
