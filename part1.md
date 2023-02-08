@@ -659,6 +659,7 @@ responder-Icmp-Redirect -h
       Password:  anonymous@domain.com
       ```
 - Use of insecure functions
+    + `malloc()` Heap Overflow
  - strcpy
     + Used to copy the source string to the destination string
     + A stack overflow is caused if the buffer size of the destination string is smaller than the size of the source string
