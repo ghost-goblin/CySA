@@ -454,7 +454,7 @@ nmap -sV -sC --script vuln 10.10.226.53
     + Active:
        + Pinging hosts
        + Port scanning and service discovery
-    + Passive Footprinting
+    + Passive Footprinting:
        + Log data and configuration analysis
        + **Netflow** is a Cisco network protocol that collects IP traffic information
        + `netstat` shows active TCP and UDP connection filtered by protocol
