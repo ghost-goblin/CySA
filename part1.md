@@ -320,6 +320,9 @@ Infrastucture:======:======::======:======: Capability (TTPs)
        + Unsigned LDAP
        + SMB
           + Accessing SMB Shares using `smbclient`: `smbclient \\\\{target_IP}\\{SHARE_NAME}`
+    + Printers:
+        + Line Printer Requester, **LPR/LPD** TCP port 515
+        + **IPP** TCP port 631
 
 ## Validation
 - True positive
