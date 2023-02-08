@@ -653,10 +653,6 @@ responder-Icmp-Redirect -h
       User:  anonymous
       Password:  anonymous@domain.com
       ```
-    + Accessing SMB Shares using `smbclient`:
-      ```sh
-      smbclient \\\\{target_IP}\\{SHARE_NAME}
-      ```
 - Use of insecure functions
  - strcpy
     + Used to copy the source string to the destination string
