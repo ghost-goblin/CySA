@@ -48,6 +48,7 @@
           + Unauthenticated sessions should be turned off
        + Replicate of LDAP servers to prvent DDoS attacked and other service outages
        + LDAP ACLs can limit which accounts or users can access objects in the directory
+       + Secure LDAPS over TCP port 636
        + Kerberos _(unlike RADIUS and TACACS+)_ is designed to operate on untrusted networks and uses encryption to protect its authentication traffic
           + Administrator account attacks
           + Kerberos Ticket Reuse (impersonation)
