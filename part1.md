@@ -631,7 +631,7 @@ responder-Icmp-Redirect -h
      ```
  - Reflected
      + The attacker tricks the user in sending the attack to the server disguised as a ligitimate query string or other content
-     + The setver sends (reflects) the attack back to the user, causing it to execute
+     + The server sends (reflects) the attack back to the user, causing it to execute
  - Persistent
      + The attacker is able to store the attack code on a server, waiting for the user to request the infected content
  - Document object model (DOM)
