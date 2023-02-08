@@ -630,7 +630,7 @@ responder-Icmp-Redirect -h
      http://10.10.226.56/vulnerabilities/xss_r/?name=<script>alert(document.cookie)</script>
      ```
  - Reflected
-     + The attacker trick the user in sending the attack to the server disguised as a ligimate query string or other content
+     + The attacker tricks the user in sending the attack to the server disguised as a ligitimate query string or other content
      + The setver sends (reflects) the attack back to the user, causing it to execute
  - Persistent
      + The attacker is able to store the attack code on a server, waiting for the user to request the infected content
