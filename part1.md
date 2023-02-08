@@ -461,7 +461,7 @@ nmap -sV -sC --script vuln 10.10.226.53
        + Port scanning and service discovery
        + Banner Grabbing
     + Passive Footprinting:
-       + DNS Registrar cecks
+       + DNS Registrar checks
        + WHOIS lookups
        + BGP looking glass
        + Log data and configuration analysis
