@@ -451,12 +451,14 @@ nmap -sV -sC --script vuln 10.10.226.53
         + `sudo hping3 -0 192.168.200.15`, send a raw IP through the network
 
 - Active vs. passive
-    + Pinging hosts
-    + Port scanning and service discovery
+    + Active:
+       + Pinging hosts
+       + Port scanning and service discovery
     + Passive Footprinting
        + Log data and configuration analysis
        + **Netflow** is a Cisco network protocol that collects IP traffic information
        + `netstat` shows active TCP and UDP connection filtered by protocol
+          + Windows, Linux & macOS
        
 
 - [Responder](https://github.com/SpiderLabs/Responder)
