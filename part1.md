@@ -42,12 +42,7 @@
     + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
 - Closed-Source Intelligence
     + _Honeynet_ data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
-- Threat Intelligence information is commonly shared with:
-    + _Incident Response_
-    + _Vulnerbility Management_
-    + _Risk Management_
-    + _Security Engineering_
-    + _Detection & Monitoring_
+
 
 1. **Timeliness**
 2. **Relevancy**
@@ -227,15 +222,16 @@ Infrastucture:======:======::======:======: Capability (TTPs)
   + Likelihood
 
 ## Threat Intelligence Sharing with Supported Functions
-+ Incident Response
-+ Vulnerability Management
-+ Risk Management
-+ Security Engineering
-+ Detection & Monitoring
-  + Analyse network Traffic
-  + Analyse the executable process list
-  + Analyse other infected hosts
-  + Identify how the malicious process was executed
+- Threat Intelligence information is commonly shared with:
+    + _Incident Response_
+    + _Vulnerbility Management_
+    + _Risk Management_
+    + _Security Engineering_
+    + _Detection & Monitoring_
+       + Analyse network Traffic
+       + Analyse the executable process list
+       + Analyse other infected hosts
+       + Identify how the malicious process was executed
 
 
 
