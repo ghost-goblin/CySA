@@ -220,6 +220,9 @@ Infrastucture:======:======::======:======: Capability (TTPs)
          + Physical
   + Impact
   + Likelihood
+     - High
+     - Medium 
+     - Low
 
 ## Threat Intelligence Sharing with Supported Functions
 - Threat Intelligence information is commonly shared with:
