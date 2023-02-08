@@ -282,6 +282,11 @@ Infrastucture:======:======::======:======: Capability (TTPs)
             + `nslookup -query=mx microsoft.com`
        + [MX Lookup Tool](https://mxtoolbox.com/)
        + **DNS Zone transfers**: 
+            + Easiest way to gather complete DNS information:
+               + Domain servers
+               + Hostnames
+               + MX and CNAME records
+               + TTL records
             + `host -t axfr domain.name dns-server`
             + `dig axfr example.com @ns1.example.com`
        + DNS Brute Forcing:
@@ -465,6 +470,8 @@ nmap -sV -sC --script vuln 10.10.226.53
     + Active:
        + Pinging hosts
        + Port scanning and service discovery
+       + DNS forward or reverse lookup
+       + DNS Zone Transfer
        +  🚩 Banner Grabbing
           + Telnet
           + Wget
