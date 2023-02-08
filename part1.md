@@ -319,6 +319,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
           + `nbtstat -c` shows the contents of the NetBIOS name cache and a list of name-to-IP address mapping
        + Unsigned LDAP
        + SMB
+          + Accessing SMB Shares using `smbclient`: `smbclient \\\\{target_IP}\\{SHARE_NAME}`
 
 ## Validation
 - True positive
