@@ -314,6 +314,8 @@ Infrastucture:======:======::======:======: Capability (TTPs)
        + NTLM v1
        + LANMAN
        + NetBIOS
+          + `nbtstat` displays NetBIOS over TCP/IP protocol statistics
+          + `nbtstat -c` shows the contents of the NetBIOS name cache and a list of name-to-IP address mapping
        + Unsigned LDAP
        + SMB
 
