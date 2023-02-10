@@ -488,7 +488,7 @@ nmap -sV -sC --script vuln 10.10.226.53
           + **Netflow** is a Cisco network protocol that collects IP traffic information
        + `netstat` shows active TCP and UDP connection filtered by protocol
           + Windows, Linux & macOS
-       
+       + _Disable promiscuous mode for all NICs_ to mitigate attackers from analysing system traffic
 
 - [Responder](https://github.com/SpiderLabs/Responder)
 
