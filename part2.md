@@ -184,6 +184,7 @@
 + Detects the vulnerabilities or threats that are too complex for a static code analyser like memory leaks, null pointer referencing and concurrency
 ## Formal methods for verification of critical software
 + Hash checking: `md5sum -c my_file.md5`
++ Submit the executable to [VirusTotal](https://www.virustotal.com/)
 ## Service-oriented architecture
 - Security Assertions Markup Language (SAML)
    + An open standard that allows **Identity Providers** (IDP) to pass authorisation credentials to **Service Providers** (SP)
