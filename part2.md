@@ -12,6 +12,17 @@
 
 # 👮 Apply security solutions for infrastructure management
 ## Cloud vs. on-premises
+
+| Defense-in-Depth                 |
+|----------------------------------|
+| Policies, Procedures & Awareness |
+| Physical Security                |
+| Perimeter Security               |
+| Internal Network                 |
+| Host                             |
+| Application                      |
+| Data                             |
+
 ## Asset management
 - Asset tagging
   + Labeling or otherwise identifying systems, devices and other items
