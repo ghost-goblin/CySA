@@ -166,7 +166,7 @@
 + Tests the _source code_ for vulnerabilities by identifying common patterns
 + Language specific tools
 ## Dynamic analysis tools _(Black-box testing)_
-+ Exploits a running application from the outside not dependent on the framework on progamming language used
++ Exploits a running application from the outside not dependent on the framework or progamming language used
 + Detects the vulnerabilities or threats that are too complex for a static code analyser like memory leaks, null pointer referencing and concurrency
 ## Formal methods for verification of critical software
 + Hash checking: `md5sum -c my_file.md5`
