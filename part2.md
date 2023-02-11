@@ -44,7 +44,7 @@
        + Enable and require TLS to keep LDAP queries and authentication secure which helps protect data in transit
        + Set password storage to use a secure method
        + Use password-based authentication:
-          + LDAP v2 defines three types of authentication: anonymous, unauthenticated (clear-text password) and Kerberos v4
+          + LDAP (TCP and UDP 389) v2 defines three types of authentication: anonymous, unauthenticated (clear-text password) and Kerberos v4
           + Unauthenticated sessions should be turned off
        + Replicate of LDAP servers to prvent DDoS attacked and other service outages
        + LDAP ACLs can limit which accounts or users can access objects in the directory
