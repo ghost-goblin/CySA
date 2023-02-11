@@ -34,7 +34,9 @@
      + Shellcode is any lightweight code designed to run an exploit on the target, which may include any type of code format from scripting to binary code
    + [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/):
      + A suite of tools to assist with Windows troubleshooting
-     + autoruns - perform baseline system scans
+     + [autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns) - perform baseline system scans
+        + Currently configured auto-start applications
+        + Registry and file system locations
      + ProcDump
 - Memory
    + Windows Resource Monitor: `resmon.exe`
@@ -43,11 +45,12 @@
 - System and application behavior
    - Known-good behavior
       + Download [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) for process analysis
-      + System Idle (`PID 0`) and System (`PID4`) a kernel-level binary that is the parent of the first user-mode process (`smss.exe`)
-      + `csrss.exe` manages low-level Windows functions, running from `%SystemRoot%\System32` and has no parent process
+      + System Idle `PID 0` and System `PID4` a kernel-level binary that is the parent of the first user-mode process (Session Manager Subsystem - `smss.exe`)
+      + `csrss.exe` (Client Server Runtime SubSystem) manages low-level Windows functions, running from `%SystemRoot%\System32` and has no parent process
       + `wininit.exe` managed driver and services and should only have a single instance running as a process
-      + `Services.exe` hosts nonboot drivers and background services
-      + `lsass.exe` handles authentication and authorisation services, single instance running as a child of `wininit.exe`
+      + `Services.exe` hosts nonboot drivers and background services, one instance running as a child of `winit.exe`, and other processes showing a child of `services.exe` or `svchost.exe`
+         + Services will be started by `SYSTEM`, `LOCAL SERVICE` or `NETWORK SERVICE` accounts (if it is started by a `username`, it should be flagged)
+      + `lsass.exe` (Local Security Authority SubSystem) handles authentication and authorisation services, single instance running as a child of `wininit.exe`
       + `winlogon.exe` managed access to the user desktop for each user session with Desktop Window Manager (`dwm.exe`) as a child process
       + `userinit.exe` sets up the shell (`explorer.exe`) and then quits
       + `explorer.exe` is the typical user shell launched with the user's account privileges and is the parent process for the logged-on user
@@ -58,8 +61,8 @@
       4. Processes that are unsigned
       5. Any process whose digital signiture doesn't match the identified publisher
       6. Any process that does not have a parent/child relationship with a principle Windows process
-      7. Any process hosted by Windows utilities like Explorer
-      8. Any proces that is packed or compressed _(highlighted purple)_ in process explorer
+      7. Any process hosted by Windows utilities like Explorer, Notepad, Task Manager
+      8. Any process that is packed or compressed _(highlighted purple)_ in process explorer
    - Exploit techniques
       + `wmic.exe` allows command-line access to the Windows Management Instrumentation
          + Delete Shadow Volume Copies: `wmic.exe shadowcopy delete /nointeractive`
