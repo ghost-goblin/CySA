@@ -443,17 +443,16 @@ Infrastucture:======:======::======:======: Capability (TTPs)
    + Nmap supports `HTTP` and `SOCKS 4` proxies, allowing the attacker to configure a remote host as a reverse HTTP proxy and bounce their scans through it
       + `proxychains nmap -sT -Pn -n -p445,139,88,80 172.16.0.4,115`
 + **Target Specification**
-   + Scan a single target:
-      + `nmap 10.129.86.241/24`
+   + `nmap 10.129.86.241/24`
 + **Service Version Detection**
    + `nmap -sV 10.129.86.241`
 + **Operating System Detection**
    + `nmap -O 10.129.86.241`
 + **Host Discovery**
-   + Disable host discovery, port scan only
+   + _Disable host discovery, port scan only_:
       + `nmap -Pn 10.10.226.53`
 + **Timing & Performance**
-   + Paranoid (0) Intrusion Detection System evasion:
+   + _Paranoid (0) Intrusion Detection System evasion_:
       + `nmap 10.10.226.53 -T0`
 + **Firewall / IDS Evasion and Spoofing**
    + _Use tiny fragmented IP packets_:
