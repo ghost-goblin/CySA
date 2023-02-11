@@ -48,6 +48,7 @@
       + `winlogon.exe` managed access to the user desktop for each user session with Desktop Window Manager (`dwm.exe`) as a child process
       + `userinit.exe` sets up the shell (`explorer.exe`) and then quits
       + `explorer.exe` is the typical user shell launched with the user's account privileges and is the parent process for the logged-on user
+      + Use Windows Resource Monitor, `resmon.exe`, to identify typical behaviour (Memory, CPU, Disk Utilisation) in real-time and over a period of time
    - Anomalous behavior
       1. Any process name that you do not recognise; `cmd.exe`, `schtasks.exe`, `wmic.exe`, `powershell.exe`, `reg.exe`, `sc.exe`
       2. Any process name that is similar to a legitimate system process (`svhost`)
