@@ -444,22 +444,28 @@ Infrastucture:======:======::======:======: Capability (TTPs)
       + `proxychains nmap -sT -Pn -n -p445,139,88,80 172.16.0.4,115`
 + **Target Specification**
    + Scan a single target:
-   + `nmap 10.129.86.241/24`
+      + `nmap 10.129.86.241/24`
 + **Service Version Detection**
    + `nmap -sV 10.129.86.241`
 + **Operating System Detection**
    + `nmap -O 10.129.86.241`
    + Scan a server for open ports + running software version + OS + save to file named nmap_scan.txt:
-   + `nmap -sV -O -oN nmap_scan.txt 10.10.226.53`
+      + `nmap -sV -O -oN nmap_scan.txt 10.10.226.53`
 + **Host Discovery**
-   + Treat all host as online, disable host discovery, port scan only
-   + `nmap -sV -p- -Pn 10.10.226.53`
+   + Disable host discovery, port scan only
+      + `nmap -Pn 10.10.226.53`
 + **Timing & Performance**
    + Paranoid (0) Intrusion Detection System evasion:
-   + `nmap 10.10.226.53 -T0`
+      + `nmap 10.10.226.53 -T0`
 + **Firewall / IDS Evasion and Spoofing**
    + Use tiny fragmented IP packets:
-   + `nmap 10.10.226.53 -f`
+      + `nmap 10.10.226.53 -f`
+   + Relay connections through HTTP/SOCKS4 proxies:
+      + `nmap –proxies http://192.168.1.1:8080, http://192.168.1.2:8080 192.168.1.1`
+   + Set offset size:
+      + `nmap 192.168.1.1 –mtu 32`
+   + Appends random data to sent packets:
+      + `nmap –data-length 200 192.168.1.1`
 + Scan with some basic scripts:
    + `nmap -sV -sC --script vuln 10.10.226.53`
 
