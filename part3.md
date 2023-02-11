@@ -32,8 +32,9 @@
      + **Dropper** Malware is designed to install or run other types of malware embedded in a payload on an infected host
      + **Downloader** is a piece of code that connects to the Internet to retrieve additional tools after the initial infection by a dropper
      + Shellcode is any lightweight code designed to run an exploit on the target, which may include any type of code format from scripting to binary code
-   + [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/) Process Utilities:
-     + `autoruns` - perform baseline system scans
+   + [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/):
+     + A suite of tools to assist with Windows troubleshooting
+     + autoruns - perform baseline system scans
      + ProcDump
 - Memory
    + Windows Resource Monitor: `resmon.exe`
@@ -41,6 +42,7 @@
    + Linuc / Unix: `top`, `ps`
 - System and application behavior
    - Known-good behavior
+      + Download [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) for process analysis
       + System Idle (`PID 0`) and System (`PID4`) a kernel-level binary that is the parent of the first user-mode process (`smss.exe`)
       + `csrss.exe` manages low-level Windows functions, running from `%SystemRoot%\System32` and has no parent process
       + `wininit.exe` managed driver and services and should only have a single instance running as a process
