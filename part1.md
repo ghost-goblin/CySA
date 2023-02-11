@@ -449,8 +449,6 @@ Infrastucture:======:======::======:======: Capability (TTPs)
    + `nmap -sV 10.129.86.241`
 + **Operating System Detection**
    + `nmap -O 10.129.86.241`
-   + Scan a server for open ports + running software version + OS + save to file named nmap_scan.txt:
-      + `nmap -sV -O -oN nmap_scan.txt 10.10.226.53`
 + **Host Discovery**
    + Disable host discovery, port scan only
       + `nmap -Pn 10.10.226.53`
@@ -458,16 +456,14 @@ Infrastucture:======:======::======:======: Capability (TTPs)
    + Paranoid (0) Intrusion Detection System evasion:
       + `nmap 10.10.226.53 -T0`
 + **Firewall / IDS Evasion and Spoofing**
-   + Use tiny fragmented IP packets:
+   + _Use tiny fragmented IP packets_:
       + `nmap 10.10.226.53 -f`
-   + Relay connections through HTTP/SOCKS4 proxies:
+   + _Relay connections through HTTP/SOCKS4 proxies_:
       + `nmap –proxies http://192.168.1.1:8080, http://192.168.1.2:8080 192.168.1.1`
-   + Set offset size:
-      + `nmap 192.168.1.1 –mtu 32`
-   + Appends random data to sent packets:
-      + `nmap –data-length 200 192.168.1.1`
-+ Scan with some basic scripts:
-   + `nmap -sV -sC --script vuln 10.10.226.53`
+   + _Set offset size_:
+      + `nmap 10.10.226.53 –mtu 32`
+   + _Appends random data to sent packets_:
+      + `nmap –data-length 200 10.10.226.53`
 
 - hping / hping3
     + TCP/IP packet assembler and analyzer
