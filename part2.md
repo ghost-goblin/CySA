@@ -174,14 +174,26 @@
 # 💻 Hardware assurance best practices
 ## Hardware root of trust
 - Trusted platform module (TPM)
+   + A microcontroller (chip) used to securley create, store and limit the use of cryprographic keys
+   + Ensure platform integrity
 - Hardware security module (HSM)
-## eFuse
- + Firmware security
+   + A physical computing device that protects digital key management and key exchange
+   + Performs encryption operations for digital signitures and authentication
+## eFuse (Electronic Fuse)
++ Change and modify functions or performance of a chip
++ Detect and react to irregular voltage and current influxes
 ## Unified Extensible Firmware Interface (UEFI)
++ Secure boot restricts the type of application that are used at boot to those who are signed
++ Digital signitues to validate authenticity, source and integrity of the code that is loaded
 ## Trusted foundry
++ Part of the Department of Defense's program that ensures all hardware components are trustworthy and have not been compromised by malicious actors
 ## Secure processing
 - Trusted execution
 - Secure enclave
+   + CPU hardware-level isolation and memory encryption
+   + Protects the data being processed by locked-down hardware in the CPU
+   + Protects applications and data at runtime in an isolated memory environment
+   + Can be used to run the appliation in a **Trusted Execution Environment** (TEE)
 - Processor security extensions
 - Atomic execution
 ## Anti-tamper
