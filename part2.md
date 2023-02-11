@@ -179,6 +179,9 @@
 ## Static analysis tools _(White-box testing)_
 + Tests the _source code_ for vulnerabilities by identifying common patterns
 + Language specific tools
+    + OWASP Orizon
+    + findbugs
+    + pmd
 ## Dynamic analysis tools _(Black-box testing)_
 + Exploits a running application from the outside not dependent on the framework or progamming language used
 + Detects the vulnerabilities or threats that are too complex for a static code analyser like memory leaks, null pointer referencing and concurrency
