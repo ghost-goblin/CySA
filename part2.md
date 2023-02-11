@@ -188,6 +188,7 @@
 - Hardware security module (HSM)
    + A physical computing device that protects digital key management and key exchange
    + Performs encryption operations for digital signitures and authentication
+   + Cloud providers are making HSMs available _(Amazon's Cloud HSM, Azure's Dedicated HSM, Google's Cloud HSM)_ and provide the ability to host, manage and properly secure encryption keys
 ## eFuse (Electronic Fuse)
 + Change and modify functions or performance of a chip
 + Detect and react to irregular voltage and current influxes
