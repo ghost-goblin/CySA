@@ -62,7 +62,7 @@
          + Delete Shadow Volume Copies: `wmic.exe shadowcopy delete /nointeractive`
          + `wmic /node:target-computer-name process call create “cmd.exe /c task-name”`
       + Bypass Windows Applocker policy rules, `.exe`, `.dll`
-      + Chenges in keys in the Run Hive: `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run`
+      + Changes in keys in the Run Hive: `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run`
 - File system
    + File monitoring and commerical Host Intrusion Detection Systems (HIDS)
    + Monitor and report on syetem file changes
