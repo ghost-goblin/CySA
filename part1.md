@@ -40,8 +40,8 @@
 - Closed-Source Intelligence
     + _Honeynet_ data that is derived from the providers oen research and analysis efforts & anonymised information mined from its customers systems
 + Social Engineering
-    + Creepy - social media geotagging
-    + Metasploit
+    + [Creepy](https://www.geocreepy.com/) - social media geotagging
+    + [Metasploit](https://docs.metasploit.com/)
     + Pretexting
 
 1. **Timeliness**
