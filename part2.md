@@ -149,6 +149,10 @@
 - System-on-chip (SoC)
 - Firmware
 ## Software development life cycle (SDLC) integration
+   + The Agile software methodology is characterised by multiple sprints
+   + The Waterfall model follows a series of sequential steps
+   + The Spiral model uses multiple passes through 4 phases
+   + Rapid Application development (RAD) uses a 5-phase approach in an iterative format
 1. Planning And Requirement Analysis
 2. Defining Requirements
 3. Designing Architecture
@@ -156,6 +160,7 @@
 5. Product Testing and Integration
 6. Deployment and Maintenance Of Product
 ## DevSecOps
++ Automates the integration of security at every phase of the software development lifecycle
 ## Software assessment methods
 - User acceptance testing
 - Stress test application
