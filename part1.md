@@ -442,28 +442,26 @@ Infrastucture:======:======::======:======: Capability (TTPs)
    + By default, Nmap uses a **TCP SYN** scan
    + Nmap supports `HTTP` and `SOCKS 4` proxies, allowing the attacker to configure a remote host as a reverse HTTP proxy and bounce their scans through it
       + `proxychains nmap -sT -Pn -n -p445,139,88,80 172.16.0.4,115`
-Target Specification:
++ **Target Specification**
    + Scan a single target:
    + `nmap 10.129.86.241/24`
-+ Service Version Detection:
++ **Service Version Detection**
    + `nmap -sV 10.129.86.241`
-+ Operating System Detection:
++ **Operating System Detection**
    + `nmap -O 10.129.86.241`
-+ Run a detailed scan on open ports:
-   + `nmap 10.10.11.125 -sV -sC -p22,80,1337 -T4`
-+ Scan a server for open ports + running software version + OS + save to file named nmap_scan.txt
+   + Scan a server for open ports + running software version + OS + save to file named nmap_scan.txt:
    + `nmap -sV -O -oN nmap_scan.txt 10.10.226.53`
-+ Scan server for ALL open ports + find what version of software is running (will take more time)
-   + Treat all host as online (useful if scan is being blocked by firewall)
++ **Host Discovery**
+   + Treat all host as online, disable host discovery, port scan only
    + `nmap -sV -p- -Pn 10.10.226.53`
-+ Scan with some basic scripts
-   + `nmap -sV -sC --script vuln 10.10.226.53`
-+ Timing & Performance:
++ **Timing & Performance**
    + Paranoid (0) Intrusion Detection System evasion:
-   + `nmap 192.168.1.1 -T0`
-+ Firewall / IDS Evasion and Spoofing:
+   + `nmap 10.10.226.53 -T0`
++ **Firewall / IDS Evasion and Spoofing**
    + Use tiny fragmented IP packets:
-   + `nmap 192.168.1.1 -f`
+   + `nmap 10.10.226.53 -f`
++ Scan with some basic scripts:
+   + `nmap -sV -sC --script vuln 10.10.226.53`
 
 - hping / hping3
     + TCP/IP packet assembler and analyzer
