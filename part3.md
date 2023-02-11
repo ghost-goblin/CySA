@@ -58,6 +58,10 @@
       7. Any process hosted by Windows utilities like Explorer
       8. Any proces that is packed or compressed _(highlighted purple)_ in process explorer
    - Exploit techniques
+      + `wmic.exe` allows command-line access to the Windows Management Instrumentation
+         + Delete Shadow Volume Copies: `wmic.exe shadowcopy delete /nointeractive`
+         + `wmic /node:target-computer-name process call create “cmd.exe /c task-name”`
+         + Bypass Windows Applocker policies
 - File system
    + File monitoring and commerical Host Intrusion Detection Systems (HIDS)
    + Monitor and report on syetem file changes
