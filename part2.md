@@ -162,13 +162,22 @@
 - Authentication
 - Data protection
 - Parameterized queries
-## Static analysis tools
-## Dynamic analysis tools
+## Static analysis tools _(White-box testing)_
++ Tests the _source code_ for vulnerabilities by identifying common patterns
++ Language specific tools
+## Dynamic analysis tools _(Black-box testing)_
++ Exploits a running application from the outside not dependent on the framework on progamming language used
++ Detects the vulnerabilities or threats that are too complex for a static code analyser like memory leaks, null pointer referencing and concurrency
 ## Formal methods for verification of critical software
++ Hash checking: `md5sum -c my_file.md5`
 ## Service-oriented architecture
 - Security Assertions Markup Language (SAML)
+   + An open standard that allows **Identity Providers** (IDP) to pass authorisation credentials to **Service Providers** (SP)
 - Simple Object Access Protocol (SOAP)
+   + A network protocol for exchaging structed data between nodes
+   + XML-based on top of Applicaton Layer 7 protocols like HTTP, SMTP, IMAP and FTP
 - Representational State Transfer (REST)
+   + A standardised architectural style for stateless and cachable communictation between clients and servers
 - Microservices
 
 # 💻 Hardware assurance best practices
