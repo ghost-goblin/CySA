@@ -200,4 +200,10 @@
 ## Self-encrypting drive
 ## Trusted firmware updates
 ## Measured boot and attestation
++ Checks if the host machines are trustworthy before they're allowed to process data
+   + Secure Boot and Secure Boot keys
+   + Debug controls
+   + Code integrity
 ## Bus encryption
++ Electronic systems that require high security
++ Encypted program instructions on a data bus that includes a _secure cryptoprocessor_
