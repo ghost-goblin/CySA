@@ -241,9 +241,11 @@
 
 ## Allow list (previously known as whitelisting)
 + Whitelisting can be an effective fallback posture to use while conduting incident response
++ Access Control Lists
++ `access-list 100 permit tcp 192.168.1.0 0.0.0.255 host 10.10.64.1 eq 23`
 
 ## Blocklist (previously known as blacklisting)
-
++ `access-list 100 deny tcp any any eq 23 `
  
 ## Firewall
 + Rest at network boundary
