@@ -155,8 +155,15 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 ## Hashing
 + Changes to binaries
 + A hash is not considered to be cryptographically secure if two files have the same hash value or digest
-  + `Get-FileHash .\OpenVPN_2.5.1_I601_amd64.msi -Algorithm MD5`
-  + Change the hash value: `echo "AppendTheHash" >> .\OpenVPN_2.5.1_I601_amd64.msi`
++ **Windows**:
+  + `Get-FileHash .\file.msi -Algorithm MD5`
+  + Change the hash value: `echo "AppendTheHash" >> .\file.msi`
++ **Linux**:
+  + `md5sum groups_list.txt`
+  + Redirect the hash value of a file(s) into a text file:
+     + `md5sum groups_list.txt groups.csv > myfiles.md5`
+  + Read the mdsums and check them:
+     + `md5sum -c myfiles.md5`
 ## Carving
 + Looks at data on a block-by-block basis, looking for information like file headers and other indicators of file structure and attempts to recover the files
    + Header and footer-based carving:
