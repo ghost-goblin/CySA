@@ -98,7 +98,7 @@
    + Linking an identity and it's attributes between multiple identity management systems
    + Identity Providers (IDPs) integrate with Service Providers (SP) or the relying party
        + ADFS
-       + SAML
+       + SAML _(see below)_
           + XML-based
        + OAuth
        + OpenID Connect
