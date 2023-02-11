@@ -149,6 +149,12 @@
 - System-on-chip (SoC)
 - Firmware
 ## Software development life cycle (SDLC) integration
+1. Planning And Requirement Analysis
+2. Defining Requirements
+3. Designing Architecture
+4. Developing Product
+5. Product Testing and Integration
+6. Deployment and Maintenance Of Product
 ## DevSecOps
 ## Software assessment methods
 - User acceptance testing
