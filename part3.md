@@ -27,8 +27,16 @@
      - **Reverse engineering** is the process of analysing the structure of hardware or software to reveal more about how it functions
      + Masquerading
      + DLL Injection
-     + DLL sideloadig
+        + Manipulates the execution of a running process to load a desired library
+           + `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\KnownDLLs`
+           + `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\AppCertDLLs` are loaded into every process that call the Win32 API functions
+           + `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\AppInit_DLLs` are loaded into every process that runs `User32.dll`
+     + DLL sideloading
+        + [Hijack Execution](https://attack.mitre.org/techniques/T1574/002/)
+        + Planting then invoking a legitimate application that executes the payload that tricks the application into loading a malicious DLL
      + Process hollowing
+        + [Process Injection](https://attack.mitre.org/techniques/T1055/012/)
+        + Inject malicious code into a suspended or hollowed process to evade process-based defenses
      + **Dropper** Malware is designed to install or run other types of malware embedded in a payload on an infected host
      + **Downloader** is a piece of code that connects to the Internet to retrieve additional tools after the initial infection by a dropper
      + Shellcode is any lightweight code designed to run an exploit on the target, which may include any type of code format from scripting to binary code
