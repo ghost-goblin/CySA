@@ -328,6 +328,8 @@ Infrastucture:======:======::======:======: Capability (TTPs)
     + Printers:
         + Line Printer Requester, **LPR/LPD** TCP port 515
         + **IPP** TCP port 631
+    + **Oracle Database** Net Listener:
+        + TCP 1521
 
 ## Validation
 - True positive
