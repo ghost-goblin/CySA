@@ -84,14 +84,14 @@
        + Enables users to share identity and account information while authenticating via the original identity provider
        + Redirect exploits are a form of impersonation attack, allowing the attacker to pretend to be a legimate user
     + OpenID
-       + Open-sourced standard for decenralised authentication
+       + Open-sourced standard for decentralised authentication
      + OpenID Connect
        + An authentication layer built using the OAuth protocol
 - Multifactor authentication (MFA)
     + Something you know
     + Something you have
-    + Something you are (biometric)
-    + Somewhere you are (location)
+    + Something you are _(biometric)_
+    + Somewhere you are _(location)_
 - Single sign-on (SSO)
 - Federation
    + Move beyond the trust boundaries of your organisation
