@@ -164,12 +164,16 @@
    + The Waterfall model follows a series of sequential steps
    + The Spiral model uses multiple passes through 4 phases
    + Rapid Application development (RAD) uses a 5-phase approach in an iterative format
-1. Planning And Requirement Analysis
+1. Planning and Requirement Analysis
 2. Defining Requirements
 3. Designing Architecture
 4. Developing Product
 5. Product Testing and Integration
-6. Deployment and Maintenance Of Product
+6. Deployment and Maintenance of Product
+   + Vulnerability scans
+   + Patching
+   + Regression Testing
++ **Disposition** is designed to ensure that the data is properly purged at the end of an application lifecycle
 ## DevSecOps
 + Automates the integration of security at every phase of the software development lifecycle
 ## Software assessment methods
