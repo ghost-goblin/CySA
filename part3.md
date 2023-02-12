@@ -273,11 +273,12 @@
 
 ## Network access control (NAC)
 + 802.1X
++ RADIUS carries authentication from a Network Access Server (NAS) to a AAA server
 + A standard for encapsulating **EAP** (Extensible Authentication Protocol) communications over a LAN or wireless LAN that provides port-based authentication
    + **Port-based NAC** is a switch (or router) that performs some sort of authentication of the attached device before activating the port
 1. Agent-based vs agentless
 2. In-band vs Out-of-Band
-+ RADIUS
+
 
 
 ## Sinkholing
