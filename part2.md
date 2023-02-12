@@ -178,6 +178,7 @@
 + Automates the integration of security at every phase of the software development lifecycle
 ## Software assessment methods
 - User acceptance testing
+   + The final testing done before the code is released to production
 - Stress test application
 - Security regression testing
 - Code review
