@@ -204,7 +204,7 @@
 ## Formal methods for verification of critical software
 + Hash checking: `md5sum -c my_file.md5`
 + Submit the executable to [VirusTotal](https://www.virustotal.com/)
-   + _Hashing cannot identify unknown malware!_
++ _Hashing cannot identify unknown malware!_
 ## Service-oriented architecture
 - Security Assertions Markup Language (SAML)
    + An open standard that allows **Identity Providers** (IDP) to pass authorisation credentials to **Service Providers** (SP)
