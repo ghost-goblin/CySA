@@ -281,6 +281,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
             + `nslookup microsoft.com 8.8.8.8`
             + `nslookup -query=mx microsoft.com`
        + [MX Lookup Tool](https://mxtoolbox.com/)
+            + Used to specify the email server(s) responsible for a domain name
        + **DNS Zone transfers**: 
             + Easiest way to gather complete DNS information:
                + Domain servers
