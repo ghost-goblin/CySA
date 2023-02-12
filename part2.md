@@ -215,10 +215,10 @@
 
 # 💻 Hardware assurance best practices
 ## Hardware root of trust
-- Trusted platform module (TPM)
+- **Trusted platform module** (TPM)
    + A microcontroller (chip) used to securley create, store and limit the use of cryprographic keys
-   + Ensure platform integrity
-- Hardware security module (HSM)
+   + Ensures platform integrity by storing device-specific RSA encryption keys to allow hardware authentication
+- **Hardware security module** (HSM)
    + A physical computing device that protects digital key management and key exchange
    + Performs encryption operations for digital signitures and authentication
    + Cloud providers are making HSMs available _(Amazon's Cloud HSM, Azure's Dedicated HSM, Google's Cloud HSM)_ and provide the ability to host, manage and properly secure encryption keys
