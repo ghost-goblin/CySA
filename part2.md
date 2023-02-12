@@ -121,7 +121,7 @@
 - Attribute-based (ABAC)
    + Based on policies
 - Mandatory (MAC)
-   + Mandatory Access Control systems rely on the operating system to control what subjects can access and what action they can perforn
+   + Mandatory Access Control systems rely on the **operating system** to control what subjects can access and what action they can perforn
 - Manual review
 ## Cloud access security broker (CASB)
 + Provide an additonal protection layer for accessing cloud-based applications
