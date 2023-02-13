@@ -32,6 +32,7 @@
     + Social Media Analysis
     + HTML Code
     + [The Wayback Machine](https://web.archive.org/) Internet Archive
+    + [Urlscan.io](https://urlscan.io/) - website crawling
     + Metadata
        + Electronic document harvesting
        + `Exif` tag data from photos
