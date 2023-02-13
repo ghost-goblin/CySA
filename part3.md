@@ -52,10 +52,11 @@
    + Linuc / Unix: `top`, `ps`
 - System and application behavior
 
+> Check out [Intro to Endpoint Security](https://tryhackme.com/room/introtoendpointsecurity) Room on TryHackMe
 
    - Known-good behavior
       + Download [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) for process analysis
-      + Check out [Intro to Endpoint Security](https://tryhackme.com/room/introtoendpointsecurity) Room on TryHackMe
+
       + System Idle `PID 0` and System `PID4` a kernel-level binary that is the parent of the first user-mode process (Session Manager Subsystem - `smss.exe`)
       + `csrss.exe` (Client Server Runtime SubSystem) manages low-level Windows functions, running from `%SystemRoot%\System32` and has no parent process
       + `wininit.exe` managed driver and services and should only have a single instance running as a process
