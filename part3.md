@@ -52,7 +52,7 @@
    + Linuc / Unix: `top`, `ps`
 - System and application behavior
 
-> Check out [Intro to Endpoint Security](https://tryhackme.com/room/introtoendpointsecurity) Room on TryHackMe
+> Check out the [Intro to Endpoint Security](https://tryhackme.com/room/introtoendpointsecurity) Room on TryHackMe
 
    - Known-good behavior
       + Download [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) for process analysis
