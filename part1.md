@@ -494,6 +494,8 @@ Infrastucture:======:======::======:======: Capability (TTPs)
        + Log data and configuration analysis
        + Capturing network traffic by using a sniffing tool
           + Wireshark
+          + Zeek or Bro
+          + pof
           + **Netflow** is a Cisco network protocol that collects IP traffic information
        + `netstat` shows active TCP and UDP connection filtered by protocol
           + Windows, Linux & macOS
