@@ -468,14 +468,14 @@ Infrastucture:======:======::======:======: Capability (TTPs)
       + `nmap 10.10.226.53 –mtu 32`
    + _Appends random data to sent packets_:
       + `nmap –data-length 200 10.10.226.53`
-   + **Port Scans**
-      + `-sS` TCP SYN packet
-      + `-sU` UDP Scan
-      + `-sT` TCP connect; conducts a three-way handshake scan
-      + `-N` Null scan sends a packet with the header bit set to 0
-      + `-sF` send an unexpected FIN packet
-      + `-sX` sends a packet with the FIN, PSH and URG flags set to 1
-      + `-p` Port Range
++ **Port Scans**
+   + `-sS` TCP SYN packet
+   + `-sU` UDP Scan
+   + `-sT` TCP connect; conducts a three-way handshake scan
+   + `-N` Null scan sends a packet with the header bit set to 0
+   + `-sF` send an unexpected FIN packet
+   + `-sX` sends a packet with the FIN, PSH and URG flags set to 1
+   + `-p` Port Range
 
 - hping / hping3
     + TCP/IP packet assembler and analyzer
