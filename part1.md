@@ -442,9 +442,8 @@ Infrastucture:======:======::======:======: Capability (TTPs)
   + Sending invalid or random data to application to test it's ability to handle unexpected data
 ## Enumeration
 - **Nmap**
+   + **Common Platform Enumeration** (CPE) is a scheme for identifying hardware devices, operating systems and applications developed by MITRE
    + By default, Nmap uses a **TCP SYN** scan
-   + UDP port scan:
-      + `nmap -sU 10.10.226.53`
    + Nmap supports `HTTP` and `SOCKS 4` proxies, allowing the attacker to configure a remote host as a reverse HTTP proxy and bounce their scans through it or you can use _proxychains_:
       + `proxychains nmap -sT -Pn -n -p445,139,88,80 10.10.226.53`
 + **Target Specification**
