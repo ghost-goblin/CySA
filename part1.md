@@ -267,7 +267,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
 - Mapping/Enumeration
     + SSL & TLS:
         + HTTP over TLS (1.3)
-        + Use **TLS 1.1** or newer
+        + Use **TLS 1.2** or newer
         + Vulnerable protocols:
            + SSL 2.0, SSL 2.1, TLS 1.0
         + Must use current, secure ciphers
