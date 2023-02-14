@@ -53,7 +53,7 @@
 - Blue team
 - White team
 - Tabletop exercise
-• Supply chain assessment
+## Supply chain assessment
 - Vendor due diligence
 - Hardware source authenticity
 
