@@ -634,6 +634,7 @@ responder-Icmp-Redirect -h
 - Structured query language (SQL) injection
 - Overflow attack
  - Buffer
+    + Overflowing a memory location by placing a string longer than a program expects into a variable
  - Integer
  - Heap
     + `malloc()`
