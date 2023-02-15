@@ -635,6 +635,7 @@ responder-Icmp-Redirect -h
 - Overflow attack
    - Buffer
       + Overflowing a memory location by placing a string longer than a program expects into a variable
+      + Enable DEP (Data Execution Prevention) in Windows
    - Integer
    - Heap
       + `malloc()`
