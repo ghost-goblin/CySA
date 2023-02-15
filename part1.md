@@ -633,11 +633,11 @@ responder-Icmp-Redirect -h
  language (XML) attack
 - Structured query language (SQL) injection
 - Overflow attack
- - Buffer
-    + Overflowing a memory location by placing a string longer than a program expects into a variable
- - Integer
- - Heap
-    + `malloc()`
+   - Buffer
+      + Overflowing a memory location by placing a string longer than a program expects into a variable
+   - Integer
+   - Heap
+      + `malloc()`
 - Remote code execution
 - 📁 Directory traversal
     + Insert filesystem path values into a query string
