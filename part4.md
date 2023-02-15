@@ -54,6 +54,7 @@
 - Isolation
 ## Eradication and recovery
 - Vulnerability mitigation
+   + Enable DEP (Data Execution Prevention) in Windows
 - Sanitization
 - Reconstruction/reimaging
 - Secure disposal
