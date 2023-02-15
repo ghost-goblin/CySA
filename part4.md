@@ -20,6 +20,7 @@
 ## Response coordination with relevant entities
 - Legal
 - Human resources
+   + Primary responsibility for employee relations and disciplinary policies
 - Public relations
 - Internal and external
 - Law enforcement
