@@ -96,12 +96,14 @@
 - Unauthorized change
 - Unauthorized privilege
 - Data exfiltration
+   + The setupapi log file, `C:\Windows\INF\setupapi.dev.log`, records the first time a USB device is conneted to a Windows system
+   + Slack space is the space left at the end of a file or end of a cluster
 - Abnormal OS process behavior
 - File system change or anomaly
-  + [Wazuh](https://documentation.wazuh.com) monitors file integrity, permissions, ownership, and file attributes
-  + Tripwire
-  + Advanced Intrusion Detection Environment (AIDE)
-  + Manual verification of digital signitures using checksums
+   + [Wazuh](https://documentation.wazuh.com) monitors file integrity, permissions, ownership, and file attributes
+   + Tripwire
+   + Advanced Intrusion Detection Environment (AIDE)
+   + Manual verification of digital signitures using checksums
 - Registry change or anomaly
   + `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run`
 - Unauthorized scheduled task
