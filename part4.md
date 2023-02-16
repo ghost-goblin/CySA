@@ -186,6 +186,7 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
       + Cryptographic keys
 
 ## Mobile
++ iPhone backups to local systems can be _full_ or _differential_
 ## Cloud
 ## Virtualization
 ## Legal hold
