@@ -240,4 +240,5 @@ md5sum ~/tmp/disk.img > ~/clone.md5
    - Use [Eraser](https://eraser.heidi.ie), [DBAN](https://dban.org) _(Darik's Boot and Nuke)_ or encrypt the drive and then delete the key
 + Physical configuration and network topology
 + Archival media
++ Bitlocker-encrypted systems that mounted the encrypted volume before going to sleep can use Hibernation file analysis to retrieve the Bitlocker key
 
