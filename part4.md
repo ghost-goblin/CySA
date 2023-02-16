@@ -73,22 +73,27 @@
 
 # 🔬 Analyze potential indicators of compromise (IOCs)
 ## Network-related
-- Bandwidth consumption
+- **Bandwidth consumption**
   + Cause service disruption
-- Beaconing
+- **Beaconing**
   + Activity sent to a C&C system as part of a botnet or malware remote system
   + Typically HTTTP / HTTPS traffic
   + Request commands, provide status, download additional malware
-- Irregular peer-to-peer communication
-- Rogue device on the network
+- **Irregular peer-to-peer communication**
+  + A Botnet infection that uses a peer-to-peer command-and-control process
+  + Use rapidly changing control nodes and don't rely on a consistent, identifiable control infrastructure
+  + Traditional methods of detecting beaconing will fail
+  + Morphing infection packages making signiture-based detection unlikely to work 
+     + Capture network flows for all host and use filters to remove normal traffic
+-** Rogue device on the network**
    + Evil Twin Attack
       + Rogue AP configured to spoof the MAC address of a legitimate access point
-- Scan/sweep
-- Unusual traffic spike
+- **Scan/sweep**
+- **Unusual traffic spike**
    + Baseline or anomaly-cased detection
    + Heuristic or behaviour-based detected
    + Protocol analysis
-- Common protocol over non-standard port
+- **Common protocol over non-standard port**
 
 
 
