@@ -226,6 +226,7 @@ md5sum ~/tmp/disk.img > ~/clone.md5
 ```
  
 + Remove logging and monitoring data
+   - Use [Eraser](https://eraser.heidi.ie), [DBAN](https://dban.org) _(Darik's Boot and Nuke)_ or encrypt the drive and then delete the key
 + Physical configuration and network topology
 + Archival media
 
