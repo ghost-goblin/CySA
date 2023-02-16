@@ -101,6 +101,10 @@
 - Unauthorized change
 - Unauthorized privilege
 - Data exfiltration
+   + A **netcat** server _(listener)_
+      + `nc -k -l 6667`, the `-k` flag makes it listen continuously rather than terminating after a client disconnects
+      + `-l`determines the port that it is listening on
+      + TCP port 6667 is a port typically associacted with _Internet Relay Chat_ (IRC)
 - Abnormal OS process behavior
 - File system change or anomaly
    + [Wazuh](https://documentation.wazuh.com) monitors file integrity, permissions, ownership, and file attributes
@@ -149,6 +153,7 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
    + The setupapi log file, `C:\Windows\INF\setupapi.dev.log`, records the first time a USB device is conneted to a Windows system
    + Slack space is the space left at the end of a file or end of a cluster
    + The Windows command prompt does not store command history _(press `F7` with and open command prompt, you would be able to see the history)_
+   + Boot into Safe Mode
 
 > A **Jump Kit** is a common part of the incident response plan and includes a laptop with useful software, a sniffer and forensics tools, thumb drives, external hard drives and networking equipment
 
