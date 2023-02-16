@@ -114,6 +114,9 @@
    + Linux configuration settings which effect every service `/ext/xinetd.conf` / `systemctl`
 - Unauthorized change
 - Unauthorized privilege
+   + `C:\Windows\System32\config` is where Windows stores passwords for local Windows users
+      + NTUSER.DAT hive in the `C:\Users\<username>\` directory
+   + Check the `/etc/passed`, `/etc/sudoers` and/or `/etc/groups` directory for new Linux accounts
 - Data exfiltration
    + A **netcat** server _(listener)_
       + `nc -k -l 6667`, the `-k` flag makes it listen continuously rather than terminating after a client disconnects
@@ -165,9 +168,7 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 - Disk
    + Sysinternals [DiskView](https://learn.microsoft.com/en-us/sysinternals/downloads/diskview) provides a GUI-based view of the disk with each cluster marked by the files and directories it contains
    + `C:\Windows\AppCompat\Programs\Amcache.hve` - Windows programs that were recently run on the system
-   + `C:\Windows\System32\config` is where Windows stores passwords for local Windows users
    + `C:\Windows\System32\Config\RegBack`
-   + NTUSER.DAT hive in the `C:\Users\<username>\` directory
    + The setupapi log file, `C:\Windows\INF\setupapi.dev.log`, records the first time a USB device is conneted to a Windows system
    + **Slack space** is the space left at the end of a file or end of a cluster
       + When clusters are overwritten, original data is left in the unused space between the end of a new file and the end of the cluster
