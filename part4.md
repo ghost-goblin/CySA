@@ -115,7 +115,7 @@
    + Endpoint forensics will find the actual exploit tools used on endpoint systems
    + Linux configuration settings which effect every service `/ext/xinetd.conf` / `systemctl`
 - Unauthorized change
-   + `/var/log/auth.log`contains information on successful and unsuccessful login attempts
+   + `/var/log/auth.log` contains information on successful and unsuccessful login attempts
 - Unauthorized privilege
    + `C:\Windows\System32\config` is where Windows stores passwords for local Windows users
       + NTUSER.DAT hive in the `C:\Users\<username>\` directory
