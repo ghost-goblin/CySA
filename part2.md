@@ -136,7 +136,7 @@
 + Encryption at rest used at the host layer
 + Security keys and passwords must be secured
    + _Storing plaintext passwords is a bad idea!_
-   + `bcrypt` is a strong passowrd-hashing algorithm that includes salts for stored values
+   + `bcrypt` is a strong password-hashing algorithm that includes salts for stored values
    + `bcrypt` _(based on the Blowfish cipher)_ can mitigate a SQL injection vulnerability that lets an attacker dump password hashes
 + Hashing required to maintain integrity
 
