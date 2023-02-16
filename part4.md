@@ -177,6 +177,9 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 
  
 ## Endpoint
+
+> Check out the [Introduction to Windows Registry Forensics](https://tryhackme.com/room/windowsforensics1) Room on TryHackME
+
 - Disk
    + Sysinternals [DiskView](https://learn.microsoft.com/en-us/sysinternals/downloads/diskview) provides a GUI-based view of the disk with each cluster marked by the files and directories it contains
    + `C:\Windows\AppCompat\Programs\Amcache.hve` - Windows programs that were recently run on the system
