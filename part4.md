@@ -131,6 +131,9 @@
 - Unexpected outbound communication
 - Service interruption
 - Application log
+   + Pluggable Authentication Module (PAM)-aware applications have a file in the `/etc/pam.d` directory
+      + List directives that define the module and what settings or controls are enabled
+      + Multifactor Authentication settings
 
 
 # 🧪 Utilize basic digital forensics techniques
