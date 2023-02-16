@@ -159,6 +159,9 @@
      tcp.port eq 25 or icmp
      ip.src == 152.106.6.125 and ip.dst == 192.168.0.1
     ```
+
+> `ifconfig` resets traffic counters at 4GB
+
 - tcpdump
 
 ```sh
@@ -168,7 +171,7 @@ tcpdump -nn  # option shows IP addresses and ports in numeric format
 tcpdump -X   # option will capture the packet's payload in hex and ASCII formats.
 ```
 
-> `ifconfig` resets traffic counters at 4GB`
+
  
 ## Endpoint
 - Disk
