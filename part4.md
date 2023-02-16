@@ -175,6 +175,12 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
    + Contect-based
    + File structure-based
 + Facebook _and other social media sites_ now strip metadata to help protect user privacy
++ ISO 8601 timestamps: `2022-09-27 18:00:00.000`
++ The timestamp format used in web browsers such as Apple Safari, Google Chrome and Opera
+   + 64-bit value for microseconds since Jan 1, 1601 00:00 UTC
+   + One microsecond is one-millionth of a second
+   + `13321027248000000`
+
 ## Data acquisition
 + CPU registers and cache memory
 + Contects of system memory (RAM), routing tables, ARP cache, process table, temporay swap files
