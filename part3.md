@@ -206,7 +206,7 @@
    + `grep -c "string" example.txt`
 - Script
    + Linux
-     + `df`, show a system's surrent disk utilization
+     + `df`, show a system's current disk utilization
      + `/etc/init.d/servicename status`
      + `service --status-all`
      + `chmod a+x my_script.sh`
