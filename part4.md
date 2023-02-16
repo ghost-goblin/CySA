@@ -176,6 +176,7 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 ## Virtualization
 ## Legal hold
 ## Procedures
++ `secpol.msc` - Windows Local Security Policy
 ## Hashing
 + Changes to binaries
 + A hash is not considered to be cryptographically secure if two files have the same hash value or digest
