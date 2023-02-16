@@ -71,6 +71,9 @@
 - Verification of logging/ communication to security monitoring
 ## Post-incident activities
 - Evidence retention
+   + Collect live forensics
+   + Take photos of each system
+   + Power them down
 - Lessons learned report
 - Change control process
 - Incident response plan update
