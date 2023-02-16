@@ -45,7 +45,7 @@
      + [autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns) - perform baseline system scans
         + Currently configured auto-start applications
         + Registry and file system locations
-     + ProcDump
+     + [Process Monitor](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon) provides detailed tracking of filesystem and registry changes as well as other details
 - Memory
    + Windows Resource Monitor: `resmon.exe`
       + Identify typical behaviour (Memory, CPU, Disk Utilisation) in real-time and over a period of time
