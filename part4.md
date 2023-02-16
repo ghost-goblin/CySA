@@ -85,7 +85,7 @@
   + Traditional methods of detecting beaconing will fail
   + Morphing infection packages making signiture-based detection unlikely to work 
      + Capture network flows for all host and use filters to remove normal traffic
--** Rogue device on the network**
+- **Rogue device on the network**
    + Evil Twin Attack
       + Rogue AP configured to spoof the MAC address of a legitimate access point
 - **Scan/sweep**
