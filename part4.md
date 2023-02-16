@@ -138,12 +138,11 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 ## Endpoint
 - Disk
    + `C:\Windows\AppCompat\Programs\Amcache.hve` - Windows programs that were recently run on the system
-   + `C:\Windows\System32\Config`
+   + `C:\Windows\System32\config` is where Windows stores passwords for local Windows users
    + `C:\Windows\System32\Config\RegBack`
    + NTUSER.DAT hive in the `C:\Users\<username>\` directory
    + The setupapi log file, `C:\Windows\INF\setupapi.dev.log`, records the first time a USB device is conneted to a Windows system
    + Slack space is the space left at the end of a file or end of a cluster
-   + `C:\Windows\System32\config` is where Windows stores passwords for local Windows users
 
 > A **Jump Kit** is a common part of the incident response plan and includes a laptop with useful software, a sniffer and forensics tools, thumb drives, external hard drives and networking equipment
 
