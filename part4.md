@@ -143,6 +143,7 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
    + NTUSER.DAT hive in the `C:\Users\<username>\` directory
    + The setupapi log file, `C:\Windows\INF\setupapi.dev.log`, records the first time a USB device is conneted to a Windows system
    + Slack space is the space left at the end of a file or end of a cluster
+   + The Windows command prompt does not store command history _(press `F7` with and open command prompt, you would be able to see the history)_
 
 > A **Jump Kit** is a common part of the incident response plan and includes a laptop with useful software, a sniffer and forensics tools, thumb drives, external hard drives and networking equipment
 
