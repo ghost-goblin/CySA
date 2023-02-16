@@ -56,6 +56,7 @@
 ## Containment
 - Segmentation
 - Isolation
+   + Isolate the system before restoring from backups
 ## Eradication and recovery
 - Vulnerability mitigation
 - Sanitization
