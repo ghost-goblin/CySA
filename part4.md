@@ -83,7 +83,7 @@
   + A Botnet infection that uses a peer-to-peer command-and-control process
   + Use rapidly changing control nodes and don't rely on a consistent, identifiable control infrastructure
   + Traditional methods of detecting beaconing will fail
-  + Morphing infection packages making signiture-based detection unlikely to work 
+  + Morphing infection packages making signature-based detection unlikely to work 
      + Capture network flows for all host and use filters to remove normal traffic
 - **Rogue device on the network**
    + Evil Twin Attack
