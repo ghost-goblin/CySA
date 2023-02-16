@@ -345,6 +345,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
 
 ## Remediation/Mitigation
 - Configuration baseline
+   + Run the Microsoft Baseline Security Analyser (MBSA)
 - Patching
 - Hardening
 - Compensating controls
