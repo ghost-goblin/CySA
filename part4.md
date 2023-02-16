@@ -140,6 +140,7 @@
      + `crontab -l`
 ## Application-related
 - Anomalous activity
+   + Sysinternals [ProcDump](https://learn.microsoft.com/en-us/sysinternals/downloads/procdump) is used for monitoring CPU spikes in applications and generating crash dumps
 - Introduction of new accounts
 - Unexpected output
 - Unexpected outbound communication
