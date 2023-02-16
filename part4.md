@@ -110,6 +110,7 @@
 - Malicious process
    + Since most APTs send traffic in encrypted form, performing network forensics will only provide information about infected hosts
    + Endpoint forensics will find the actual exploit tools used on endpoint systems
+   + Linux configuration settings which effect every service `/ext/xinetd.conf` / `systemctl`
 - Unauthorized change
 - Unauthorized privilege
 - Data exfiltration
