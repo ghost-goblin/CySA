@@ -75,6 +75,7 @@
 ## Network-related
 - **Bandwidth consumption**
   + Cause service disruption
+  + Brute-force methods to degrade networks or services as a form of **attrition**
 - **Beaconing**
   + Activity sent to a C&C system as part of a botnet or malware remote system
   + Typically HTTTP / HTTPS traffic
