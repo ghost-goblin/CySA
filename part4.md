@@ -20,7 +20,7 @@
 ## Response coordination with relevant entities
 - Legal
    + Chain of custody documentation
-      + A second forensic examiner acting as a witness and countersigning all action
+      + A second forensic examiner acting as a witness and countersigning all actions
 - Human resources
    + Primary responsibility for employee relations and disciplinary policies
 - Public relations
