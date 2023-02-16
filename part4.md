@@ -49,6 +49,10 @@
 - System process criticality
 - Reverse engineering
 - Data correlation
+   + **NIST** evidence log:
+      + Hostname
+      + MAC Address
+      + IP Address
 ## Containment
 - Segmentation
 - Isolation
@@ -104,6 +108,8 @@
 - Drive capacity consumption
 - Unauthorized software
 - Malicious process
+   + Since most APTs send traffic in encrypted form, performing network forensics will only provide information about infected hosts
+   + Endpoint forensics will find the actual exploit tools used on endpoint systems
 - Unauthorized change
 - Unauthorized privilege
 - Data exfiltration
