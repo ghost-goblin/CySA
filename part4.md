@@ -174,7 +174,7 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
      + JPEG footer: `xFF\xD9`
    + Contect-based
    + File structure-based
- 
++ Facebook _and other social media sites_ now strip metadata to help protect user privacy
 ## Data acquisition
 + CPU registers and cache memory
 + Contects of system memory (RAM), routing tables, ARP cache, process table, temporay swap files
