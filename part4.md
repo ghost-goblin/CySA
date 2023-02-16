@@ -96,8 +96,6 @@
 - Unauthorized change
 - Unauthorized privilege
 - Data exfiltration
-   + The setupapi log file, `C:\Windows\INF\setupapi.dev.log`, records the first time a USB device is conneted to a Windows system
-   + Slack space is the space left at the end of a file or end of a cluster
 - Abnormal OS process behavior
 - File system change or anomaly
    + [Wazuh](https://documentation.wazuh.com) monitors file integrity, permissions, ownership, and file attributes
@@ -143,7 +141,14 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
    + `C:\Windows\System32\Config`
    + `C:\Windows\System32\Config\RegBack`
    + NTUSER.DAT hive in the `C:\Users\<username>\` directory
+   + The setupapi log file, `C:\Windows\INF\setupapi.dev.log`, records the first time a USB device is conneted to a Windows system
+   + Slack space is the space left at the end of a file or end of a cluster
+   + `C:\Windows\System32\config` is where Windows stores passwords for local Windows users
+
+> A **Jump Kit** is a common part of the incident response plan and icludes a laptop with useful software, a sniffer and forensics tools, thumb drives, external hard drives and networking equipment
+
 - Memory
+   + Volatile Storage
    + **System Memory Acquisition** is a process that creates an image file of the system memory that can be analysed to identify the processes that are running, the contents of the temporary file systems
    + While most of the Windows registry is stored on the disk, some keys (like `HKLM\Hardware`) are only stored in memory, so you should analyse the Registry via a memory dump
       + Registry data
