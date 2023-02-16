@@ -94,7 +94,7 @@
    + Heuristic or behaviour-based detected
    + Protocol analysis
 - **Common protocol over non-standard port**
-
+   + SSH on TCP port 1433
 
 
 ## Host-related
