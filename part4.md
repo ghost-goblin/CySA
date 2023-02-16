@@ -168,6 +168,8 @@ tcpdump -nn  # option shows IP addresses and ports in numeric format
 tcpdump -X   # option will capture the packet's payload in hex and ASCII formats.
 ```
 
+> `ifconfig` resets traffic counters at 4GB`
+ 
 ## Endpoint
 - Disk
    + Sysinternals [DiskView](https://learn.microsoft.com/en-us/sysinternals/downloads/diskview) provides a GUI-based view of the disk with each cluster marked by the files and directories it contains
