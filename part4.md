@@ -172,7 +172,8 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
    + `C:\Windows\AppCompat\Programs\Amcache.hve` - Windows programs that were recently run on the system
    + `C:\Windows\System32\Config\RegBack`
    + The setupapi log file, `C:\Windows\INF\setupapi.dev.log`, records the first time a USB device is conneted to a Windows system
-   + **Slack space** is the space left at the end of a file or end of a cluster
+   + **Slack space** is the space left at the end of a file or end of a cluster that do not take the entire storage space allocated to them
+      + Windows System Reserved and C: partitions
       + When clusters are overwritten, original data is left in the unused space between the end of a new file and the end of the cluster
    + The Windows command prompt does not store command history _(press `F7` with and open command prompt, you would be able to see the history)_
    + Boot into Safe Mode
