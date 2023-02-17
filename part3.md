@@ -331,7 +331,7 @@
 ## Scripting
 + Check out the [Linux Commands Cheat Sheet](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/) on Linux Training Academy
 ## Application programming interface (API) integration
-+ `curl --request GET 'https://api.nasa.gov/planetary/apod?api_key=<myapikey>&date=2020-01-01' -I` _(`-I` returns only the HTTPS headers)_
++ `curl www.google.com -I` _(`-I` returns only the HTTPS headers)_
 ## Automated malware signature creation
 + Malware repositories:
    + VirusTotal
