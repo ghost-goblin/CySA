@@ -25,6 +25,9 @@
 ## Endpoint
 - Malware
      - **Reverse engineering** is the process of analysing the structure of hardware or software to reveal more about how it functions
+        + Malware Analysis:
+           + **Binary diffing** looks at multiple related binaries that have anti-reverse-engineering tools run on them and look for similarities
+           + Graphs map this data helping to identify malware families
      + Masquerading
      + DLL Injection
         + Manipulates the execution of a running process to load a desired library
