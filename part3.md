@@ -321,6 +321,7 @@
 ## Reducing the attack surface area
 + Physical
 + Digital
+   + Disabling unneeded services
 ## Bundling critical assets
 ## Attack vectors
 ## Integrated intelligence
