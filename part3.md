@@ -226,7 +226,10 @@
 
 ## E-mail analysis
 - Malicious payload
-  + An attachment or a clickable downloadable link
+   + An attachment or a clickable downloadable link
+   + Use an antimalware package software to scan all emails
+      + IP and domain reputation lists
+      + Heuristic and analytical tools to help identify malicious links
 - Domain Keys Identified Mail (DKIM)
    + Validates that a a domain is associated with a message
 - Domain-based Message Authentication, Reporting, and Conformance (DMARC)
