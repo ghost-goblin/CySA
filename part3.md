@@ -323,6 +323,7 @@
 + Physical
 + Digital
    + Disabling unneeded services
+   + Moving to a NAT environment
 ## Bundling critical assets
 ## Attack vectors
 ## Integrated intelligence
