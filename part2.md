@@ -167,7 +167,7 @@
 
 ## Active defense
 + **Honeypots**
-   + [OpenCanary(https://github.com/thinkst/opencanary)
+   + [OpenCanary](https://github.com/thinkst/opencanary)
    + [List of Awesome Honeypots](https://github.com/paralax/awesome-honeypots#honeypots)
 + **Honeytokens**
    + Browser cookies
