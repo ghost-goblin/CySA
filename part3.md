@@ -236,6 +236,7 @@
    + Compromised credentials
 - Forwarding
 - Digital signature
+   + **Secure/Multipurpose Internet Mail Extension** (S/MIME) is an encryption standard for signing emails which verify the identity of the sender
 - E-mail signature block
 - Embedded links
 - Impersonation
