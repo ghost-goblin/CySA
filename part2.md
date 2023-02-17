@@ -150,7 +150,14 @@
 + Responses to events like compromised keys or changes in the certificate root vendors
 
 ## Active defense
-
++ **Honeypots**
+   + [OpenCanary(https://github.com/thinkst/opencanary)
+   + [List of Awesome Honeypots](https://github.com/paralax/awesome-honeypots#honeypots)
++ **Honeytokens**
+   + Browser cookies
+   + Fake AWS keys
+   + Creating fake email addresses
+   + Dropping fake database data
 
 
 # 💾 Software assurance best practices
