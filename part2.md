@@ -46,6 +46,7 @@
 ## Virtualization
 - Virtual desktop infrastructure (VDI)
 ## Containerization
++ [Docker](https://www.docker.com)
 + A technology that bundles together an application and their files, libraries and other dependencies, allowing the application to be deployed to multiple platforms or systems
 ## Identity and access management (IAM)
 - Privilege management
