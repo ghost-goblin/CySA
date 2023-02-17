@@ -211,8 +211,8 @@
    + `strings` (see the text inside a binary or data file)
    + `grep "cys[abc]" example.txt`
    + `grep cysa example.txt | more`
-   + `grep -c "string" example.txt`
-   + `grep -r "sudo" /home/users/ | grep "bash.log"`
+   + `grep -i "string" example.txt` (Case-insensitive search)
+   + `grep -r "sudo" /home/users/ | grep "bash.log"` (Search all files under each directory recursively)
 - Script
    + Linux
      + `/etc/init.d/servicename status`
