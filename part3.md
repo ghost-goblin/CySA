@@ -56,12 +56,12 @@
       +  Live memory usage per running application or service
    + Linuc / Unix: `top`, `ps`
 - System and application behavior
+   + Privilege Escalation Attacks, `/var/log/auth.log`
 
 > Check out the [Intro to Endpoint Security](https://tryhackme.com/room/introtoendpointsecurity) Room on TryHackMe
 
    - Known-good behavior
       + Download [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) for process analysis
-
       + System Idle `PID 0` and System `PID4` a kernel-level binary that is the parent of the first user-mode process (Session Manager Subsystem - `smss.exe`)
       + `csrss.exe` (Client Server Runtime SubSystem) manages low-level Windows functions, running from `%SystemRoot%\System32` and has no parent process
       + `wininit.exe` managed driver and services and should only have a single instance running as a process
@@ -291,7 +291,9 @@
 + RADIUS carries authentication from a Network Access Server (NAS) to a AAA server
 1. Agent-based vs agentless
 2. In-band vs Out-of-Band
-
+   + In-band refers to managing through the network itself on dedicated appliances
+      + Network traffic on the same commucication path
+   + Out-of-Band provides accessibility when an alternate path is needed to access the network nodes
 
 
 ## Sinkholing
