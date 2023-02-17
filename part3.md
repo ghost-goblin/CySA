@@ -212,7 +212,7 @@
    + `grep "cys[abc]" example.txt`
    + `grep cysa example.txt | more`
    + `grep -c "string" example.txt`
-   + `grep -r "sudo" /hone/user/ | grep "bash.log"`
+   + `grep -r "sudo" /home/users/ | grep "bash.log"`
 - Script
    + Linux
      + `/etc/init.d/servicename status`
