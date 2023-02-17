@@ -135,6 +135,7 @@
 
 ## Encryption
 + Encryption at rest used at the host layer
+   + Full Disk Encryption (FDE)
 + Security keys and passwords must be secured
    + _Storing plaintext passwords is a bad idea!_
    + `bcrypt` is a strong password-hashing algorithm that includes salts for stored values
