@@ -208,6 +208,7 @@
 
 ## Query writing
 - String search
+   + `strings` (see the text inside a binary or data file)
    + `grep "cys[abc]" example.txt`
    + `grep cysa example.txt | more`
    + `grep -c "string" example.txt`
