@@ -291,9 +291,8 @@
 + RADIUS carries authentication from a Network Access Server (NAS) to a AAA server
 1. Agent-based vs agentless
 2. In-band vs Out-of-Band
-   + In-band refers to managing through the network itself on dedicated appliances
-      + Network traffic on the same commucication path
-   + Out-of-Band provides accessibility when an alternate path is needed to access the network nodes
+   + In-band refers to managing access control through the network itself on dedicated appliances on the same commucication path
+   + Out-of-Band provides accessibility when an alternate path is needed to access the network nodes through an edge switch
 
 
 ## Sinkholing
