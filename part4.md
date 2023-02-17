@@ -124,6 +124,7 @@
       + NTUSER.DAT hive in the `C:\Users\<username>\` directory
    + Check the `/etc/passed`, `/etc/sudoers` and/or `/etc/groups` directory for new Linux accounts
 - Data exfiltration
+   + Large data flows leaving the network using HTTPS to disguise the traffic
    + A **netcat** server _(listener)_
       + `nc -k -l 6667`, the `-k` flag makes it listen continuously rather than terminating after a client disconnects
       + `-l`determines the port that it is listening on
