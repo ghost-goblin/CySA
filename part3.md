@@ -49,6 +49,8 @@
 - Memory
    + Windows Resource Monitor: `resmon.exe`
       + Identify typical behaviour (Memory, CPU, Disk Utilisation) in real-time and over a period of time
+   + Windows Performance Monitor: `perfmon.exe`
+      +  Live memory usage per running application or service
    + Linuc / Unix: `top`, `ps`
 - System and application behavior
 
@@ -209,6 +211,7 @@
    + `grep -c "string" example.txt`
 - Script
    + Linux
+     + Check out the [Linux Commands Cheat Sheet](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/) on Linux Training Academy
      + `df`, show a system's current disk utilization
      + `/etc/init.d/servicename status`
      + `service --status-all`
