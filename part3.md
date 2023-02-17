@@ -134,6 +134,7 @@
       + `/var/log`
       + `/var/log/auth.log`, user login logs
       + `/var/log/faillog`, failed login attempts
+      + `ln /dev/null ~/.bash_history`, creates link between files, _logging all shell commands to `/dev/null`_
    + Windows: `eventvwr. msc` / `%SystemRoot%\System32\Winevt\Logs\`
       1. Application
       2. Security
