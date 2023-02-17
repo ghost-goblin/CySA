@@ -448,36 +448,36 @@ Infrastucture:======:======::======:======: Capability (TTPs)
    + By default, Nmap uses a **TCP SYN** scan
    + Nmap supports `HTTP` and `SOCKS 4` proxies, allowing the attacker to configure a remote host as a reverse HTTP proxy and bounce their scans through it or you can use _proxychains_:
       + `proxychains nmap -sT -Pn -n -p445,139,88,80 10.10.226.53`
-+ **Target Specification**
-   + `nmap 10.129.86.241/24`
-+ **Service Version Detection**
-   + `nmap -sV 10.129.86.241`
-+ **Operating System Detection**
-   + `nmap -O 10.129.86.241`
-+ **Host Discovery**
-   + `nmap -sn 10.129.86.241`
-   + _Disable host discovery, port scan only_:
-      + `nmap -Pn 10.10.226.53`
-+ **Timing & Performance**
-   + _Paranoid (0) Intrusion Detection System evasion_:
-      + `nmap 10.10.226.53 -T0`
-+ **Firewall / IDS Evasion and Spoofing**
-   + _Use tiny fragmented IP packets_:
-      + `nmap 10.10.226.53 -f`
-   + _Relay connections through HTTP/SOCKS4 proxies_:
-      + `nmap –proxies http://192.168.1.1:8080, http://192.168.1.2:8080 192.168.1.1`
-   + _Set offset size_:
-      + `nmap 10.10.226.53 –mtu 32`
-   + _Appends random data to sent packets_:
-      + `nmap –data-length 200 10.10.226.53`
-+ **Port Scans**
-   + `-sS` TCP SYN packet
-   + `-sU` UDP Scan
-   + `-sT` TCP connect; conducts a three-way handshake scan
-   + `-N` Null scan sends a packet with the header bit set to 0
-   + `-sF` send an unexpected FIN packet
-   + `-sX` sends a packet with the FIN, PSH and URG flags set to 1
-   + `-p` Port Range
+    + **Target Specification**
+       + `nmap 10.129.86.241/24`
+    + **Service Version Detection**
+       + `nmap -sV 10.129.86.241`
+    + **Operating System Detection**
+       + `nmap -O 10.129.86.241`
+    + **Host Discovery**
+       + `nmap -sn 10.129.86.241`
+       + _Disable host discovery, port scan only_:
+          + `nmap -Pn 10.10.226.53`
+    + **Timing & Performance**
+       + _Paranoid (0) Intrusion Detection System evasion_:
+          + `nmap 10.10.226.53 -T0`
+    + **Firewall / IDS Evasion and Spoofing**
+       + _Use tiny fragmented IP packets_:
+          + `nmap 10.10.226.53 -f`
+       + _Relay connections through HTTP/SOCKS4 proxies_:
+          + `nmap –proxies http://192.168.1.1:8080, http://192.168.1.2:8080 192.168.1.1`
+       + _Set offset size_:
+          + `nmap 10.10.226.53 –mtu 32`
+       + _Appends random data to sent packets_:
+          + `nmap –data-length 200 10.10.226.53`
+    + **Port Scans**
+       + `-sS` TCP SYN packet
+       + `-sU` UDP Scan
+       + `-sT` TCP connect; conducts a three-way handshake scan
+       + `-N` Null scan sends a packet with the header bit set to 0
+       + `-sF` send an unexpected FIN packet
+       + `-sX` sends a packet with the FIN, PSH and URG flags set to 1
+       + `-p` Port Range
 
 - hping / hping3
     + TCP/IP packet assembler and analyzer
