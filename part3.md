@@ -212,9 +212,9 @@
    + `grep "cys[abc]" example.txt`
    + `grep cysa example.txt | more`
    + `grep -c "string" example.txt`
+   + `grep -r "sudo /hone/user/ | grep "bash.log"`
 - Script
    + Linux
-     + `df`, show a system's current disk utilization
      + `/etc/init.d/servicename status`
      + `service --status-all`
      + `chmod a+x my_script.sh`
