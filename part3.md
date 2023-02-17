@@ -211,7 +211,6 @@
    + `grep -c "string" example.txt`
 - Script
    + Linux
-     + Check out the [Linux Commands Cheat Sheet](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/) on Linux Training Academy
      + `df`, show a system's current disk utilization
      + `/etc/init.d/servicename status`
      + `service --status-all`
@@ -330,7 +329,7 @@
 - Security Orchestration, Automation, and Response (SOAR)
    + A technique to find previously unknown malware by observing behaviours common to malicious software
 ## Scripting
-+ `touch /home/username/Documents/Web.html`
++ Check out the [Linux Commands Cheat Sheet](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/) on Linux Training Academy
 ## Application programming interface (API) integration
 ## Automated malware signature creation
 + Malware repositories:
