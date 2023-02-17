@@ -132,7 +132,23 @@
 + Systems that are designed to look like an attractive target to an attacker
 + Honeynet detection systems that are placed in segments of unused network space will detect scans that **blindly traverse IP ranges**
 ## Monitoring and logging
-
+   + Login Failures
+   + Password Changes
+   + New Login Events (like logins from a new device)
+   + Unauthorized Logins
+   + Firewall Scans
+   + Malware Attacks seen by Intrusion Detection Security
+   + Malware detection
+   + Denial of Service Attacks
+   + Errors on Network Devices
+   + File Name or Integrity Changes
+   + Data Exportation
+   + New Processes Started or Running Processes Stopped
+   + Shared Access Events 
+   + Disconnected Events
+   + New User Accounts
+   + New Service Installation
+   + Modified Registry Values
 ## Encryption
 + Encryption at rest used at the host layer
    + Full Disk Encryption (FDE)
