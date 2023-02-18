@@ -209,9 +209,9 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 ## Virtualization
 + `.log` files - log of activity for a virtual machine
 + `.VHD` -  virtual disk format Used by Microsoft Windows
-+ `.VMDK` - VMWare’s virtual disk File format which may be either a dynamic or fixed virtual disk
-      + With dynamic disks, the disk will start small and grow to a predetermined limit
-      + A fixed disk does not change size
++ `.VMDK` - VMWare’s virtual disk file format which may be either a dynamic or fixed virtual disk
+   + _With dynamic disks, the disk will start small and grow to a predetermined limit_
+   + _A fixed disk does not change size_
    + `.VMEM` - A backup of the virtual machine’s paging file which only exists of the VM is running or has crashed
    + `.VMSN` – VMware snapshot files, named by the name of the snapshot
       + A `.VMSN` file stores the state of the virtual machine when the snapshot as created
