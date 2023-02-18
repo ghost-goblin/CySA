@@ -61,7 +61,7 @@
 - Segmentation
 - Isolation
    + Isolate the system before restoring from backups
-## 4. radication and recovery
+## 4. Eradication and recovery
 - Vulnerability mitigation
 - Sanitization
 - Reconstruction/reimaging
