@@ -222,6 +222,9 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
       + Chip-off
       + Micro read
 ## Cloud
++ IaaS
++ PaaS
++ SaaS
 ## Virtualization
 + `.log` files - log of activity for a virtual machine
 + `.VHD` -  virtual disk format used by Microsoft Windows
