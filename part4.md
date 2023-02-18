@@ -206,7 +206,7 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 ## Mobile
 + _Evidence should always be adequately preserved!_
 + Isolate the device from the network:
-   + **Airplane Mode** __(and disabling Wi-Fi and hotspots)__
+   + **Airplane Mode** _(and disabling Wi-Fi and hotspots)_
    + Cloning the device SIM card
 + Identification & Extraction
 + Non-invasive vs. Invasive Forensics
