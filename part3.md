@@ -159,7 +159,7 @@
    + Forward Proxy
    + Reverse Proxy
    + **Nontransparent Proxy** is a server that redirects requests and responses for clients configured with the proxy address and port
-
+   + Setup a proxy to block all connections to the malware source
 - Intrusion detection system (IDS) / Intrusion prevention system (IPS)
      1. **Network Intrusion Detection System** (NIDS) monitors the traffic flow from various areas of the network
      2. **Host-based Intrusion Detection System** (HIDS) monitors the traffic flow from a _single endpoint device_
