@@ -40,11 +40,11 @@
 # 🖌️ Apply the appropriate incident response procedure
 > P, D, C, E, P
 
-## Preparation
+## 1. Preparation
 - Training
 - Testing
 - Documentation of procedures
-## Detection and Analysis
+## 2. Detection and Analysis
 - Characteristics contributing to severity level classification
 - Downtime
 - Recovery time
@@ -57,11 +57,11 @@
       + Hostname
       + MAC Address
       + IP Address
-## Containment
+## 3. Containment
 - Segmentation
 - Isolation
    + Isolate the system before restoring from backups
-## Eradication and recovery
+## 4. radication and recovery
 - Vulnerability mitigation
 - Sanitization
 - Reconstruction/reimaging
@@ -71,7 +71,7 @@
 - Reconstitution of resources
 - Restoration of capabilities and services
 - Verification of logging/ communication to security monitoring
-## Post-incident activities
+## 5. Post-incident activities
 - Evidence retention
    + Collect live forensics
    + Take photos of each system
