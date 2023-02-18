@@ -320,20 +320,20 @@
 
  
 # 🗡️ Proactive threat hunting
-## Establishing a hypothesis
-## Profiling threat actors and activities
-## Threat hunting tactics
+## 1. Establishing a hypothesis
+## 2. Profiling threat actors and activities
+## 3. Threat hunting tactics
 - Executable process analysis
-## Reducing the attack surface area
+## 4. Reducing the attack surface area
 + Physical
 + Digital
    + Disabling unneeded services
    + Moving to a NAT environment
-## Bundling critical assets
-## Attack vectors
-## Integrated intelligence
+## 5. Bundling critical assets
+## 6. Attack vectors
+## 7. Integrated intelligence
 + Combines multiple intelligence sources to provide a better view of threats
-## Improving detection capabilities
+## 8. Improving detection capabilities
 
 
 # 🤖 Automation concepts and technologies
