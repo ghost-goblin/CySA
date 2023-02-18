@@ -38,11 +38,13 @@
 - Corporate information
 
 # 🖌️ Apply the appropriate incident response procedure
+> P, D, C, E, P
+
 ## Preparation
 - Training
 - Testing
 - Documentation of procedures
-## Detection and analysis
+## Detection and Analysis
 - Characteristics contributing to severity level classification
 - Downtime
 - Recovery time
