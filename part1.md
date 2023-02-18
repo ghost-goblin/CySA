@@ -574,7 +574,7 @@ responder-Icmp-Redirect -h
 + Personal credentials
 + Readers and/or keypads
 + Control panel
-+ Access control serve
++ Access control server
 ## Building automation systems
 + BAS is an intelligent system of both hardware and software, connecting heating, venting and air conditioning system (HVAC), lighting, security, and other systems to communicate on a single platform
    + HVAC systems
