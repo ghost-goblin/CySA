@@ -222,9 +222,9 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
    + `.VMSS`- the "suspended state" file, storing the state of a suspended virtual machine
    + `.VMTM`- configuration file containing team data
    + `.VMXF` - If a virtual machine is removed from a team, this configuration file remains
-      + Boot a Forensic Image to a Virtual Machine:
-         + VMware DiskMount Utility:
-            + `vmware-mount d: "C:\Documents and Settings\user\My Documents\My Virtual Machines\Windows 10 Professional\Windows 10 Professional.vmdk"`
++ Boot a Forensic Image to a Virtual Machine:
+   + VMware DiskMount Utility:
+   + `vmware-mount d: "C:\Documents and Settings\user\My Documents\My Virtual Machines\Windows 10 Professional\Windows 10 Professional.vmdk"`
 ## Legal hold
 + A legal hold (also known as a litigation hold) is a notification sent from an organization's legal team to employees instructing them not to delete electronically stored information (ESI) or discard paper documents that may be relevant to a new or imminent legal case
 ## Procedures
