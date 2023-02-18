@@ -204,7 +204,23 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
       + Cryptographic keys
 
 ## Mobile
-+ iPhone backups to local systems can be _full_ or _differential_
++ _Evidence should always be adequately preserved!_
++ Isolate the device from the network:
+   + **Airplane Mode** __(and disabling Wi-Fi and hotspots)__
+   + Cloning the device SIM card
++ Identification & Extraction
++ Non-invasive vs. Invasive Forensics
+   + Non-invasive methods:
+      + Manual extraction
+         + Using the mobile device’s touchscreen or keypad and information of interest discovered is photographically documented
+      + Logical extraction
+         +  USB cable, Bluetooth, Infrared or RJ-45 cable connection between the mobile and the forensic Workstation
+      + JTAG method
+         + Direct access to the mobile device’s memory 
+      + Hex dump
+   + Invasive methods:
+      + Chip-off
+      + Micro read
 ## Cloud
 ## Virtualization
 + `.log` files - log of activity for a virtual machine
