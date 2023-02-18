@@ -92,6 +92,7 @@
   + Request commands, provide status, download additional malware
 - **Irregular peer-to-peer communication**
   + A Botnet infection that uses a peer-to-peer command-and-control process
+     + [BotScout.com](https://botscout.com/)
   + Use rapidly changing control nodes and don't rely on a consistent, identifiable control infrastructure
   + Traditional methods of detecting beaconing will fail
   + Morphing infection packages making signature-based detection unlikely to work 
