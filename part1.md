@@ -564,12 +564,25 @@ responder-Icmp-Redirect -h
 ## Real-time operating system (RTOS)
 + Slimmed-down operating systems packed onto a single chip
 ## System-on-Chip (SoC)
++ An integrated circuit that combines many elements of a computer system into a single chip
 ## Field programmable gate array (FPGA)
 + Computer chips that allow the end user to reprogam their function
 + FPFAs are easily cloned, increasing the risk of intellectual property theft
 + _For your interest: [How to Protect Intellectual Property in FPGAs Devices–Part 1](https://www.eetimes.com/how-to-protect-intellectual-property-in-fpgas-devices-part-1/)_
 ## Physical access control
++ Access point
++ Personal credentials
++ Readers and/or keypads
++ Control panel
++ Access control serve
 ## Building automation systems
++ BAS is an intelligent system of both hardware and software, connecting heating, venting and air conditioning system (HVAC), lighting, security, and other systems to communicate on a single platform
+   + HVAC systems
+   + Electrical systems, including lighting
+   + Security systems, including surveillance cameras and alarms
+   + Plumbing systems
+   + Fire alarms, and other emergency systems
+   + Elevators
 ## Vehicles and drones
 - Controller Area Network (CAN) bus
     + Specialised networks designed to facilitate the communication the communication between embedded systems without the TCP/IP network
