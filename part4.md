@@ -208,7 +208,7 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 ## Cloud
 ## Virtualization
 + `.log` files - log of activity for a virtual machine
-+ `.VHD` -  virtual disk format Used by Microsoft Windows
++ `.VHD` -  virtual disk format used by Microsoft Windows
 + `.VMDK` - VMWare’s virtual disk file format which may be either a dynamic or fixed virtual disk
    + _With dynamic disks, the disk will start small and grow to a predetermined limit_
    + _A fixed disk does not change size_
