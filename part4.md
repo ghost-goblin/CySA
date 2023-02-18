@@ -207,22 +207,24 @@ tcpdump -X   # option will capture the packet's payload in hex and ASCII formats
 + iPhone backups to local systems can be _full_ or _differential_
 ## Cloud
 ## Virtualization
-   + VMWare
-   + Hyper-V (ESXI)
-+ .Log files - log of activity for a virtual machine
-+ `.VMDK` - virtual hard drive for the virtual guest operation system, which may be either a dynamic or fixed virtual disk
-   + With dynamic disks, the disk will start small and grow to a predetermined limit
-   + A fixed disk does not change size
-+ `.VMEM` - A backup of the virtual machine’s paging file which only exists of the VM is running or has crashed
-+ `.VMSN` – VMware snapshot files, named by the name of the snapshot
-   + A `.VMSN` file stores the state of the virtual machine when the snapshot as created
-+ `.VMSD` - contains the metadata about the snapshot
-+ `.NVRAM` - stores the BIOS information for the virtual machine
-+ `.VMX` - configuration file for a virtual machine, such as the operating system, disk information, etc
-   + A simple text file that can be easily edited
-+ `.VMSS`- the "suspended state" file, storing the state of a suspended virtual machine
-+ `.VMTM`- configuration file containing team data
-+ `.VMXF` - If a virtual machine is removed from a team, this configuration file remains
++ `.log` files - log of activity for a virtual machine
++ `.VHD` -  virtual disk format Used by Microsoft Windows
++ `.VMDK` - VMWare’s virtual disk File format which may be either a dynamic or fixed virtual disk
+      + With dynamic disks, the disk will start small and grow to a predetermined limit
+      + A fixed disk does not change size
+   + `.VMEM` - A backup of the virtual machine’s paging file which only exists of the VM is running or has crashed
+   + `.VMSN` – VMware snapshot files, named by the name of the snapshot
+      + A `.VMSN` file stores the state of the virtual machine when the snapshot as created
+   + `.VMSD` - contains the metadata about the snapshot
+   + `.NVRAM` - stores the BIOS information for the virtual machine
+   + `.VMX` - configuration file for a virtual machine, such as the operating system, disk information, etc
+      + A simple text file that can be easily edited
+   + `.VMSS`- the "suspended state" file, storing the state of a suspended virtual machine
+   + `.VMTM`- configuration file containing team data
+   + `.VMXF` - If a virtual machine is removed from a team, this configuration file remains
+      + Boot a Forensic Image to a Virtual Machine:
+         + VMware DiskMount Utility:
+            + `vmware-mount d: "C:\Documents and Settings\user\My Documents\My Virtual Machines\Windows 10 Professional\Windows 10 Professional.vmdk"`
 ## Legal hold
 + A legal hold (also known as a litigation hold) is a notification sent from an organization's legal team to employees instructing them not to delete electronically stored information (ESI) or discard paper documents that may be relevant to a new or imminent legal case
 ## Procedures
