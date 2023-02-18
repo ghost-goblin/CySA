@@ -566,6 +566,8 @@ responder-Icmp-Redirect -h
 ## System-on-Chip (SoC)
 ## Field programmable gate array (FPGA)
 + Computer chips that allow the end user to reprogam their function
++ FPFAs are easily cloned, increasing the risk of intellectual property theft
++ _For your interest: [How to Protect Intellectual Property in FPGAs Devices–Part 1](https://www.eetimes.com/how-to-protect-intellectual-property-in-fpgas-devices-part-1/)_
 ## Physical access control
 ## Building automation systems
 ## Vehicles and drones
