@@ -255,6 +255,16 @@
 + Layered security
 + Zero trust and least privilege access
 
+| Defense-in-Depth                 |
+|----------------------------------|
+| Policies, Procedures & Awareness |
+| Physical Security                |
+| Perimeter Security               |
+| Internal Network                 |
+| Host                             |
+| Application                      |
+| Data                             |
+
 
 ## Allow list (previously known as whitelisting)
 + Whitelisting can be an effective fallback posture to use while conduting incident response
