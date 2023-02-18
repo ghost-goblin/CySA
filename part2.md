@@ -267,7 +267,11 @@
 - Processor security extensions
 - Atomic execution
 ## Anti-tamper
++ Check out _Microsoft Defender for Endpoint_'s [Protect security settings with tamper protection](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/prevent-changes-to-security-settings-with-tamper-protection)
 ## Self-encrypting drive
++ A hard drive with self-encrypting ability
++ SSD encryption uses two symmetric encryption keys with a 128- or 256-bit AES algorithm
+   + The first key is the Encryption Key and the second is the Authorisation Key
 ## Trusted firmware updates
 ## Measured boot and attestation
 + Checks if the host machines are trustworthy before they're allowed to process data
