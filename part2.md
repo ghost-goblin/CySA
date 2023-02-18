@@ -13,10 +13,12 @@
 # 👮 Apply security solutions for infrastructure management
 ## Cloud vs. on-premises
 + For cloud vendors, gather information from providers, including datacenter specifications and copies of audit reports
-
++ On-premises retain complete control of security
+   + Setting appropriate user access policies
+   + Installing firewalls and antivirus
 ## Asset management
 - Asset tagging
-  + Labeling or otherwise identifying systems, devices and other items
+   + Labeling or otherwise identifying systems, devices and other items
 ## Segmentation
 - Physical
 - Virtual
