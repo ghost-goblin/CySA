@@ -161,7 +161,9 @@
 # 🧪 Utilize basic digital forensics techniques
 # Network
 - Wireshark
-    + Display filters
+   + PCAP capture
+   + Follow TCP stream
+   + Display filters
     ```sh
      tcp.port eq 25 or icmp
      ip.src == 152.106.6.125 and ip.dst == 192.168.0.1
@@ -170,13 +172,16 @@
 > `ifconfig` resets traffic counters at 4GB
 
 - tcpdump
+   + CLI-based
+   + Simple analysis of traffic type such as DNS queries
+   + Simple filters
 
-```sh
-tcpdump -e   # option includes the ethernet header during packet capture
-tcpdump -n   # flag will show the IP addresses in numeric form
-tcpdump -nn  # option shows IP addresses and ports in numeric format
-tcpdump -X   # option will capture the packet's payload in hex and ASCII formats.
-```
+    ```sh
+    tcpdump -e   # option includes the ethernet header during packet capture
+    tcpdump -n   # flag will show the IP addresses in numeric form
+    tcpdump -nn  # option shows IP addresses and ports in numeric format
+    tcpdump -X   # option will capture the packet's payload in hex and ASCII formats.
+    ```
 
 
  
