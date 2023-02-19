@@ -558,7 +558,16 @@ responder-Icmp-Redirect -h
 
 # 📱 Threats and vulnerabilities associated with specialized technology
 ## Mobile
++ Vulnerable Legitimate Apps
++ Jailbreaking
++ Outdated OS
++ Malware and Malicious Apps
++ Compromised Wi-Fi Hotspots
++ Phishing
 ## Internet of Things (IoT)
++ Weak default passwords
++ Lack of security updates
++ Lack of encryption _(in transit and at rest)_
 ## Embedded
 + Computer intergrated into the operations of another device, such as a vehicle
 ## Real-time operating system (RTOS)
