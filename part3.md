@@ -332,6 +332,9 @@
 # 🗡️ Proactive threat hunting
 ## 1. Establishing a hypothesis
 ## 2. Profiling threat actors and activities
++ [MITRE ATT&CK](https://attack.mitre.org/)
++ APTs
++ Insider threats
 ## 3. Threat hunting tactics
 - Executable process analysis
 ## 4. Reducing the attack surface area
