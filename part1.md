@@ -697,6 +697,8 @@ responder-Icmp-Redirect -h
      # Exploiting a vulnerable URL parameter and alerting the users cookie
      http://10.10.226.56/vulnerabilities/xss_r/?name=<script>alert(document.cookie)</script>
      ```
+     + Enable **Output Encoding** to prevent this type of attack
+        + Translates special characters so that it won't be interpreted as part of the script
  - Reflected
      + The attacker tricks the user in sending the attack to the server disguised as a ligitimate query string or other content
      + The server sends (reflects) the attack back to the user, causing it to execute
