@@ -527,7 +527,9 @@ Infrastucture:======:======::======:======: Capability (TTPs)
 
     + Passive Footprinting:
        + DNS Registrar checks
-       + WHOIS lookups
+       + WHOIS lookups: `whois`, `nslookup`, `dig`
+          + [DNSDumpster](https://dnsdumpster.com/)
+       + [Shodan.io](Shodan.io)
        + BGP looking glass
        + Log data and configuration analysis
        + Capturing network traffic by using a sniffing tool
@@ -537,7 +539,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
           + **Netflow** is a Cisco network protocol that collects IP traffic information
        + `netstat` shows active TCP and UDP connection filtered by protocol
           + Windows, Linux & macOS
-       + _Disable promiscuous mode for all NICs_ to mitigate attackers from analysing system traffic
+       + **_Disable promiscuous mode for all NICs_ to mitigate attackers from analysing system traffic**
 
 - [Responder](https://github.com/SpiderLabs/Responder)
 
