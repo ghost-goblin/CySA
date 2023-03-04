@@ -22,6 +22,7 @@
 #### Windows
 + IIS Web Server
    + `%SYSTEMDRIVE%\inetpub\wwwroot`
++ `secpol.msc` - Windows Local Security Policy
 + Add user to administrator group
    + `net user <name> <pass> /add`
    + `net localgroup "Administrators" <user> add`
