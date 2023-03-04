@@ -435,6 +435,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
       + Contains an **intercepting proxy** to see and modify the content of requests and responses in transit
       + **Intruder fuzzer** for brute-force enumeration and dictionary attacks on password forms
       + **Repeater** to modify requests and responses
+         + Check out the [Burp Suite: Repeater](https://tryhackme.com/room/burpsuiterepeater) room on TryHackMe
 - [Nikto](https://www.kali.org/tools/nikto)
    + An open-source web server and web apllication scanner
       + Find SQL injection and XXS vulnerabilities
