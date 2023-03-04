@@ -23,7 +23,8 @@
     + Methods of obtaining information about a person or organisation through public records, websites, and social media
         + Search engines
            + [Shodan](https://www.shodan.io/)
-              + Check out the [Shodan](https://tryhackme.com/room/shodan) room on TryHackMe
+              + _Check out the [Shodan](https://tryhackme.com/room/shodan) room on TryHackMe_
+           + [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)
         + WHOIS lookups
            + IP Addresses
            + Domains
