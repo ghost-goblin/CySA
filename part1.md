@@ -36,6 +36,8 @@
         + Metadata
            + Electronic document harvesting
            + `Exif` tag data from photos
+        + [Recon-ng](https://www.kali.org/tools/recon-ng/)
+        + [Maltego](https://www.maltego.com/)
 - Proprietary-Source Intelligence
     + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
 - Closed-Source Intelligence
@@ -43,7 +45,7 @@
 + Social Engineering
     + [Creepy](https://www.geocreepy.com/) - social media geotagging
     + [Metasploit](https://docs.metasploit.com/)
-    + Pretexting
+    + Pretexting (an attacker tries to convince a victim to give up valuable information or access to a service or system)
 
 1. **Timeliness**
 2. **Relevancy**
