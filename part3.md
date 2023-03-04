@@ -174,7 +174,7 @@
      + Policy-Based
   + 🐽 **[Snort](https://www.snort.org/downloads)** (IDS / IPS), open-source for Windows and selected Linux distros
      + Check out the [Snort Room](https://tryhackme.com/room/snort) on TryHackMe
-  + **Zeek** (Bro), open-source IDS for Unix/Linux distros
+  + **[Zeek](https://zeek.org/get-zeek/)** (Bro), open-source IDS for Unix/Linux distros
   + 🧅 **[Security Onion](https://github.com/Security-Onion-Solutions/securityonion/blob/master/VERIFY_ISO.md)**, open-source Linux-based platform for security monitoring, incident reesponse and threat hunting (bundles Snort, Suricata, Zeek, Wireshark, and NetworkMiner)
 
 ## Impact analysis
