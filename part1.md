@@ -89,20 +89,22 @@
 3. OpenIoC
    + A framework by Madiant that used XML-formatted files for supplying codied information to automate incident detection and analysis
    + **[Malware Information Sharing Project (MISP)](https://www.misp-project.org/)** provides a server platform for cyber threat intelligence sharing, a proprietary format, supports open IOC definitions, and can import and export STIX over TAXII
-    + [CIRC.LU](https://www.circl.lu/doc/misp/feed-osint/)
-    + [Botvrj](https://www.botvrij.eu/data/feed-osint/)
-    + [Emerging Threats](https://rules.emergingthreats.net/blockrules/compromised-ips.txt)
-    + [Feodo](https://feodotracker.abuse.ch/downloads/ipblocklist.csv)
-    + [OpenPhish](https://openphish.com/feed.txt)
-    + [Abuse CH](https://sslbl.abuse.ch/blacklist/sslipblacklist.csv)
-    + [Digital Side](https://osint.digitalside.it/Threat-Intel/digitalside-misp-feed/)
-    + [FireHOL](https://iplists.firehol.org/)
-    + [AlienVault OTX](https://otx.alienvault.com/)
-    + [PhishHunt](https://phishunt.io/)
-    + [Disposable Email Domains](https://github.com/ivolo/disposable-email-domains)
-    + [FreeMail](https://github.com/dpup/freemail)
-    + [AbuseIPDB](https://www.abuseipdb.com/)
-    + [Stop Forum Spam](https://www.stopforumspam.com/)
+   + [Awesome Lists Collection: Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence)
+   + [Awesome Lists Collection: IOCs](https://github.com/sroberts/awesome-iocs)
+        + [CIRC.LU](https://www.circl.lu/doc/misp/feed-osint/)
+        + [Botvrj](https://www.botvrij.eu/data/feed-osint/)
+        + [Emerging Threats](https://rules.emergingthreats.net/blockrules/compromised-ips.txt)
+        + [Feodo](https://feodotracker.abuse.ch/downloads/ipblocklist.csv)
+        + [OpenPhish](https://openphish.com/feed.txt)
+        + [Abuse CH](https://sslbl.abuse.ch/blacklist/sslipblacklist.csv)
+        + [Digital Side](https://osint.digitalside.it/Threat-Intel/digitalside-misp-feed/)
+        + [FireHOL](https://iplists.firehol.org/)
+        + [AlienVault OTX](https://otx.alienvault.com/)
+        + [PhishHunt](https://phishunt.io/)
+        + [Disposable Email Domains](https://github.com/ivolo/disposable-email-domains)
+        + [FreeMail](https://github.com/dpup/freemail)
+        + [AbuseIPDB](https://www.abuseipdb.com/)
+        + [Stop Forum Spam](https://www.stopforumspam.com/)
 
 ## Threat Classification
 + Known threat vs. unknown threat
