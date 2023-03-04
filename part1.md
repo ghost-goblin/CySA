@@ -421,6 +421,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
 # 📡 Analyze the output from common vulnerability assessment tools
 ## OWASP Zed Attack Proxy (ZAP)
 + [OWASP ZAP](https://www.zaproxy.org/) is an open-source web application security scanner that detects common threats to web applications
+   + Check out the [OWASP Top 10](https://tryhackme.com/room/owasptop10) on TryHackMe
    + SQL injection 
    + XSS (Cross-site scripting) 
    + CSRF (Cross-site request forgery) 
