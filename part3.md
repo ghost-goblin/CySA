@@ -181,24 +181,24 @@
 - Organization impact vs. localized impact
 - Immediate vs. total
 ## Security Information and Event Management (SIEM) review
-1. [Splunk](https://www.splunk.com/)
-2. ELK / [Elastic Stack](https://www.elastic.co/)
-3. ArcSight
-4. QRadar
-5. Alien Vault and OSSIM
-6. Graylog
-7. [Wazuh](https://wazuh.com/)
 - Rule writing
   + Data sources with indicators
   + Query strings used to correlate indicators
   + Action to occur when event is triggered
 - Known-bad Internet protocol (IP)
-   + [Talos Intelligence](https://talosintelligence.com/)
-   + [Alienvault OTX](https://otx.alienvault.com/)
-   + [Abuse.ch](https://abuse.ch/)
-   + [Threatfeeds.io](https://threatfeeds.io/)
-   + Various STIX-TAXII feeds
+    + [Talos Intelligence](https://talosintelligence.com/)
+    + [Alienvault OTX](https://otx.alienvault.com/)
+    + [Abuse.ch](https://abuse.ch/)
+    + [Threatfeeds.io](https://threatfeeds.io/)
+    + Various STIX-TAXII feeds
 - Dashboard
+    + [Splunk](https://www.splunk.com/)
+    + ELK / [Elastic Stack](https://www.elastic.co/)
+    + ArcSight
+    + QRadar
+    + Alien Vault and OSSIM
+    + Graylog
+    + [Wazuh](https://wazuh.com/)
 + Host-centric log sources
     + Log removal
        - WinEventLog EventID `104`
