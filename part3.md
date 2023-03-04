@@ -193,6 +193,11 @@
   + Query strings used to correlate indicators
   + Action to occur when event is triggered
 - Known-bad Internet protocol (IP)
+   + [Talos Intelligence](https://talosintelligence.com/)
+   + [Alienvault OTX](https://otx.alienvault.com/)
+   + [Abuse.ch](https://abuse.ch/)
+   + [Threatfeeds.io](https://threatfeeds.io/)
+   + Various STIX-TAXII feeds
 - Dashboard
 + Host-centric log sources
     + Log removal
