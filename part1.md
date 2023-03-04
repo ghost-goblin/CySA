@@ -17,14 +17,6 @@
       - Narrative report
       - Data Feeds
 
-  
-| **CIA** Triad       |
-|---------------------|
-| **C**onfidentiality |
-| **I**ntegrity       |
-| **A**vailability    |
-
-
 - CISP (Cyber Security Information Sharing Partnership) | ISAC (Information Sharing & Analysis Center)
     + A not-for-profit group set  up to share sector specific threat intelligence and security best practices amongst its members
 - Open-Source Intelligence (OSINT)
@@ -58,6 +50,14 @@
 3. **Accuracy**
 4. **Confidence Levels**
     + Property of an intelligence source that ensures it produces qualified statements about reliability 
+    
+  
+| **CIA** Triad       |
+|---------------------|
+| **C**onfidentiality |
+| **I**ntegrity       |
+| **A**vailability    |
+
 
 
 ## Indicator Management
