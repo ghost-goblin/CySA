@@ -256,7 +256,6 @@
 ## Legal hold
 + A legal hold (also known as a litigation hold) is a notification sent from an organization's legal team to employees instructing them not to delete electronically stored information (ESI) or discard paper documents that may be relevant to a new or imminent legal case
 ## Procedures
-+ `secpol.msc` - Windows Local Security Policy
 ## Hashing
 + Changes to binaries
 + A hash is not considered to be cryptographically secure if two files have the same hash value or digest
