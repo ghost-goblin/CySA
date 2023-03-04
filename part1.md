@@ -29,13 +29,21 @@
     + A not-for-profit group set  up to share sector specific threat intelligence and security best practices amongst its members
 - Open-Source Intelligence (OSINT)
     + Methods of obtaining information about a person or organisation through public records, websites, and social media
-    + Social Media Analysis
-    + HTML Code
-    + [The Wayback Machine](https://web.archive.org/) Internet Archive
-    + [Urlscan.io](https://urlscan.io/) - website crawling
-    + Metadata
-       + Electronic document harvesting
-       + `Exif` tag data from photos
+        + Search engines
+           + [Shodan](https://www.shodan.io/)
+              + Check out the [Shodan](https://tryhackme.com/room/shodan) room on TryHackMe
+        + WHOIS lookups
+           + IP Addresses
+           + Domains
+        + Social Media Analysis (SOCMINT)
+        + Username / Email
+        + Name, phone, public records
+        + HTML Code
+           + [The Wayback Machine](https://web.archive.org/) Internet Archive
+           + [Urlscan.io](https://urlscan.io/) - website crawling
+        + Metadata
+           + Electronic document harvesting
+           + `Exif` tag data from photos
 - Proprietary-Source Intelligence
     + Threat intelligence is very widely provided as a commercial service offering, access to research and updates is subject to a subscription fee
 - Closed-Source Intelligence
