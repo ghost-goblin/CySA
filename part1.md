@@ -89,8 +89,6 @@
 3. OpenIoC
    + A framework by Madiant that used XML-formatted files for supplying codied information to automate incident detection and analysis
    + **[Malware Information Sharing Project (MISP)](https://www.misp-project.org/)** provides a server platform for cyber threat intelligence sharing, a proprietary format, supports open IOC definitions, and can import and export STIX over TAXII
-+ [Awesome Lists Collection: Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence)
-+ [Awesome Lists Collection: IOCs](https://github.com/sroberts/awesome-iocs)
 ### IOC Feeds
 + **[MISP](https://www.misp-project.org/feeds/)** has over 30 default feeds
     + [CIRC.LU](https://www.circl.lu/doc/misp/feed-osint/)
@@ -202,6 +200,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
 ## Threat Research
 + **Indicator of Compromise**
    + A residual sign that an asset or network has been successfully attacked or in being attacked
+   + [Awesome Lists Collection: IOCs](https://github.com/sroberts/awesome-iocs)
       - Unauthorised software and files
       - Suspicious emails
       - Suspicious registry and file system changes
@@ -255,6 +254,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
      - Low
 
 ## Threat Intelligence Sharing with Supported Functions
++ [Awesome Lists Collection: Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence)
 - Threat Intelligence information is commonly shared with:
     + _Incident Response_
     + _Vulnerbility Management_
