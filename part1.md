@@ -444,15 +444,11 @@ Infrastucture:======:======::======:======: Capability (TTPs)
 - [Arachni](https://www.arachni-scanner.com)
    + Open-source penetration testing framework for web applications
 + HTTP Methods
+   + Check out the [HTTP in detail](https://tryhackme.com/room/httpindetail) room on TryHackMe
    + GET
    + POST
    + PUT
-   + HEAD
    + DELETE
-   + PATCH
-   + OPTIONS
-   + CONNECT
-   + TRACE
 ## Infrastructure vulnerability scanner
 + Common Vulnerabilities and Exposures (CVE)
    + [CVE-2020-1472](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-1472)
