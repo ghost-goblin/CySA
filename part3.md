@@ -181,12 +181,13 @@
 - Organization impact vs. localized impact
 - Immediate vs. total
 ## Security Information and Event Management (SIEM) review
-    1. Splunk
-    2. ELK / Elastic Stack
-    3. ArcSight
-    4. QRadar
-    5. Alien Vault and OSSIM
-    6. Graylog
+1. [Splunk](https://www.splunk.com/)
+2. ELK / [Elastic Stack](https://www.elastic.co/)
+3. ArcSight
+4. QRadar
+5. Alien Vault and OSSIM
+6. Graylog
+7. [Wazuh](https://wazuh.com/)
 - Rule writing
   + Data sources with indicators
   + Query strings used to correlate indicators
