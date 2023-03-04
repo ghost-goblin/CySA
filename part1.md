@@ -60,6 +60,22 @@
      - Attack Patterm
      - Campaign and Threat Actors
 
++ [MISP](https://www.misp-project.org/) is an open-source STIX/TAXII threat intelligence feed
++ [CIRC.LU](https://www.circl.lu/doc/misp/feed-osint/)
++ [Botvrj](https://www.botvrij.eu/data/feed-osint/)
+[Emerging Threats](https://rules.emergingthreats.net/blockrules/compromised-ips.txt)
+[Feod]o(https://feodotracker.abuse.ch/downloads/ipblocklist.csv)
+[OpenPhish](https://openphish.com/feed.txt)
+[Abuse CH](https://sslbl.abuse.ch/blacklist/sslipblacklist.csv)
+[Digital Side](https://osint.digitalside.it/Threat-Intel/digitalside-misp-feed/)
+[FireHOL](https://iplists.firehol.org/)
+[AlienVault OTX](https://otx.alienvault.com/)
+[PhishHunt](https://phishunt.io/)
+[Disposable Email Domains](https://github.com/ivolo/disposable-email-domains)
+[FreeMail](https://github.com/dpup/freemail)
+[AbuseIPDB](https://www.abuseipdb.com/)
+[Stop Forum Spam](https://www.stopforumspam.com/)
+
 ```json
   {
     "type": "threat-actor",
