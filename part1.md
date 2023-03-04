@@ -77,7 +77,7 @@
    + A **protocol** for supplying codified information to automate incident detection and analysis
 3. OpenIoC
    + A framework by Madiant that used XML-formatted files for supplying codied information to automate incident detection and analysis
-   + **[Malware Information Sharing Project](https://www.misp-project.org/)** provides a server platform for cyber threat intelligence sharing, a proprietary format, supports open IOC definitions, and can import and export STIX over TAXII
+   + **[Malware Information Sharing Project (MISP)](https://www.misp-project.org/)** provides a server platform for cyber threat intelligence sharing, a proprietary format, supports open IOC definitions, and can import and export STIX over TAXII
     + [CIRC.LU](https://www.circl.lu/doc/misp/feed-osint/)
     + [Botvrj](https://www.botvrij.eu/data/feed-osint/)
     + [Emerging Threats](https://rules.emergingthreats.net/blockrules/compromised-ips.txt)
