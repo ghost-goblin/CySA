@@ -529,7 +529,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
        + DNS Registrar checks
        + WHOIS lookups: `whois`, `nslookup`, `dig`
           + [DNSDumpster](https://dnsdumpster.com/)
-       + [Shodan.io](Shodan.io)
+       + [Shodan](https://www.shodan.io/)
        + BGP looking glass
        + Log data and configuration analysis
        + Capturing network traffic by using a sniffing tool
