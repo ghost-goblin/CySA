@@ -429,6 +429,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
    + Data leakage
 - [Burpsuite](https://www.kali.org/tools/burpsuite)
    + A set of tools used for the penetration testing of _web applications_
+      + Check out the [Burp Suite: The Basics](https://tryhackme.com/room/burpsuitebasics) room on TryHackMe
       + Contains an **intercepting proxy** to see and modify the content of requests and responses in transit
       + **Intruder fuzzer** for brute-force enumeration and dictionary attacks on password forms
       + **Repeater** to modify requests and responses
