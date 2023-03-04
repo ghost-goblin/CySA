@@ -119,7 +119,7 @@
       + Packet sniffing which monitors the headers of packets
       + Flows
       + SNMP
-      + WMI
+      + Windows Management Instrumentation (WMI)
 - Packet and protocol analysis
  - Malware
      1. Attacker sets up one or more dynamic DNS services
