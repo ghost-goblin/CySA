@@ -19,9 +19,20 @@
 + `site:microsoft.com`
 + `intext:"CVE-2020-1472" site:microsoft.com`
 
-
-#### IIS Web Server
-+ `%SYSTEMDRIVE%\inetpub\wwwroot`
+#### Windows
++ IIS Web Server
+   + `%SYSTEMDRIVE%\inetpub\wwwroot`
++ Add user to administrator group
+   + `net user <name> <pass> /add`
+   + `net localgroup "Administrators" <user> add`
++ Disable firewall
+   + `netsh advfirewall set currentprofile state off`
+   + `netsh advfirewall set allprofiles state off`
++ Uninstall patch to exploit a vulnerability
+   + Display all patches:
+   + `dir /a /b c:\windows\kb*`
++ Uninstall patch
+   + `wusa.exe /uninstall /kb:<###>`
 
 #### Kali Configs
   
@@ -69,14 +80,3 @@ msfconsole -q
    + Attach both adapters to the virtual machine and access the admin portal on the `LAN` network on amother machine: `http://192.168.1.1/`
 + **Blackholing** can be used to stop a DDoS attack at the routing layer by sending traffic to the `null0` interface
 
-+ Add user to administrator group
-   + `net user <name> <pass> /add`
-   + `net localgroup “Administrators" <user> add`
-+ Disable firewall
-   + `netsh advfirewall set currentprofile state off`
-   + `netsh advfirewall set allprofiles state off`
-+ Uninstall patch to exploit a vulnerability
-+ Display all patches
-   + `dir /a /b c:\windows\kb*`
-+ Uninstall patch
-   + `wusa.exe /uninstall /kb:<###>`
