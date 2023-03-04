@@ -91,6 +91,8 @@
    + **[Malware Information Sharing Project (MISP)](https://www.misp-project.org/)** provides a server platform for cyber threat intelligence sharing, a proprietary format, supports open IOC definitions, and can import and export STIX over TAXII
 + [Awesome Lists Collection: Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence)
 + [Awesome Lists Collection: IOCs](https://github.com/sroberts/awesome-iocs)
+### IOC Feeds
++ **[MISP](https://www.misp-project.org/feeds/)** has over 30 default feeds
     + [CIRC.LU](https://www.circl.lu/doc/misp/feed-osint/)
     + [Botvrj](https://www.botvrij.eu/data/feed-osint/)
     + [Emerging Threats](https://rules.emergingthreats.net/blockrules/compromised-ips.txt)
