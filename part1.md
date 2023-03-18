@@ -256,6 +256,7 @@ Infrastucture:======:======::======:======: Capability (TTPs)
 
 ## Threat Intelligence Sharing with Supported Functions
 + [Awesome Lists Collection: Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence)
++ [Cisco Talos Intelligence](https://talosintelligence.com/)
 - Threat Intelligence information is commonly shared with:
     + _Incident Response_
     + _Vulnerbility Management_
