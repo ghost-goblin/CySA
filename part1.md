@@ -25,6 +25,7 @@
            + [Shodan](https://www.shodan.io/)
               + _Check out the [Shodan](https://tryhackme.com/room/shodan) room on TryHackMe_
            + [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)
+           + `/robots.txt`
         + WHOIS lookups
            + IP Addresses
            + Domains
@@ -34,7 +35,6 @@
         + HTML Code
            + [The Wayback Machine](https://web.archive.org/) Internet Archive
            + [Urlscan.io](https://urlscan.io/) - website crawling
-           + `/robots.txt`
         + Metadata
            + Electronic document harvesting
            + `Exif` tag data from photos
