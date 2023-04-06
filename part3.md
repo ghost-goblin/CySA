@@ -244,6 +244,7 @@
    + Lists the servers that are authorised to send from your domain
 - Phishing
    + Check out the [Phishing Page](https://attack.mitre.org/techniques/T1566/) on MITRE ATT&CK
+   + [PyPhisher](https://github.com/KasRoudra/PyPhisher) Tool
    + Compromised credentials
 - Forwarding
 - Digital signature
