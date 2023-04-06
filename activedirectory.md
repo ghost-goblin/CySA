@@ -13,8 +13,13 @@
 - - -
 + Ways to breach Active Directory:
    + NTLM Authenticated Services 
+     + Password Spraying 
    + LDAP Bind Credentials
+     + Hosting a Rogue LDAP Server
+     + Capturing LDAP Credentials
    + Authentication Relays
+     + [Responder](https://github.com/lgandx/Responder)
+     + Poison authentication requests 
    + Microsoft Deployment Toolkit
    + Configuration Files
 
