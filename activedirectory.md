@@ -24,6 +24,10 @@
    + `runas.exe /netonly /user:<domain>\<username> cmd.exe`
    + `/netonly`
       + Commands are executed locally on the computer will run in the context of your standard Windows account, not against the DC
++ Kerberos authentication uses hostnames embedded in the tickets
+   + `dir \\domain.local\SYSVOL`
++ If we provide the IP instead, we can force the authentication type to be NTLM
+   + `dir \\<DC IP>\SYSVOL`
 
 ### NTLM (New Technology LAN Manager) and NetNTLM
 + Security protocols used to authenticate users' identities in AD
