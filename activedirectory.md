@@ -30,3 +30,5 @@
    + `runas.exe /netonly /user:<domain>\<username> cmd.exe`
    + `/netonly`
       + Commands are executed locally on the computer will run in the context of your standard Windows account, not against the DC
+###  SYSVOL
++ Any AD account, no matter how low-privileged, can read the contents of the SYSVOL directory
