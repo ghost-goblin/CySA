@@ -63,6 +63,7 @@ iface eth0 inet static
         broadcast 192.168.1.255
         gateway 192.168.1.254
         dns-nameservers 192.168.1.254
+
 # Configure DNS to resolve IPs to hostnames
 systemd-resolve --interface lateralmovement --set-dns 10.200.78.101 --set-domain za.tryhackme.com
 nslookup thmdc.za.tryhackme.com
