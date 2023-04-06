@@ -17,6 +17,9 @@
    + Authentication Relays
    + Microsoft Deployment Toolkit
    + Configuration Files
+
+- - -
+
 + Step 1: Gain AD credientials
    + OSINT
    + Phishing
