@@ -33,6 +33,10 @@
         + Username / Email
         + Name, phone, public records
         + HTML Code
+              + View Source
+              + Inspector
+              + Debugger
+              + Network
            + [The Wayback Machine](https://web.archive.org/) Internet Archive
            + [Urlscan.io](https://urlscan.io/) - website crawling
         + Metadata
