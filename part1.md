@@ -37,6 +37,10 @@
            + Inspector
            + Debugger
            + Network
+        + WordPress
+            + `sudo wpscan --url http://www.site.co.uk`
+            + `sudo wpscan --url http://www.site.co.uk --enumerate u`
+            + `sudo wpscan --url http://www.site.co.uk -P /usr/share/wordlists/dirb/big.txt --usernames admin`
         + [The Wayback Machine](https://web.archive.org/) Internet Archive
         + [Urlscan.io](https://urlscan.io/) - website crawling
         + Metadata
